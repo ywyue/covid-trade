@@ -1,0 +1,19 @@
+.DS_Store
+.thumbs.db
+node_modules
+package-lock.json
+
+# Quasar core related directories
+.quasar
+/dist
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
