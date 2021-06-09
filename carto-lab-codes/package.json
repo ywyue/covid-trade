@@ -1,9 +1,9 @@
 {
   "name": "storymap-template",
   "version": "0.0.1",
-  "description": "Web application template for Multimedia Cartography",
-  "productName": "Towards an HIV Free Generation",
-  "author": "hansun@ethz.ch, jingyli@ethz.ch",
+  "description": "Web Application for Cartography Lab Project",
+  "productName": "Global Trade Trend in COVID-19",
+  "author": "yuayue@ethz.ch, jingyli@ethz.ch",
   "private": true,
   "scripts": {
     "serve": "quasar dev",

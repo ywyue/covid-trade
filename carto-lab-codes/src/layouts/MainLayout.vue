@@ -7,7 +7,7 @@
           <q-toolbar-title>
             <div class="items-center">
               <q-icon class="text-dark q-ma-md-lg" size="70px">
-                <img src="images/world-aids-day.svg" style="width:50px;height:50px"/>
+                <img src="images/globalization.svg" style="width:50px;height:50px"/>
               </q-icon>
               <strong>TITLE HERE</strong>
             </div>

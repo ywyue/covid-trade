@@ -2,11 +2,12 @@
 <!--  NUMBER COUNTER : Show key numbers in a highlighted style, with animation to count the number -->
   <div class="number-count-container q-ma-lg">
     <div class="text-center">
-      <div class="text-h2 color" >{{count}}</div>
-      <div class="text-h4 text-uppercase color">{{unit}}</div>
+      <q-img :src="imgSrc" style="height: 150px; max-width: 150px"></q-img>
+      <q-space class="q-ma-md"/>
+      <div><span class="text-h3 text-primary">{{count}}</span></div>
+      <div><span class="text-h4 text-uppercase text-primary">{{unit}}</span></div>
     </div>
-    <q-separator class="q-mt-sm q-mb-sm" color="counter" size="2px" />
-    <div class="text-body1 text-center">{{title}}</div>
+    <div class="text-h5 text-center">{{title}}</div>
   </div>
 </template>
 
@@ -15,7 +16,7 @@ import anime from 'animejs';
 
 export default {
   name: "NumberCounter",
-  props:["number","unit","title",],
+  props:["number","unit","title","imgSrc"],
   data: function() {
     return{
       num: this.number,

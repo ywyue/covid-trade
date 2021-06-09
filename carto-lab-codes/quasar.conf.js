@@ -21,8 +21,8 @@ const cesiumOutput = "cesium";
 
 const BUNDLE_SIZE_LIMIT = 5 * 1024 ** 2; // 5 MB
 
-const basePath = "mmcarto21/group3"; //change N to your group number
-// const basePath = "mmcarto21/hiv-free-generation";
+const basePath = "cartolab/worldtrade"; //change N to your group number
+
 
 module.exports = configure(function (/* ctx */) {
   return {
