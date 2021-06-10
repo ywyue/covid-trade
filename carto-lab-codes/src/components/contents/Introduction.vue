@@ -40,6 +40,15 @@
         <GDPLineChart/>
       </div>
     </div>
+<!--    trade export & import line chart   -->
+    <div class="row items-start text-center">
+      <div class="col-12 col-md-6 text-left">
+        
+      </div>
+      <div class="col-12 col-md-6 text-left">
+
+      </div>
+    </div>
   </q-page>
 
 </template>
