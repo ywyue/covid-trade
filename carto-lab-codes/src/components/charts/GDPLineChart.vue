@@ -1,5 +1,5 @@
 <template>
-  <div ref="chart" style="height: 300px"></div>
+  <div ref="chart" style="height: 450px"></div>
 </template>
 
 <script>
@@ -12,23 +12,22 @@ export default {
     return {};
   },
   methods: {
-    initChart() {
-      this.myChart = echarts.init(this.$refs["chart"]);
-      this.option && this.myChart.setOption(this.option);
-    },
     processData() {
       let seriesList = [];
 
       for (const name in gdp) {
         seriesList.push({
           type: "line",
-          data: gdp[name],
+          data: this.formatData(gdp[name]),
           showSymbol: true,
           smooth: true,
           name: name,
         });
       }
       return seriesList;
+    },
+    formatData(row){
+      return row.map(e => e.toFixed(2));
     },
     range(start, end) {
       return Array(end - start + 1)
@@ -37,13 +36,17 @@ export default {
     },
   },
   mounted() {
+    var seriesList = this.processData();
+    var legendList = Object.keys(gdp);
+
+
     var myChart = echarts.init(this.$refs["chart"]);
     var option;
     option = {
       title: {
-        text: "title",
+        text: "Annual percent change of gross domestic product (GDP)",
         subtext:
-          "Click the map and see the time-series difference in the line chart.",
+          "Data is collected from IMF World Economic Outlook Database. Constant prices, from 2005 to 2021.",
         left: 45,
       },
 
@@ -51,7 +54,7 @@ export default {
         left: 100,
         bottom: 10,
         orient: "horizontal",
-        data: ["World", "Developed", "Developing"],
+        data: legendList,
       },
       tooltip: {
         trigger: "axis",
@@ -63,30 +66,11 @@ export default {
       yAxis: {
         type: "value",
       },
-      series: [
-        {
-          name: "World",
-          data: gdp["World"],
-          type: "line",
-          smooth: true,
-        },
-        {
-          name: "Developed",
-          data: gdp["Advanced economies"],
-          type: "line",
-          smooth: true,
-        },
-        {
-          name: "Developing",
-          data: gdp["Emerging market and developing economies"],
-          type: "line",
-          smooth: true,
-        },
-      ],
+      series: seriesList,
     };
-    // this.option['series'] = this.processData();
-    option.xAxis["data"] = this.range(2010, 2026);
-    // this.option['legend']= {data:Object.keys(gdp)};
+
+    option.xAxis["data"] = this.range(2005, 2021);
+
 
     myChart.setOption(option);
   },

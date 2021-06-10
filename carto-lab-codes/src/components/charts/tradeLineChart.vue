@@ -9,86 +9,107 @@ import * as echarts from "echarts";
 export default {
   name: "tradeLineChart",
   props: ["chartData","title"],
-  data: function(){
-    return{
-      myChart: null,
-      options: {
-        title:{
-          text: this.title,
-          subtext:"subtitle",
-          left: 45,
-        },
-        legend:{
-          left: 100,
-          bottom:10,
-          orient:'horizontal',
-          data: ["World","Developed","Developing"]
-        },
-        tooltip: {
-          show: true,
-          trigger: 'axis',
-          // formatter: '{b0}: {c0}'
-        },
-        xAxis: {
-          type: 'category',
-        },
-        yAxis: {
-          type: 'value'
-        },
-        series: [
-          {
-            name: "World",
-            data: this.chartData['World'],
-            type: 'line',
-            smooth: true,
-
-          },
-          {
-            name: "Advanced economies",
-            data: this.chartData['Advanced economies'],
-            type: 'line',
-            smooth: true,
-
-          },
-          {
-            name: "Developing economies",
-            data: this.chartData['Emerging market and developing economies'],
-            type: 'line',
-            smooth: true,
-          }],
-      }
-    }
+  data: function () {
+    return {
+      xAxisData: [],
+    };
   },
-  methods:{
-    initChart(){
-      this.myChart = echarts.init(this.$refs['chart']);
-      this.option && this.myChart.setOption(this.option);
-    },
-    processData(){
+  methods: {
+    processData() {
       let seriesList = [];
 
-      for (const name in gdp){
+      for (const name in this.chartData) {
+        if (name==="World"){
+          seriesList.push({
+            type: "line",
+            data: this.formatData(this.chartData[name]),
+            showSymbol: true,
+            smooth: true,
+            name: name,
+            markLine: {
+              symbol: ['none', 'none'],
+              lineStyle:{
+                color: '#747474'
+              },
+              label:{
+                formatter: '{b}'
+              },
+              data: [
+                {
+                  name: "Financial Crisis of 2007-2008",
+                  xAxis: this.xAxisData.indexOf(2008),
+                },
+                {
+                  name: "Breakout of COVID-19 in 2020",
+                  xAxis: this.xAxisData.indexOf(2020),
+                }
+              ]
+            }
+          });
+          continue;
+        }
         seriesList.push({
-          type: 'line',
-          data: gdp[name],
+          type: "line",
+          data: this.formatData(this.chartData[name]),
           showSymbol: true,
           smooth: true,
           name: name,
-        })
+        });
       }
       return seriesList;
     },
+    formatData(row){
+      return row.map(e => e.toFixed(2));
+    },
     range(start, end) {
-      return Array(end - start + 1).fill().map((_, idx) => start + idx)
+      return Array(end - start + 1)
+        .fill()
+        .map((_, idx) => start + idx);
+    },
+    initChart() {
+      this.xAxisData = this.range(2005,2021);
+      var seriesList = this.processData();
+      var legendList = Object.keys(gdp);
+
+      var myChart = echarts.init(this.$refs["chart"]);
+      var option;
+      option = {
+        animationDuration:1000,
+        title: {
+          text: this.title,
+          subtext:
+            "subtitle",
+          left: 45,
+        },
+
+        legend: {
+          left: 100,
+          bottom: 10,
+          orient: "horizontal",
+          data: legendList,
+        },
+        tooltip: {
+          trigger: "axis",
+        },
+
+        xAxis: {
+          type: "category",
+          data: this.xAxisData,
+        },
+        yAxis: {
+          type: "value",
+          min: -15,
+          max: 20,
+        },
+        series: seriesList,
+      };
+
+      myChart.setOption(option);
     }
   },
-  mounted(){
-    // this.option['series'] = this.processData();
-    this.option.xAxis['data'] = this.range(2005,2021);
-    // this.option['legend']= {data:Object.keys(gdp)};
-
+  mounted() {
     this.initChart();
-  }
+  },
 }
 </script>
 
