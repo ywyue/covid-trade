@@ -1,6 +1,7 @@
 <template>
   <q-page>
     <div class="text-center text-h1">Introduction</div>
+<!--    Key Numbers   -->
     <div class="row items-start text-center">
       <div class="col-12 col-md-4">
         <number-counter number="1"
@@ -24,15 +25,31 @@
         />
       </div>
     </div>
+    <q-space class="q-ma-xl"/>
+<!--    gdp line chart -->
+    <div class="row items-start text-center">
+      <div class="col-12 col-md-6 text-left">
+        <div class="text-h4">
+          GDP Changes
+        </div>
+        <div class="text-body1">
+          text...
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <GDPLineChart/>
+      </div>
+    </div>
   </q-page>
 
 </template>
 
 <script>
 import NumberCounter from "components/tools/NumberCounter";
+import GDPLineChart from "components/charts/GDPLineChart";
 export default {
 name: "Introduction",
-  components: {NumberCounter}
+  components: {GDPLineChart, NumberCounter}
 }
 </script>
 

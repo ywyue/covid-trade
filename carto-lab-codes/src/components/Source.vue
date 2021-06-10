@@ -5,23 +5,16 @@
 
   <div class="row" style="background-color:#3A3A3A;" v-if="show" id="source">
     <div class="column">
-      <p>
-        <span style="color:whitesmoke; font-size:120%">Data Source:</span><br>
-
-      </p>
+      <span style="color:whitesmoke; font-size:120%">Data Source:</span>
     </div>
     <q-separator vertical inset color="white"/>
     <div class="column">
-       <p>
-        <span style="color:whitesmoke; font-size:120%">Software:</span><br>
-       </p>
+      <span style="color:whitesmoke; font-size:120%">Software:</span>
     </div>
     <q-separator vertical inset color="white"/>
     <div class="column">
-      <p>
-        <span style="color:whitesmoke; font-size:120%">Images: </span><br>
-
-      </p>
+      <span style="color:whitesmoke; font-size:120%">Images: </span>
+      <div class="text-body2"><a href="https://www.flaticon.com/">FLATICON.COM</a></div>
     </div>
   </div>
   <div class="text-body2 q-pl-lg q-pr-lg q-pb-sm">
