@@ -1,7 +1,5 @@
 // app global css in SCSS form
 
-
-
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 @font-face {
@@ -9,18 +7,23 @@
   src: url(../assets/font/Lato-Regular.ttf);
 }
 
-
-ul, h1, h2, h3, h4, p, figure {
-    padding: 0;
-    margin: 0;
+ul,
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  padding: 0;
+  margin: 0;
 }
 
 div {
-  color: #474747
+  color: #474747;
 }
 
 body {
-  font-size: 18px;
+  font-size: 15px;
   overflow-x: hidden;
   padding-left: 0px;
   padding-right: 0px;
@@ -28,27 +31,39 @@ body {
 }
 
 .content-body {
-  font-size: 18px;
+  font-size: 15px;
   overflow-x: hidden;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0;
 }
 
-h2 { font-size: 1.5rem; }
-
-a {
-    transition: all 0.3s ease;
-    text-decoration: none;
+h2 {
+  font-size: 1.5rem;
 }
 
-a:hover { text-decoration: none; }
-button:focus { outline: none; }
+a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+}
 p {
   color: rgb(24, 22, 22);
   line-height: 1.7;
   margin-bottom: 35px;
 }
 
-h1, h2, h3, h4, h5, h6 { color: #333; }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}

@@ -1,16 +1,13 @@
 <template>
   <q-page>
-    <div class="text-center text-h1">Policy Measure</div>
+    <div class="text-center text-h2">Policy Measure</div>
   </q-page>
-
 </template>
 
 <script>
 export default {
-name: "PolicyMeasure"
-}
+  name: "PolicyMeasure",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
