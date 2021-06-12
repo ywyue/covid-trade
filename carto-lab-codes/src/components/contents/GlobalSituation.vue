@@ -24,7 +24,7 @@
     <div class="row items-start">
       <div class="col-12 col-md-6">
         <div class="text-h5">
-          World trades by counrty and region (2005-2020)
+          World trades by country and region (2005-2020)
         </div>
         <GlobalMap />
       </div>
