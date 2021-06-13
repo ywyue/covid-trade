@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="text-center text-h2">Global situaion</div>
-    <!--    gdp line chart -->
+<!--    gdp line chart -->
     <div class="row items-start text-center">
       <div class="col-12 col-md-6 text-left">
         <div class="text-h4">GDP Changes</div>
@@ -11,7 +11,7 @@
         <GDPLineChart ref="gdpChart" />
       </div>
     </div>
-    <!--    trade export & import line chart   -->
+<!--    trade export & import line chart   -->
     <div class="row items-start text-center">
       <div class="col-12 col-md-6 text-left">
         <trade-line-chart :chartData="importJson" title="Import" ref="trade1" />
@@ -20,9 +20,15 @@
         <trade-line-chart :chartData="exportJson" title="Export" ref="trade2" />
       </div>
     </div>
-
+<!--    Weekly Port Calls  -->
     <div class="row items-start">
-      <div class="col-12 col-md-6">
+      <div class="col-12">
+        <weekly-port-call-line-chart/>
+      </div>
+    </div>
+<!--    Global Trade Map -->
+    <div class="row items-start">
+      <div class="col-12">
         <div class="text-h5">
           World trades by country and region (2005-2020)
         </div>
@@ -36,12 +42,12 @@
 import GDPLineChart from "components/charts/GDPLineChart";
 import TradeLineChart from "components/charts/tradeLineChart";
 import { tradeImport, tradeExport } from "assets/json/worldData";
-// import globalMap from "components/maps/globalMap.vue";
 import GlobalMap from "components/maps/globalMap.vue";
+import WeeklyPortCallLineChart from "components/charts/WeeklyPortCallLineChart";
 
 export default {
   name: "GlobalSituation",
-  components: { TradeLineChart, GDPLineChart, GlobalMap },
+  components: {WeeklyPortCallLineChart, TradeLineChart, GDPLineChart, GlobalMap },
   data: function () {
     return {
       importJson: tradeImport,

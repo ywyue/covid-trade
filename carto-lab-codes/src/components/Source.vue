@@ -6,6 +6,9 @@
   <div class="row" style="background-color:#3A3A3A;" v-if="show" id="source">
     <div class="column">
       <span style="color:whitesmoke; font-size:120%">Data Source:</span>
+      <div class="text-body2"><a href="https://www.imf.org/external/pubs/ft/weo/disclaim.htm">IMF World Economic Outlook Database</a></div>
+      <div class="text-body2"><a href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx">UNCTAD STAT</a></div>
+      <div class="text-body2"><a href="https://marketplace.officialstatistics.org/ais-weekly-port-calls">AIS: Weekly Port Calls</a></div>
     </div>
     <q-separator vertical inset color="white"/>
     <div class="column">
