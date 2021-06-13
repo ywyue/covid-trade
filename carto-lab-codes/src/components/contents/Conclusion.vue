@@ -1,16 +1,13 @@
 <template>
-<q-page>
-  <div class="text-center text-h1">Conclusion</div>
-</q-page>
+  <q-page>
+    <div class="text-center text-h2">Conclusion</div>
+  </q-page>
 </template>
 
 <script>
-
 export default {
-name: "Conclusion",
-}
+  name: "Conclusion",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
