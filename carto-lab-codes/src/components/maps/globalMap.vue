@@ -94,9 +94,6 @@ export default {
   mounted() {
     mapboxgl.accessToken = this.accessToken;
 
-    console.log(this.items);
-
-    console.log(this.sliderValue);
     var bounds = [
       [-180, -57.27879], // Southwest coordinates
       [180, 78.11794], // Northeast coordinates
@@ -205,7 +202,6 @@ export default {
       // Update popup window on hover.
       map.on("mousemove", "countries-layer", (e) => {
         map.getCanvas().style.cursor = "pointer";
-        console.log(this.sliderValue);
 
         var popupInfo;
         if (
