@@ -26,7 +26,7 @@
         <weekly-port-call-line-chart/>
       </div>
     </div>
-<!--    Global Trade Map -->
+<!--    Global Trade Map  -->
     <div class="row items-start">
       <div class="col-12">
         <div class="text-h5">
