@@ -36,6 +36,14 @@
       </div>
     </div>
   </q-page>
+  <q-page>
+<!--    Major economies: decline in trade -->
+    <div style="height:90vh; width:90vw">
+      <key-eco-trade-table/>
+<!--      <trade-decline-map/>-->
+    </div>
+
+  </q-page>
 </template>
 
 <script>
@@ -44,10 +52,12 @@ import TradeLineChart from "components/charts/tradeLineChart";
 import { tradeImport, tradeExport } from "assets/json/worldData";
 import GlobalMap from "components/maps/globalMap.vue";
 import WeeklyPortCallLineChart from "components/charts/WeeklyPortCallLineChart";
+import TradeDeclineMap from "components/maps/TradeDeclineMap";
+import KeyEcoTradeTable from "components/charts/KeyEcoTradeTable";
 
 export default {
   name: "GlobalSituation",
-  components: {WeeklyPortCallLineChart, TradeLineChart, GDPLineChart, GlobalMap },
+  components: {KeyEcoTradeTable, TradeDeclineMap, WeeklyPortCallLineChart, TradeLineChart, GDPLineChart, GlobalMap },
   data: function () {
     return {
       importJson: tradeImport,
