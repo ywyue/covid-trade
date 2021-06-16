@@ -15,6 +15,13 @@ export default {
       xAxisData: [],
     };
   },
+  watch:{
+    chartData(val){
+      this.initChart();
+    },
+    title(val){
+    }
+  },
   methods: {
     processData() {
       let seriesList = [];

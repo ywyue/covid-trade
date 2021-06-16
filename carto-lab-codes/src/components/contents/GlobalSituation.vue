@@ -14,10 +14,9 @@
     <!--    trade export & import line chart   -->
     <div class="row items-start text-center">
       <div class="col-12 col-md-6 text-left">
-        <trade-line-chart :chartData="importJson" title="Import" ref="trade1" />
+        ...
       </div>
       <div class="col-12 col-md-6 text-left">
-<!--        <trade-line-chart :chartData="exportJson" title="Export" ref="trade2" />-->
         <trade-line/>
       </div>
     </div>
@@ -50,23 +49,18 @@
 <script>
 import GDPLineChart from "components/charts/GDPLineChart";
 import TradeLineChart from "components/charts/tradeLineChart";
-import { tradeImport, tradeExport } from "assets/json/worldData";
 import GlobalMap from "components/maps/globalMap.vue";
 import WeeklyPortCallLineChart from "components/charts/WeeklyPortCallLineChart";
 import TradeDeclineMap from "components/maps/TradeDeclineMap";
 import KeyEcoTradeTable from "components/charts/KeyEcoTradeTable";
-import TradeLine from "components/contents/GlobalSituation/tradeLine";
 
 export default {
   name: "GlobalSituation",
   components: {
-    TradeLine,
     KeyEcoTradeTable, TradeDeclineMap, WeeklyPortCallLineChart, TradeLineChart, GDPLineChart, GlobalMap },
 
   data: function () {
     return {
-      importJson: tradeImport,
-      exportJson: tradeExport,
     };
   },
   methods: {},

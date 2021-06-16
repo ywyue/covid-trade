@@ -31,22 +31,18 @@ export default {
   data(){
     return {
       trade_mode: 'exports',
-      title: "Trade Trend between 2005 and 2021",
+      title: "Trade Trend between 2005 and 2021: Exports",
       chartData: tradeExport,
     }
   },
   methods:{
     updateData(){
       if(this.trade_mode==='exports'){
-        console.log(this.trade_mode);
         this.chartData = tradeExport;
-        this.title="export";
-        this.$refs['chart'].initChart();
+        this.title="Trade Trend between 2005 and 2021: Exports";
       }else{
-        console.log(this.trade_mode);
         this.chartData = tradeImport;
-        this.title="import";
-        this.$refs['chart'].initChart();
+        this.title="Trade Trend between 2005 and 2021: Imports";
       }
     }
   }
