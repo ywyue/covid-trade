@@ -1,20 +1,18 @@
 <template>
-  <div ref="chart" style="height: 500px; width: 500px" />
+  <div ref="chart" style="height: 500px; width: 800px" />
 </template>
 
 <script>
 import * as echarts from "echarts";
-import json from "../../assets/json/testJson.json";
+import json from "../../assets/json/comtrade-treemap.json";
 
 export default {
   name: "chinaTradeTreemap",
   data() {
     return {
-      // myChart: null,
-      rootPath: "https://echarts.apache.org/examples",
       options: {},
       jsonData: json,
-      household_america_2012: 113616229,
+      // household_america_2012: 113616229,
     };
   },
   methods: {
@@ -30,16 +28,16 @@ export default {
           continue;
         }
 
-        // Calculate amount per household.
-        value[3] = value[0] / this.household_america_2012;
+        // // Calculate amount per household.
+        // value[3] = value[0] / this.household_america_2012;
 
-        // if mode === 0 and mode === 2 do nothing
-        if (mode === 1) {
-          // Set 'Change from 2010' to value[0].
-          var tmp = value[1];
-          value[1] = value[0];
-          value[0] = tmp;
-        }
+        // // if mode === 0 and mode === 2 do nothing
+        // if (mode === 1) {
+        //   // Set 'Change from 2010' to value[0].
+        //   var tmp = value[1];
+        //   value[1] = value[0];
+        //   value[0] = tmp;
+        // }
 
         if (node.children) {
           newNode.children = this.buildData(mode, node.children);
@@ -55,7 +53,7 @@ export default {
       var newNode = {};
       newNode.name = node.name;
       newNode.id = node.id;
-      newNode.discretion = node.discretion;
+      // newNode.discretion = node.discretion;
       newNode.value = (node.value || []).slice();
       return newNode;
     },
@@ -78,14 +76,14 @@ export default {
                   "} {label|budget}",
               ];
 
-              mode !== 1 &&
-                arr.push(
-                  "{household|$ " +
-                    echarts.format.addCommas(
-                      +params.value[3].toFixed(4) * 1000
-                    ) +
-                    "} {label|per household}"
-                );
+              // mode !== 1 &&
+              //   arr.push(
+              //     "{household|$ " +
+              //       echarts.format.addCommas(
+              //         +params.value[3].toFixed(4) * 1000
+              //       ) +
+              //       "} {label|per household}"
+              //   );
 
               return arr.join("\n");
             },
@@ -135,38 +133,19 @@ export default {
     },
     getTooltipFormatter(mode) {
       let formatUtil = echarts.format;
-      var amountIndex = mode === 1 ? 1 : 0;
-      var amountIndex2011 = mode === 1 ? 0 : 1;
       let self = this;
       return function (info) {
         var value = info.value;
-
-        var amount = value[amountIndex];
+        var amount = value[0];
         amount = self.isValidNumber(amount)
-          ? formatUtil.addCommas(amount * 1000) + "$"
+          ? formatUtil.addCommas(amount) + "$"
           : "-";
-
-        var amount2011 = value[amountIndex2011];
-        amount2011 = self.isValidNumber(amount2011)
-          ? formatUtil.addCommas(amount2011 * 1000) + "$"
-          : "-";
-
-        var perHousehold = value[3];
-        perHousehold = self.isValidNumber(perHousehold)
-          ? formatUtil.addCommas(+perHousehold.toFixed(4) * 1000) + "$"
-          : "-";
-
-        var change = value[2];
-        change = self.isValidNumber(change) ? change.toFixed(2) + "%" : "-";
 
         return [
           '<div class="tooltip-title">' +
             formatUtil.encodeHTML(info.name) +
             "</div>",
-          "2012 Amount: &nbsp;&nbsp;" + amount + "<br>",
-          "Per Household: &nbsp;&nbsp;" + perHousehold + "<br>",
-          "2011 Amount: &nbsp;&nbsp;" + amount2011 + "<br>",
-          "Change From 2011: &nbsp;&nbsp;" + change,
+          "2020 Amount (USD): &nbsp;&nbsp;" + amount + "<br>",
         ].join("");
       };
     },
@@ -209,18 +188,17 @@ export default {
   },
   mounted() {
     var myChart = echarts.init(this.$refs["chart"]);
-    myChart = echarts.init(this.$refs.chart);
     myChart.showLoading();
     myChart.hideLoading();
 
-    let modes = ["2012Budget"];
+    let modes = ["2020 Export"];
     let self = this;
     this.options = {
       title: {
         top: 5,
         left: "center",
-        text: "How $3.7 Trillion is Spent",
-        subtext: "Obama’s 2012 Budget Proposal",
+        text: "China Import Commodity 2020",
+        subtext: "COMTRADE Database",
       },
 
       legend: {
@@ -246,6 +224,12 @@ export default {
     };
 
     myChart.setOption(this.options);
+
+    myChart.on("click", function(params){
+      if(params.data){
+        console.log(params.data);
+      }
+    });
   },
 };
 </script>

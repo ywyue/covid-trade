@@ -10,7 +10,7 @@
   <q-page>
     <div>
       <china-trade-treemap />
-      <test-sunburst />
+<!--      <test-sunburst />-->
     </div>
   </q-page>
 </template>
