@@ -1,5 +1,5 @@
 <template>
-  <div ref="chart" style="height: 500px; width: 800px" />
+  <div ref="chart" style="height: 500px; width: 1000px" />
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
     return {
       options: {},
       jsonData: json,
-      // household_america_2012: 113616229,
+      categories: ['Import', 'Export']
     };
   },
   methods: {
@@ -28,17 +28,6 @@ export default {
           continue;
         }
 
-        // // Calculate amount per household.
-        // value[3] = value[0] / this.household_america_2012;
-
-        // // if mode === 0 and mode === 2 do nothing
-        // if (mode === 1) {
-        //   // Set 'Change from 2010' to value[0].
-        //   var tmp = value[1];
-        //   value[1] = value[0];
-        //   value[0] = tmp;
-        // }
-
         if (node.children) {
           newNode.children = this.buildData(mode, node.children);
         }
@@ -53,11 +42,11 @@ export default {
       var newNode = {};
       newNode.name = node.name;
       newNode.id = node.id;
-      // newNode.discretion = node.discretion;
       newNode.value = (node.value || []).slice();
       return newNode;
     },
     createSeriesCommon(mode) {
+      let self = this;
       return {
         type: "treemap",
         nodeClick: "zoomToNode",
@@ -68,22 +57,16 @@ export default {
           normal: {
             position: "insideTopLeft",
             formatter: function (params) {
+              let trade_mode = self.categories[mode]
+              let share = params.value[0]/self.jsonData[trade_mode]['total']*100
               var arr = [
                 "{name|" + params.name + "}",
                 "{hr|}",
-                "{budget|$ " +
-                  echarts.format.addCommas(params.value[0]) +
-                  "} {label|budget}",
+                "{budget|" + share.toFixed(2) +
+                  "%} {label|" + trade_mode + "}",
+                "{household|$ "+
+                echarts.format.addCommas(params.value[0]) +"}"
               ];
-
-              // mode !== 1 &&
-              //   arr.push(
-              //     "{household|$ " +
-              //       echarts.format.addCommas(
-              //         +params.value[3].toFixed(4) * 1000
-              //       ) +
-              //       "} {label|per household}"
-              //   );
 
               return arr.join("\n");
             },
@@ -137,15 +120,18 @@ export default {
       return function (info) {
         var value = info.value;
         var amount = value[0];
+        let trade_mode = self.categories[mode]
+        let share = amount/self.jsonData[trade_mode]['total']*100
         amount = self.isValidNumber(amount)
           ? formatUtil.addCommas(amount) + "$"
           : "-";
 
         return [
-          '<div class="tooltip-title">' +
+          '<div class="tooltip-title" style="width:400px; white-space:pre-wrap">' +
             formatUtil.encodeHTML(info.name) +
-            "</div>",
-          "2020 Amount (USD): &nbsp;&nbsp;" + amount + "<br>",
+            "</div><hr/><table style=\"width:400px; white-space:pre-wrap\">",
+          "<tr><th class='text-left'>2020 "+self.categories[mode]+" (USD):</th><th class='text-right'> &nbsp;&nbsp;" + amount + "</th></tr>",
+          "<tr><th class='text-left'>Share among total "+trade_mode.toLowerCase()+":</th><th class='text-right'> "+share.toFixed(2)+"%</th></tr></table>"
         ].join("");
       };
     },
@@ -191,14 +177,14 @@ export default {
     myChart.showLoading();
     myChart.hideLoading();
 
-    let modes = ["2020 Export"];
+    let modes = this.categories;
     let self = this;
     this.options = {
       title: {
         top: 5,
         left: "center",
-        text: "China Import Commodity 2020",
-        subtext: "COMTRADE Database",
+        text: "Trade Volume of China by Commodity, 2020",
+        subtext: "Calculated from COMTRADE Database",
       },
 
       legend: {
@@ -217,7 +203,7 @@ export default {
         seriesOpt.roam = true;
         seriesOpt.top = 80;
         seriesOpt.visualDimension = idx === 2 ? 2 : null;
-        seriesOpt.data = self.buildData(idx, self.jsonData);
+        seriesOpt.data = self.buildData(idx, self.jsonData[mode]["tree"]);
         seriesOpt.levels = self.getLevelOption(idx);
         return seriesOpt;
       }),
@@ -228,10 +214,12 @@ export default {
     myChart.on("click", function(params){
       if(params.data){
         console.log(params.data);
+        console.log(params.seriesName);
       }
     });
   },
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+</style>
