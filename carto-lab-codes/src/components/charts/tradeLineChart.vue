@@ -11,6 +11,7 @@ export default {
   props: ["chartData","title"],
   data: function () {
     return {
+      myChart:null,
       xAxisData: [],
     };
   },
@@ -67,11 +68,12 @@ export default {
         .map((_, idx) => start + idx);
     },
     initChart() {
+      console.log("Title in chart: "+this.title);
       this.xAxisData = this.range(2005,2021);
       var seriesList = this.processData();
       var legendList = Object.keys(gdp);
 
-      var myChart = echarts.init(this.$refs["chart"]);
+
       var option;
       option = {
         animationDuration:1000,
@@ -104,10 +106,11 @@ export default {
         series: seriesList,
       };
 
-      myChart.setOption(option);
-    }
+      this.myChart.setOption(option);
+    },
   },
   mounted() {
+    this.myChart = echarts.init(this.$refs["chart"]);
     this.initChart();
   },
 }

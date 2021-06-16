@@ -17,7 +17,8 @@
         <trade-line-chart :chartData="importJson" title="Import" ref="trade1" />
       </div>
       <div class="col-12 col-md-6 text-left">
-        <trade-line-chart :chartData="exportJson" title="Export" ref="trade2" />
+<!--        <trade-line-chart :chartData="exportJson" title="Export" ref="trade2" />-->
+        <trade-line/>
       </div>
     </div>
 <!--    Weekly Port Calls  -->
@@ -54,10 +55,13 @@ import GlobalMap from "components/maps/globalMap.vue";
 import WeeklyPortCallLineChart from "components/charts/WeeklyPortCallLineChart";
 import TradeDeclineMap from "components/maps/TradeDeclineMap";
 import KeyEcoTradeTable from "components/charts/KeyEcoTradeTable";
+import TradeLine from "components/contents/GlobalSituation/tradeLine";
 
 export default {
   name: "GlobalSituation",
-  components: {KeyEcoTradeTable, TradeDeclineMap, WeeklyPortCallLineChart, TradeLineChart, GDPLineChart, GlobalMap },
+  components: {
+    TradeLine,
+    KeyEcoTradeTable, TradeDeclineMap, WeeklyPortCallLineChart, TradeLineChart, GDPLineChart, GlobalMap },
   data: function () {
     return {
       importJson: tradeImport,
