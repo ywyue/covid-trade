@@ -7,11 +7,18 @@
       data-url="https://flo.uri.sh/visualisation/6440972/embed"
     ></div>
   </q-page>
+  <q-page>
+    <div>
+      <china-trade-treemap/>
+    </div>
+  </q-page>
 </template>
 
 <script>
+import ChinaTradeTreemap from "components/charts/chinaTradeTreemap";
 export default {
   name: "ChinaSituation",
+  components: {ChinaTradeTreemap},
   mounted() {
     let recaptchaScript = document.createElement("script");
     recaptchaScript.setAttribute(
