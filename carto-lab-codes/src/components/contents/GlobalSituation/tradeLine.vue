@@ -16,7 +16,7 @@
       v-on:click.enter="updateData"
     />
   </div>
-  <div>
+  <div style="height:450px">
     <trade-line-chart :chartData="chartData" :title="title" ref="chart"/>
   </div>
 </div>

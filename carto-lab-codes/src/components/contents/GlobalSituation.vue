@@ -48,7 +48,7 @@
 
 <script>
 import GDPLineChart from "components/charts/GDPLineChart";
-import TradeLineChart from "components/charts/tradeLineChart";
+import tradeLine from "components/contents/GlobalSituation/tradeLine";
 import GlobalMap from "components/maps/globalMap.vue";
 import WeeklyPortCallLineChart from "components/charts/WeeklyPortCallLineChart";
 import TradeDeclineMap from "components/maps/TradeDeclineMap";
@@ -57,7 +57,8 @@ import KeyEcoTradeTable from "components/charts/KeyEcoTradeTable";
 export default {
   name: "GlobalSituation",
   components: {
-    KeyEcoTradeTable, TradeDeclineMap, WeeklyPortCallLineChart, TradeLineChart, GDPLineChart, GlobalMap },
+    tradeLine,
+    KeyEcoTradeTable, TradeDeclineMap, WeeklyPortCallLineChart, GDPLineChart, GlobalMap },
 
   data: function () {
     return {
