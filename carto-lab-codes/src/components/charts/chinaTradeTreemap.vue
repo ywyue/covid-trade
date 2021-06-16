@@ -1,67 +1,29 @@
 <template>
-<div ref="chart" style="height:500px; width:500px"/>
+  <div ref="chart" style="height: 500px; width: 500px" />
 </template>
 
 <script>
-import * as echarts from 'echarts';
-import json from '../../assets/json/testJson.json';
+import * as echarts from "echarts";
+import json from "../../assets/json/testJson.json";
 
 export default {
   name: "chinaTradeTreemap",
-  data(){
-    return{
-      myChart: null,
-      rootPath: 'https://echarts.apache.org/examples',
+  data() {
+    return {
+      // myChart: null,
+      rootPath: "https://echarts.apache.org/examples",
       options: {},
       jsonData: json,
       household_america_2012: 113616229,
-    }
+    };
   },
-  methods:{
-    initChart(){
-      this.myChart.hideLoading();
-
-      let modes = ['2012Budget'];
-      let self = this;
-      this.options = {
-        title: {
-          top: 5,
-          left: 'center',
-          text: 'How $3.7 Trillion is Spent',
-          subtext: 'Obama’s 2012 Budget Proposal'
-        },
-
-        legend: {
-          data: modes,
-          selectedMode: 'single',
-          top: 55,
-          itemGap: 5,
-          borderRadius: 5
-        },
-
-        tooltip: {
-        },
-
-        series: modes.map(function (mode, idx) {
-          let seriesOpt = self.createSeriesCommon(idx);
-          seriesOpt.name = mode;
-          seriesOpt.roam = true;
-          seriesOpt.top = 80;
-          seriesOpt.visualDimension = idx === 2 ? 2 : null;
-          seriesOpt.data = self.buildData(idx, self.jsonData);
-          seriesOpt.levels = self.getLevelOption(idx);
-          return seriesOpt;
-        })
-      }
-
-      this.myChart.setOption(this.options);
-    },
+  methods: {
     buildData(mode, originList) {
       var out = [];
 
       for (var i = 0; i < originList.length; i++) {
         var node = originList[i];
-        var newNode = out[i] = this.cloneNodeInfo(node);
+        var newNode = (out[i] = this.cloneNodeInfo(node));
         var value = newNode.value;
 
         if (!newNode) {
@@ -99,66 +61,73 @@ export default {
     },
     createSeriesCommon(mode) {
       return {
-        type: 'treemap',
-        nodeClick: 'zoomToNode',
+        type: "treemap",
+        nodeClick: "zoomToNode",
         tooltip: {
-          formatter: this.getTooltipFormatter(mode)
+          formatter: this.getTooltipFormatter(mode),
         },
         label: {
           normal: {
-            position: 'insideTopLeft',
+            position: "insideTopLeft",
             formatter: function (params) {
               var arr = [
-                '{name|' + params.name + '}',
-                '{hr|}',
-                '{budget|$ ' + echarts.format.addCommas(params.value[0]) + '} {label|budget}'
+                "{name|" + params.name + "}",
+                "{hr|}",
+                "{budget|$ " +
+                  echarts.format.addCommas(params.value[0]) +
+                  "} {label|budget}",
               ];
 
-              mode !== 1 && arr.push(
-                '{household|$ ' + echarts.format.addCommas((+params.value[3].toFixed(4)) * 1000) + '} {label|per household}'
-              );
+              mode !== 1 &&
+                arr.push(
+                  "{household|$ " +
+                    echarts.format.addCommas(
+                      +params.value[3].toFixed(4) * 1000
+                    ) +
+                    "} {label|per household}"
+                );
 
-              return arr.join('\n');
+              return arr.join("\n");
             },
             rich: {
               budget: {
                 fontSize: 22,
                 lineHeight: 30,
-                color: 'yellow'
+                color: "yellow",
               },
               household: {
                 fontSize: 14,
-                color: '#fff'
+                color: "#fff",
               },
               label: {
                 fontSize: 9,
-                backgroundColor: 'rgba(0,0,0,0.3)',
-                color: '#fff',
+                backgroundColor: "rgba(0,0,0,0.3)",
+                color: "#fff",
                 borderRadius: 2,
                 padding: [2, 4],
                 lineHeight: 25,
-                align: 'right'
+                align: "right",
               },
               name: {
                 fontSize: 12,
-                color: '#fff'
+                color: "#fff",
               },
               hr: {
-                width: '100%',
-                borderColor: 'rgba(255,255,255,0.2)',
+                width: "100%",
+                borderColor: "rgba(255,255,255,0.2)",
                 borderWidth: 0.5,
                 height: 0,
-                lineHeight: 10
-              }
-            }
-          }
+                lineHeight: 10,
+              },
+            },
+          },
         },
         itemStyle: {
           normal: {
-            borderColor: 'black'
-          }
+            borderColor: "black",
+          },
         },
-        levels: this.getLevelOption(0)
+        levels: this.getLevelOption(0),
       };
     },
     isValidNumber(num) {
@@ -174,71 +143,111 @@ export default {
 
         var amount = value[amountIndex];
         amount = self.isValidNumber(amount)
-          ? formatUtil.addCommas(amount * 1000) + '$'
-          : '-';
+          ? formatUtil.addCommas(amount * 1000) + "$"
+          : "-";
 
         var amount2011 = value[amountIndex2011];
         amount2011 = self.isValidNumber(amount2011)
-          ? formatUtil.addCommas(amount2011 * 1000) + '$'
-          : '-';
+          ? formatUtil.addCommas(amount2011 * 1000) + "$"
+          : "-";
 
         var perHousehold = value[3];
         perHousehold = self.isValidNumber(perHousehold)
-          ? formatUtil.addCommas((+perHousehold.toFixed(4)) * 1000) + '$'
-          : '-';
+          ? formatUtil.addCommas(+perHousehold.toFixed(4) * 1000) + "$"
+          : "-";
 
         var change = value[2];
-        change = self.isValidNumber(change)
-          ? change.toFixed(2) + '%'
-          : '-';
+        change = self.isValidNumber(change) ? change.toFixed(2) + "%" : "-";
 
         return [
-          '<div class="tooltip-title">' + formatUtil.encodeHTML(info.name) + '</div>',
-          '2012 Amount: &nbsp;&nbsp;' + amount + '<br>',
-          'Per Household: &nbsp;&nbsp;' + perHousehold + '<br>',
-          '2011 Amount: &nbsp;&nbsp;' + amount2011 + '<br>',
-          'Change From 2011: &nbsp;&nbsp;' + change
-        ].join('');
+          '<div class="tooltip-title">' +
+            formatUtil.encodeHTML(info.name) +
+            "</div>",
+          "2012 Amount: &nbsp;&nbsp;" + amount + "<br>",
+          "Per Household: &nbsp;&nbsp;" + perHousehold + "<br>",
+          "2011 Amount: &nbsp;&nbsp;" + amount2011 + "<br>",
+          "Change From 2011: &nbsp;&nbsp;" + change,
+        ].join("");
       };
     },
     getLevelOption(mode) {
       return [
         {
-          color: mode === 2
-            ? [
-              '#c23531', '#314656', '#61a0a8', '#dd8668',
-              '#91c7ae', '#6e7074', '#61a0a8', '#bda29a',
-              '#44525d', '#c4ccd3'
-            ]
-            : null,
-          colorMappingBy: 'id',
+          color:
+            mode === 2
+              ? [
+                  "#c23531",
+                  "#314656",
+                  "#61a0a8",
+                  "#dd8668",
+                  "#91c7ae",
+                  "#6e7074",
+                  "#61a0a8",
+                  "#bda29a",
+                  "#44525d",
+                  "#c4ccd3",
+                ]
+              : null,
+          colorMappingBy: "id",
           itemStyle: {
             normal: {
               borderWidth: 3,
-              gapWidth: 3
-            }
-          }
+              gapWidth: 3,
+            },
+          },
         },
         {
-          colorAlpha: mode === 2
-            ? [0.5, 1] : null,
+          colorAlpha: mode === 2 ? [0.5, 1] : null,
           itemStyle: {
             normal: {
-              gapWidth: 1
-            }
-          }
-        }
+              gapWidth: 1,
+            },
+          },
+        },
       ];
     },
   },
-  mounted(){
-    this.myChart = echarts.init(this.$refs.chart);
-    this.myChart.showLoading();
-    this.initChart();
-  }
-}
+  mounted() {
+    var myChart = echarts.init(this.$refs["chart"]);
+    myChart = echarts.init(this.$refs.chart);
+    myChart.showLoading();
+    myChart.hideLoading();
+
+    let modes = ["2012Budget"];
+    let self = this;
+    this.options = {
+      title: {
+        top: 5,
+        left: "center",
+        text: "How $3.7 Trillion is Spent",
+        subtext: "Obama’s 2012 Budget Proposal",
+      },
+
+      legend: {
+        data: modes,
+        selectedMode: "single",
+        top: 55,
+        itemGap: 5,
+        borderRadius: 5,
+      },
+
+      tooltip: {},
+
+      series: modes.map(function (mode, idx) {
+        let seriesOpt = self.createSeriesCommon(idx);
+        seriesOpt.name = mode;
+        seriesOpt.roam = true;
+        seriesOpt.top = 80;
+        seriesOpt.visualDimension = idx === 2 ? 2 : null;
+        seriesOpt.data = self.buildData(idx, self.jsonData);
+        seriesOpt.levels = self.getLevelOption(idx);
+        return seriesOpt;
+      }),
+    };
+
+    myChart.setOption(this.options);
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
