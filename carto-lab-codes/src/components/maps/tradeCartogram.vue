@@ -178,14 +178,14 @@ export default {
         });
 
     // Read the geometry data
-    d3.json('../data/ch_cantons.topojson', function(topo) {
+    d3.json('../../assets/json/ch_cantons.topojson', function(topo) {
       self.topology = topo;
 
       // The mapped unit for cantons: Cantons
       self.geometries = self.topology.objects.cantons.geometries;
 
       // Read the data for the cartogram
-      d3.csv("../data/ch_cantons.csv", function(data) {
+      d3.csv("../../assets/json/ch_cantons.csv", function(data) {
 
         // Prepare a function to easily access the data by its ID
         // "ID" for cantons: Canton
