@@ -1,6 +1,6 @@
 <template>
 <!--  SESSION BANNER : Banner for each session with parallel effect -->
-  <div class="q-pa-md">
+  <div class="q-mb-md q-mt-lg">
     <q-parallax :height="450" :speed="0.5">
       <template v-slot:media>
         <img :src="imgUrl">
@@ -8,7 +8,7 @@
 
       <template v-slot:content="scope">
         <div
-          class="absolute column items-lg-start"
+          class="absolute column items-center"
           :style="{
             opacity: 0.9 + (1 - scope.percentScrolled) * 0.1,
             top: (scope.percentScrolled * 60) + '%',
@@ -16,10 +16,9 @@
             right: 0
           }"
         >
-          <div class="q-ma-md"><p class="text-h3 text-white q-pl-md session-title">{{title}}</p>
+          <div class="q-ma-md"><p class="text-h2 text-white q-pl-md session-title">{{title}}</p>
           </div>
-
-          <div class="text-h5 text-grey-1  q-ma-md">
+          <div class="text-h5 text-white q-ma-md">
             {{subtitle}}
           </div>
         </div>
@@ -37,13 +36,14 @@ export default {
 
 <style scoped lang="scss">
 img{
-  opacity: 0.85;
+  opacity: 0.95;
 }
 .session-title {
   display: inline-block;
   width: auto;
-  border-left: 3px solid;
-  border-left-color: $negative;
+  padding: 1px;
+  //border-bottom: 3px solid;
+  //border-bottom-color: $negative;
   text-transform: capitalize;
 }
 </style>

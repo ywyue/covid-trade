@@ -1,6 +1,10 @@
 <template>
   <q-page>
-    <div class="text-center text-h2">China</div>
+    <session-banner
+      title="China ...."
+      subtitle="subtitle....."
+      img-url="images/container.jpg"
+    />
     <div
       class="flourish-embed flourish-globe"
       data-src="visualisation/6440972"

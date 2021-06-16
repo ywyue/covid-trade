@@ -20,7 +20,7 @@ export default {
 
       seriesList.push({
         type: "line",
-        data: portCall2019,
+        data: portCall2019.slice(0,37),
         showSymbol: false,
         smooth: true,
         name: "2019",
@@ -28,7 +28,7 @@ export default {
 
       seriesList.push({
         type: "line",
-        data: portCall2020,
+        data: portCall2020.slice(0,37),
         showSymbol: false,
         smooth: true,
         name: "2020",
@@ -61,7 +61,7 @@ export default {
         xAxis: {
           name: "Week",
           type: "category",
-          data: index,
+          data: index.slice(0,37),
         },
         yAxis: {
           type: "value",
