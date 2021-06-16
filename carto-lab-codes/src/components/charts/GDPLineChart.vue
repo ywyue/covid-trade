@@ -22,6 +22,20 @@ export default {
           showSymbol: true,
           smooth: true,
           name: name,
+          markArea:{
+            itemStyle: {
+              color: 'rgba(88,88,88,0.1)'
+            },
+            label:{
+              position: 'insideTopRight',
+              textBorderColor: 'rgb(255,255,255)',
+              color:'rgba(0,0,0,1)'
+            },
+            data:[[
+              {name:"Outbreak of COVID-19", xAxis:15},
+              {xAxis: 16}
+            ]]
+          }
         });
       }
       return seriesList;
@@ -46,7 +60,7 @@ export default {
       title: {
         text: "Annual percent change of gross domestic product (GDP)",
         subtext:
-          "Data is collected from IMF World Economic Outlook Database. Constant prices, from 2005 to 2021.",
+          "Data from IMF World Economic Outlook Database. Value in 2021 is the forecast.",
         left: 45,
       },
 

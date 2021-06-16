@@ -1,12 +1,12 @@
 <template>
-  <button @click="">Scale</button>
+<!--  <button @click="">Scale</button>-->
   <div id="map-container">
     <svg id="map"></svg>
   </div>
 </template>
 
 <script>
-import * as d3 from 'd3';
+import * as d3 from "d3";
 
 
 export default {
