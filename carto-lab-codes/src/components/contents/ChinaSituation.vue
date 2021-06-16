@@ -10,15 +10,17 @@
   <q-page>
     <div>
       <china-trade-treemap/>
+      <test-sunburst/>
     </div>
   </q-page>
 </template>
 
 <script>
 import ChinaTradeTreemap from "components/charts/chinaTradeTreemap";
+import TestSunburst from "components/charts/testSunburst";
 export default {
   name: "ChinaSituation",
-  components: {ChinaTradeTreemap},
+  components: {TestSunburst, ChinaTradeTreemap},
   mounted() {
     let recaptchaScript = document.createElement("script");
     recaptchaScript.setAttribute(
