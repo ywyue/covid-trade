@@ -733,6 +733,12 @@ export default {
 
       option && myChart.setOption(option);
 
+      myChart.on("click", function(params){
+        if(params.data){
+          console.log(params.data);
+        }
+      });
+
     }
   },
   mounted(){
