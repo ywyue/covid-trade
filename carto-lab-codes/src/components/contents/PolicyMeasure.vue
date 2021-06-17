@@ -24,15 +24,20 @@
         </div>
       </div>
     </div>
+    <div>
+      <policy-card/>
+    </div>
   </q-page>
 </template>
 
 <script>
 import SessionBanner from "components/tools/SessionBanner";
 import SubsessionTitle from "components/tools/SubsessionTitle";
+import PolicyCard from "components/contents/policy/policyCard";
 export default {
   name: "PolicyMeasure",
   components: {
+    PolicyCard,
     SubsessionTitle,
     SessionBanner,
   },
