@@ -1,5 +1,5 @@
 <template>
-<div ref="chart" style="height: 450px"></div>
+<div ref="chart" style="height: 250px"></div>
 </template>
 
 <script>
@@ -24,6 +24,10 @@ export default {
         showSymbol: false,
         smooth: true,
         name: "2019",
+        color: "#e51640",
+        lineStyle:{
+          width: 1,
+        }
       });
 
       seriesList.push({
@@ -32,6 +36,10 @@ export default {
         showSymbol: false,
         smooth: true,
         name: "2020",
+        color: "#091361",
+        lineStyle:{
+          width: 4,
+        }
       });
       return seriesList;
     },
@@ -50,8 +58,8 @@ export default {
           left: 45,
         },
         legend: {
-          left: 100,
-          bottom: 10,
+          left: '80%',
+          // bottom: 10,
           orient: "horizontal",
           data: legendList,
         },

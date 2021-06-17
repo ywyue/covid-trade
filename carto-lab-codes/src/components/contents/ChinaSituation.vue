@@ -11,22 +11,20 @@
       data-url="https://flo.uri.sh/visualisation/6440972/embed"
     ></div>
     <div>
-      <china-trade-treemap
-        @updateCommodity="updateCommodity"
-      />
-      <!--      <test-sunburst />-->
+      <trade-commodity-destination/>
     </div>
-    <tradeCartogram />
   </q-page>
 </template>
 
 <script>
-import ChinaTradeTreemap from "components/charts/chinaTradeTreemap";
+
 import TestSunburst from "components/charts/testSunburst";
 import tradeCartogram from "components/maps/tradeCartogram";
+import SessionBanner from "components/tools/SessionBanner";
+import TradeCommodityDestination from "components/contents/ChinaSituation/tradeCommodityDestination";
 export default {
   name: "ChinaSituation",
-  components: { TestSunburst, ChinaTradeTreemap, tradeCartogram },
+  components: {TradeCommodityDestination, SessionBanner, TestSunburst, tradeCartogram },
   mounted() {
     let recaptchaScript = document.createElement("script");
     recaptchaScript.setAttribute(
@@ -36,10 +34,6 @@ export default {
     document.head.appendChild(recaptchaScript);
   },
   methods: {
-    updateCommodity(h1Code, direct){
-      let columnName = h1Code+"-"+direct
-      console.log("Received: "+columnName); // direct = "Import" or "Export"
-    }
   }
 };
 </script>
