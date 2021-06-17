@@ -11,7 +11,9 @@
       data-url="https://flo.uri.sh/visualisation/6440972/embed"
     ></div>
     <div>
-      <china-trade-treemap />
+      <china-trade-treemap
+        @updateCommodity="updateCommodity"
+      />
       <!--      <test-sunburst />-->
     </div>
     <tradeCartogram />
@@ -33,6 +35,12 @@ export default {
     );
     document.head.appendChild(recaptchaScript);
   },
+  methods: {
+    updateCommodity(h1Code, direct){
+      let columnName = h1Code+"-"+direct
+      console.log("Received: "+columnName); // direct = "Import" or "Export"
+    }
+  }
 };
 </script>
 

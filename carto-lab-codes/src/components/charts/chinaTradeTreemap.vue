@@ -213,8 +213,18 @@ export default {
 
     myChart.on("click", function(params){
       if(params.data){
-        console.log(params.data);
-        console.log(params.seriesName);
+        // console.log(params.data);
+        // console.log(params.seriesName);
+        let direct = params.seriesName;
+        let commodityCode = params.data.id.toString();
+        let h1Code = 0;
+        if (commodityCode.length % 2 !== 0){
+          h1Code = commodityCode.substring(0,1)
+        }else{
+          h1Code = commodityCode.substring(0,2)
+        }
+        // console.log(h1Code);
+        self.$emit("updateCommodity", h1Code, direct);
       }
     });
   },
