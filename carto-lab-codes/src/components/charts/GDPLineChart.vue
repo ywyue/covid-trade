@@ -22,26 +22,25 @@ export default {
           showSymbol: true,
           smooth: true,
           name: name,
-          markArea:{
+          markArea: {
             itemStyle: {
-              color: 'rgba(88,88,88,0.1)'
+              color: "rgba(88,88,88,0.1)",
             },
-            label:{
-              position: 'insideTopRight',
-              textBorderColor: 'rgb(255,255,255)',
-              color:'rgba(0,0,0,1)'
+            label: {
+              position: "insideTopRight",
+              textBorderColor: "rgb(255,255,255)",
+              color: "rgba(0,0,0,1)",
             },
-            data:[[
-              {name:"Outbreak of COVID-19", xAxis:15},
-              {xAxis: 16}
-            ]]
-          }
+            data: [
+              [{ name: "Outbreak of COVID-19", xAxis: 15 }, { xAxis: 16 }],
+            ],
+          },
         });
       }
       return seriesList;
     },
-    formatData(row){
-      return row.map(e => e.toFixed(2));
+    formatData(row) {
+      return row.map((e) => e.toFixed(2));
     },
     range(start, end) {
       return Array(end - start + 1)
@@ -52,7 +51,6 @@ export default {
   mounted() {
     var seriesList = this.processData();
     var legendList = Object.keys(gdp);
-
 
     var myChart = echarts.init(this.$refs["chart"]);
     var option;
@@ -85,8 +83,11 @@ export default {
 
     option.xAxis["data"] = this.range(2005, 2021);
 
-
     myChart.setOption(option);
+
+    window.addEventListener("resize", function () {
+      myChart.resize();
+    });
   },
 };
 </script>

@@ -7,54 +7,65 @@
 import * as d3 from "d3";
 import Globe from "globe.gl";
 
-
 export default {
   name: "GlobeGDP",
-  props: ["width","height"],
-  data: function() {
-    return{
+  props: ["width", "height"],
+  data: function () {
+    return {
       world: null,
       rotationSpeed: 0.85,
-      globeColorScale: d3.scaleSequentialSqrt(d3.interpolateRgb("#FFDA67", "#5EC9DB")),
-      dataColumn: '2017_death_rate',
-      dataFilePath: 'data/hiv-death-rates.geojson',
-      flagEndpoint:'https://corona.lmao.ninja/assets/img/flags', //url to get country flags
-    }
+      globeColorScale: d3.scaleSequentialSqrt(
+        d3.interpolateRgb("#FFDA67", "#5EC9DB")
+      ),
+      dataColumn: "gdp_2020",
+      dataFilePath: "data/world_gdp_by_area.geojson",
+      flagEndpoint: "https://corona.lmao.ninja/assets/img/flags", //url to get country flags
+    };
   },
   methods: {
-    initMap(){
+    initMap() {
       // Initialize the globe
-      this.world = Globe()(document.getElementById('globeViz'))
+      this.world = Globe()(document.getElementById("globeViz"))
         .showGlobe(false)
         .showAtmosphere(false)
-        .backgroundColor('#FFFFFF')
+        .backgroundColor("#FFFFFF")
         .lineHoverPrecision(0)
         .width(this.width)
         .height(this.height)
-        .pointOfView({lat:0,lng:0, altitude:1.75}, 4000);
+        .pointOfView({ lat: 0, lng: 0, altitude: 1.75 }, 4000);
       this.showLayer();
       this.autoRotate(true);
     },
 
-    getToolTip(d, colName, title){
+    getToolTip(d, colName, title) {
       // Show the tooltip when mouse hovering on polygons
       let flagName = d.ISO_A2.toLowerCase();
-      if (d.ADMIN === 'France') {
-        flagName = 'fr';
-      } else if (d.ADMIN === 'Norway') {
-        flagName = 'no';
-      } else if (d.ADMIN === 'Taiwan,China') {
-        flagName = 'cn'
+      if (d.ADMIN === "France") {
+        flagName = "fr";
+      } else if (d.ADMIN === "Norway") {
+        flagName = "no";
+      } else if (d.ADMIN === "Taiwan,China") {
+        flagName = "cn";
+      }
+
+      var GDP, changeRate;
+
+      if (d.rate === null) {
+        GDP = "No data";
+        changeRate = "No data";
+      } else {
+        GDP = "$ " + this.numberWithCommas(d.gdp_2020) + " B";
+        changeRate = d.rate.toFixed(2) + "%";
       }
       let div_html = `<div class="globe-viewer-tooltip-container">
                         <img class="flag-img" src="${this.flagEndpoint}/${flagName}.png"/>
                         <div class="country-title">${d.ADMIN}</div>
                         <div class="description"><table>
-                        <tr><th class="text-left">GDP:</th><th class="text-right">$ ${this.numberWithCommas(d.GDP_MD_EST)} M</th></tr>
-                        <tr><th class="text-left">Change:</th><th class="text-right">${d[colName].toFixed(2)}%</th></tr>
+                        <tr><th class="text-left">GDP:</th><th class="text-right">${GDP}</th></tr>
+                        <tr><th class="text-left">Change:</th><th class="text-right">${changeRate}</th></tr>
                         </table>
                         </div><div class="text-caption">Notes: Change percentage of GDP between 2019 and 2020.</div>
-                      </div>`
+                      </div>`;
 
       return div_html;
     },
@@ -64,51 +75,68 @@ export default {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     },
 
-    resizeMap(height, width){
+    resizeMap(height, width) {
       // Resize the globe
       this.world.width([width]);
       this.world.height([height]);
     },
 
-    autoRotate(auto=true){
+    autoRotate(auto = true) {
       // Add auto-rotation
       this.world.controls().autoRotate = auto;
-      if(auto){
+      if (auto) {
         this.world.controls().autoRotateSpeed = this.rotationSpeed;
       }
-
     },
 
-    showLayer(){
+    showLayer() {
       // Show layer
-      const getVal = feat => Math.log(feat.properties[this.dataColumn]);
-      fetch(this.dataFilePath).then(res => res.json()).then(countries =>
-      {
-        const maxVal = Math.max(...countries.features.map(getVal));
-        this.globeColorScale.domain([0, maxVal]);
-        this.world
-          .polygonsData(countries.features.filter(d => d.properties.ISO_A3 !== 'AQ'))
-          .polygonAltitude(0.06)
-          .polygonCapColor(d => this.globeColorScale(getVal(d)))
-          .polygonSideColor(() => 'rgba(255,255,255,0.15)')
-          .polygonStrokeColor(() => 'rgba(40,70,70,0.65)')
-          .polygonLabel(({ properties: d }) => this.getToolTip(d, this.dataColumn, "Percent Change of GDP"))
-          .onPolygonHover(hoverD => this.world
-            .polygonAltitude(d => d === hoverD ? 0.12 : 0.06)
-            .polygonCapColor(d => d === hoverD ? '#2F4F4F' : this.globeColorScale(getVal(d)))
-          )
-          .polygonsTransitionDuration(300);
+      const getVal = (feat) => Math.log(feat.properties[this.dataColumn]);
 
-      });
+      fetch(this.dataFilePath)
+        .then((res) => res.json())
+        .then((countries) => {
+          const minVal = Math.min(...countries.features.map(getVal));
+          const maxVal = Math.max(...countries.features.map(getVal));
+          // console.log(countries.features.map(getVal));
+          // console.log(countries.features.map(0));
+          console.log(minVal);
+          console.log(maxVal);
+          this.globeColorScale.domain([0, maxVal]);
+          this.world
+            .polygonsData(
+              countries.features.filter((d) => d.properties.ISO_A3 !== "AQ")
+            )
+            .polygonAltitude(0.06)
+            .polygonCapColor((d) =>
+              d.properties.gdp_2020 === null
+                ? "#ffffff"
+                : this.globeColorScale(getVal(d))
+            )
+            .polygonSideColor(() => "rgba(255,255,255,0.15)")
+            .polygonStrokeColor(() => "rgba(40,70,70,0.65)")
+            .polygonLabel(({ properties: d }) =>
+              this.getToolTip(d, this.dataColumn, "Percent Change of GDP")
+            )
+            .onPolygonHover((hoverD) =>
+              this.world
+                .polygonAltitude((d) => (d === hoverD ? 0.12 : 0.06))
+                .polygonCapColor((d) =>
+                  d === hoverD
+                    ? "#2F4F4F"
+                    : d.properties.gdp_2020 === null
+                    ? "#ffffff"
+                    : this.globeColorScale(getVal(d))
+                )
+            )
+            .polygonsTransitionDuration(300);
+        });
     },
-
   },
   mounted() {
     this.initMap();
   },
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

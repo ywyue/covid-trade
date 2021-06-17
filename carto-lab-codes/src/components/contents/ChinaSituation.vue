@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <session-banner
-      img-url="images/container.jpg"
+      img-url="images/container3.jpg"
       title="China Trade During COVID-19"
       subtitle="The health crisis has unleashed a global economic shock"
     />

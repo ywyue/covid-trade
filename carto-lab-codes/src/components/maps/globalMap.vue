@@ -281,7 +281,7 @@ export default {
 <style scoped lang="scss">
 #globalMap {
   //   position: absolute;
-  width: 100vw;
+  width: 95vw;
   //width: 1300px;
   height: 600px;
 }

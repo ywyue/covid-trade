@@ -1,34 +1,33 @@
 <template>
-  <div ref="chart" style="height:100%"></div>
+  <div ref="chart" style="height: 100%"></div>
 </template>
 
 <script>
-import {gdp} from "assets/json/worldData";
+import { gdp } from "assets/json/worldData";
 import * as echarts from "echarts";
 
 let myChart;
 
 export default {
   name: "tradeLineChart",
-  props: ["chartData","title"],
+  props: ["chartData", "title"],
   data: function () {
     return {
       xAxisData: [],
     };
   },
-  watch:{
-    chartData(val){
+  watch: {
+    chartData(val) {
       this.initChart();
     },
-    title(val){
-    }
+    title(val) {},
   },
   methods: {
     processData() {
       let seriesList = [];
 
       for (const name in this.chartData) {
-        if (name==="World"){
+        if (name === "World") {
           seriesList.push({
             type: "line",
             data: this.formatData(this.chartData[name]),
@@ -36,12 +35,12 @@ export default {
             smooth: true,
             name: name,
             markLine: {
-              symbol: ['none', 'none'],
-              lineStyle:{
-                color: '#747474'
+              symbol: ["none", "none"],
+              lineStyle: {
+                color: "#747474",
               },
-              label:{
-                formatter: '{b}'
+              label: {
+                formatter: "{b}",
               },
               data: [
                 {
@@ -51,9 +50,9 @@ export default {
                 {
                   name: "Breakout of COVID-19 in 2020",
                   xAxis: this.xAxisData.indexOf(2020),
-                }
-              ]
-            }
+                },
+              ],
+            },
           });
           continue;
         }
@@ -67,8 +66,8 @@ export default {
       }
       return seriesList;
     },
-    formatData(row){
-      return row.map(e => e.toFixed(2));
+    formatData(row) {
+      return row.map((e) => e.toFixed(2));
     },
     range(start, end) {
       return Array(end - start + 1)
@@ -76,19 +75,17 @@ export default {
         .map((_, idx) => start + idx);
     },
     initChart() {
-      console.log("Title in chart: "+this.title);
-      this.xAxisData = this.range(2005,2021);
+      console.log("Title in chart: " + this.title);
+      this.xAxisData = this.range(2005, 2021);
       var seriesList = this.processData();
       var legendList = Object.keys(gdp);
 
-
       var option;
       option = {
-        animationDuration:1000,
+        animationDuration: 1000,
         title: {
           text: this.title,
-          subtext:
-            "subtitle",
+          subtext: "subtitle",
           left: 45,
         },
 
@@ -120,10 +117,11 @@ export default {
   mounted() {
     myChart = echarts.init(this.$refs["chart"]);
     this.initChart();
+    window.addEventListener("resize", function () {
+      myChart.resize();
+    });
   },
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
