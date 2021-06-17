@@ -4,7 +4,7 @@
 
 <script>
 import * as echarts from "echarts";
-import json from "../../assets/json/comtrade-treemap.json";
+import json from "../../assets/json/comtrade-treemap-h2.json";
 
 export default {
   name: "chinaTradeTreemap",

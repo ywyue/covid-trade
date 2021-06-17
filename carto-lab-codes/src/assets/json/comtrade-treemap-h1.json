@@ -1,0 +1,476 @@
+{
+  "Export": {
+    "total": 183833267148,
+    "tree": [
+      {
+        "children": [],
+        "id": 1,
+        "name": "Animals; live",
+        "value": [
+          599665085
+        ]
+      },
+      {
+        "children": [],
+        "id": 2,
+        "name": "Meat and edible meat offal",
+        "value": [
+          710775512
+        ]
+      },
+      {
+        "children": [],
+        "id": 3,
+        "name": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+        "value": [
+          10712133665
+        ]
+      },
+      {
+        "children": [],
+        "id": 4,
+        "name": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
+        "value": [
+          576995864
+        ]
+      },
+      {
+        "children": [],
+        "id": 5,
+        "name": "Animal originated products; not elsewhere specified or included",
+        "value": [
+          1827400047
+        ]
+      },
+      {
+        "children": [],
+        "id": 6,
+        "name": "Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",
+        "value": [
+          472602425
+        ]
+      },
+      {
+        "children": [],
+        "id": 7,
+        "name": "Vegetables and certain roots and tubers; edible",
+        "value": [
+          9671653250
+        ]
+      },
+      {
+        "children": [],
+        "id": 8,
+        "name": "Fruit and nuts, edible; peel of citrus fruit or melons",
+        "value": [
+          7069196844
+        ]
+      },
+      {
+        "children": [],
+        "id": 9,
+        "name": "Coffee, tea, mate and spices",
+        "value": [
+          4035454945
+        ]
+      },
+      {
+        "children": [],
+        "id": 10,
+        "name": "Cereals",
+        "value": [
+          959995153
+        ]
+      },
+      {
+        "children": [],
+        "id": 11,
+        "name": "Products of the milling industry; malt, starches, inulin, wheat gluten",
+        "value": [
+          692379999
+        ]
+      },
+      {
+        "children": [],
+        "id": 12,
+        "name": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",
+        "value": [
+          2875275495
+        ]
+      },
+      {
+        "children": [],
+        "id": 13,
+        "name": "Lac; gums, resins and other vegetable saps and extracts",
+        "value": [
+          1636523027
+        ]
+      },
+      {
+        "children": [],
+        "id": 14,
+        "name": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
+        "value": [
+          157095046
+        ]
+      },
+      {
+        "children": [],
+        "id": 15,
+        "name": "Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes",
+        "value": [
+          1439277047
+        ]
+      },
+      {
+        "children": [],
+        "id": 16,
+        "name": "Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",
+        "value": [
+          9165674516
+        ]
+      },
+      {
+        "children": [],
+        "id": 17,
+        "name": "Sugars and sugar confectionery",
+        "value": [
+          1702873234
+        ]
+      },
+      {
+        "children": [],
+        "id": 18,
+        "name": "Cocoa and cocoa preparations",
+        "value": [
+          327436796
+        ]
+      },
+      {
+        "children": [],
+        "id": 19,
+        "name": "Preparations of cereals, flour, starch or milk; pastrycooks' products",
+        "value": [
+          2010331273
+        ]
+      },
+      {
+        "children": [],
+        "id": 20,
+        "name": "Preparations of vegetables, fruit, nuts or other parts of plants",
+        "value": [
+          7623290236
+        ]
+      },
+      {
+        "children": [],
+        "id": 21,
+        "name": "Miscellaneous edible preparations",
+        "value": [
+          4562743534
+        ]
+      },
+      {
+        "children": [],
+        "id": 22,
+        "name": "Beverages, spirits and vinegar",
+        "value": [
+          1972710449
+        ]
+      },
+      {
+        "children": [],
+        "id": 23,
+        "name": "Food industries, residues and wastes thereof; prepared animal fodder",
+        "value": [
+          2919229549
+        ]
+      },
+      {
+        "children": [],
+        "id": 24,
+        "name": "Tobacco and manufactured tobacco substitutes",
+        "value": [
+          778752306
+        ]
+      },
+      {
+        "children": [],
+        "id": 25,
+        "name": "Salt; sulphur; earths, stone; plastering materials, lime and cement",
+        "value": [
+          3103256406
+        ]
+      },
+      {
+        "children": [],
+        "id": 26,
+        "name": "Ores, slag and ash",
+        "value": [
+          1941826502
+        ]
+      },
+      {
+        "children": [],
+        "id": 27,
+        "name": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+        "value": [
+          32117928324
+        ]
+      },
+      {
+        "children": [],
+        "id": 28,
+        "name": "Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",
+        "value": [
+          15207618342
+        ]
+      },
+      {
+        "children": [],
+        "id": 29,
+        "name": "Organic chemicals",
+        "value": [
+          56963172277
+        ]
+      }
+    ]
+  },
+  "Import": {
+    "total": 673279720559,
+    "tree": [
+      {
+        "children": [],
+        "id": 1,
+        "name": "Animals; live",
+        "value": [
+          634773626
+        ]
+      },
+      {
+        "children": [],
+        "id": 2,
+        "name": "Meat and edible meat offal",
+        "value": [
+          30271801130
+        ]
+      },
+      {
+        "children": [],
+        "id": 3,
+        "name": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+        "value": [
+          12372365680
+        ]
+      },
+      {
+        "children": [],
+        "id": 4,
+        "name": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
+        "value": [
+          7288742924
+        ]
+      },
+      {
+        "children": [],
+        "id": 5,
+        "name": "Animal originated products; not elsewhere specified or included",
+        "value": [
+          763716876
+        ]
+      },
+      {
+        "children": [],
+        "id": 6,
+        "name": "Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",
+        "value": [
+          243765537
+        ]
+      },
+      {
+        "children": [],
+        "id": 7,
+        "name": "Vegetables and certain roots and tubers; edible",
+        "value": [
+          1956592536
+        ]
+      },
+      {
+        "children": [],
+        "id": 8,
+        "name": "Fruit and nuts, edible; peel of citrus fruit or melons",
+        "value": [
+          12016013617
+        ]
+      },
+      {
+        "children": [],
+        "id": 9,
+        "name": "Coffee, tea, mate and spices",
+        "value": [
+          1237811931
+        ]
+      },
+      {
+        "children": [],
+        "id": 10,
+        "name": "Cereals",
+        "value": [
+          9324535882
+        ]
+      },
+      {
+        "children": [],
+        "id": 11,
+        "name": "Products of the milling industry; malt, starches, inulin, wheat gluten",
+        "value": [
+          1439786598
+        ]
+      },
+      {
+        "children": [],
+        "id": 12,
+        "name": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",
+        "value": [
+          44962864049
+        ]
+      },
+      {
+        "children": [],
+        "id": 13,
+        "name": "Lac; gums, resins and other vegetable saps and extracts",
+        "value": [
+          370798647
+        ]
+      },
+      {
+        "children": [],
+        "id": 14,
+        "name": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
+        "value": [
+          129118923
+        ]
+      },
+      {
+        "children": [],
+        "id": 15,
+        "name": "Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes",
+        "value": [
+          11254168172
+        ]
+      },
+      {
+        "children": [],
+        "id": 16,
+        "name": "Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",
+        "value": [
+          352720982
+        ]
+      },
+      {
+        "children": [],
+        "id": 17,
+        "name": "Sugars and sugar confectionery",
+        "value": [
+          2636489793
+        ]
+      },
+      {
+        "children": [],
+        "id": 18,
+        "name": "Cocoa and cocoa preparations",
+        "value": [
+          775596052
+        ]
+      },
+      {
+        "children": [],
+        "id": 19,
+        "name": "Preparations of cereals, flour, starch or milk; pastrycooks' products",
+        "value": [
+          7330611261
+        ]
+      },
+      {
+        "children": [],
+        "id": 20,
+        "name": "Preparations of vegetables, fruit, nuts or other parts of plants",
+        "value": [
+          1343850605
+        ]
+      },
+      {
+        "children": [],
+        "id": 21,
+        "name": "Miscellaneous edible preparations",
+        "value": [
+          4468207872
+        ]
+      },
+      {
+        "children": [],
+        "id": 22,
+        "name": "Beverages, spirits and vinegar",
+        "value": [
+          5089962288
+        ]
+      },
+      {
+        "children": [],
+        "id": 23,
+        "name": "Food industries, residues and wastes thereof; prepared animal fodder",
+        "value": [
+          4798119886
+        ]
+      },
+      {
+        "children": [],
+        "id": 24,
+        "name": "Tobacco and manufactured tobacco substitutes",
+        "value": [
+          1166539213
+        ]
+      },
+      {
+        "children": [],
+        "id": 25,
+        "name": "Salt; sulphur; earths, stone; plastering materials, lime and cement",
+        "value": [
+          6886159449
+        ]
+      },
+      {
+        "children": [],
+        "id": 26,
+        "name": "Ores, slag and ash",
+        "value": [
+          180016125020
+        ]
+      },
+      {
+        "children": [],
+        "id": 27,
+        "name": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+        "value": [
+          267556480568
+        ]
+      },
+      {
+        "children": [],
+        "id": 28,
+        "name": "Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",
+        "value": [
+          11034336083
+        ]
+      },
+      {
+        "children": [],
+        "id": 29,
+        "name": "Organic chemicals",
+        "value": [
+          45557665359
+        ]
+      }
+    ]
+  }
+}

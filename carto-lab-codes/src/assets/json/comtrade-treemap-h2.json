@@ -1,0 +1,5838 @@
+{
+  "Export": {
+    "total": 183833267148,
+    "tree": [
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 101,
+            "name": "Horses, asses, mules and hinnies; live",
+            "value": [
+              83820
+            ]
+          },
+          {
+            "children": [],
+            "id": 102,
+            "name": "Bovine animals; live",
+            "value": [
+              57989051
+            ]
+          },
+          {
+            "children": [],
+            "id": 103,
+            "name": "Swine; live",
+            "value": [
+              521233335
+            ]
+          },
+          {
+            "children": [],
+            "id": 104,
+            "name": "Sheep and goats; live",
+            "value": [
+              380908
+            ]
+          },
+          {
+            "children": [],
+            "id": 105,
+            "name": "Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",
+            "value": [
+              1838615
+            ]
+          },
+          {
+            "children": [],
+            "id": 106,
+            "name": "Animals; live, n.e.c. in chapter 01",
+            "value": [
+              18139356
+            ]
+          }
+        ],
+        "id": 1,
+        "name": "Animals; live",
+        "value": [
+          599665085
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 201,
+            "name": "Meat of bovine animals; fresh or chilled",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 202,
+            "name": "Meat of bovine animals; frozen",
+            "value": [
+              757385
+            ]
+          },
+          {
+            "children": [],
+            "id": 203,
+            "name": "Meat of swine; fresh, chilled or frozen",
+            "value": [
+              89370246
+            ]
+          },
+          {
+            "children": [],
+            "id": 204,
+            "name": "Meat of sheep or goats; fresh, chilled or frozen",
+            "value": [
+              19378974
+            ]
+          },
+          {
+            "children": [],
+            "id": 205,
+            "name": "Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",
+            "value": [
+              1514749
+            ]
+          },
+          {
+            "children": [],
+            "id": 206,
+            "name": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",
+            "value": [
+              478607
+            ]
+          },
+          {
+            "children": [],
+            "id": 207,
+            "name": "Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",
+            "value": [
+              556528722
+            ]
+          },
+          {
+            "children": [],
+            "id": 208,
+            "name": "Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",
+            "value": [
+              38257794
+            ]
+          },
+          {
+            "children": [],
+            "id": 209,
+            "name": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 210,
+            "name": "Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",
+            "value": [
+              4489035
+            ]
+          }
+        ],
+        "id": 2,
+        "name": "Meat and edible meat offal",
+        "value": [
+          710775512
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 301,
+            "name": "Fish; live",
+            "value": [
+              644198320
+            ]
+          },
+          {
+            "children": [],
+            "id": 302,
+            "name": "Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",
+            "value": [
+              207617566
+            ]
+          },
+          {
+            "children": [],
+            "id": 303,
+            "name": "Fish; frozen, excluding fish fillets and other fish meat of heading 0304",
+            "value": [
+              2377464244
+            ]
+          },
+          {
+            "children": [],
+            "id": 304,
+            "name": "Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",
+            "value": [
+              3345470676
+            ]
+          },
+          {
+            "children": [],
+            "id": 305,
+            "name": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption",
+            "value": [
+              394243998
+            ]
+          },
+          {
+            "children": [],
+            "id": 306,
+            "name": "Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine; edible flours, meals, pellets",
+            "value": [
+              952148740
+            ]
+          },
+          {
+            "children": [],
+            "id": 307,
+            "name": "Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, cooked or not before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption",
+            "value": [
+              2720945509
+            ]
+          },
+          {
+            "children": [],
+            "id": 308,
+            "name": "Aquatic invertebrates, other than crustaceans and molluscs; live, fresh, chilled, frozen, dried, salted or in brine, smoked, whether or not cooked before or during the smoking process; flours, meals, and pellets, fit for human consumption",
+            "value": [
+              70044612
+            ]
+          }
+        ],
+        "id": 3,
+        "name": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+        "value": [
+          10712133665
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 401,
+            "name": "Milk and cream; not concentrated, not containing added sugar or other sweetening matter",
+            "value": [
+              22049374
+            ]
+          },
+          {
+            "children": [],
+            "id": 402,
+            "name": "Milk and cream; concentrated or containing added sugar or other sweetening matter",
+            "value": [
+              12368374
+            ]
+          },
+          {
+            "children": [],
+            "id": 403,
+            "name": "Buttermilk, curdled milk and cream, yoghurt, kephir, fermented or acidified milk or cream, whether or not concentrated, containing added sugar, sweetening matter, flavoured or added fruit or cocoa",
+            "value": [
+              10526553
+            ]
+          },
+          {
+            "children": [],
+            "id": 404,
+            "name": "Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",
+            "value": [
+              772810
+            ]
+          },
+          {
+            "children": [],
+            "id": 405,
+            "name": "Butter and other fats and oils derived from milk; dairy spreads",
+            "value": [
+              4190573
+            ]
+          },
+          {
+            "children": [],
+            "id": 406,
+            "name": "Cheese and curd",
+            "value": [
+              1941074
+            ]
+          },
+          {
+            "children": [],
+            "id": 407,
+            "name": "Birds' eggs, in shell; fresh, preserved or cooked",
+            "value": [
+              160848289
+            ]
+          },
+          {
+            "children": [],
+            "id": 408,
+            "name": "Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",
+            "value": [
+              19338831
+            ]
+          },
+          {
+            "children": [],
+            "id": 409,
+            "name": "Honey; natural",
+            "value": [
+              254044959
+            ]
+          },
+          {
+            "children": [],
+            "id": 410,
+            "name": "Edible products of animal origin; not elsewhere specified or included",
+            "value": [
+              90915027
+            ]
+          }
+        ],
+        "id": 4,
+        "name": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
+        "value": [
+          576995864
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 501,
+            "name": "Human hair; unworked, whether or not washed or scoured; waste of human hair",
+            "value": [
+              275224
+            ]
+          },
+          {
+            "children": [],
+            "id": 502,
+            "name": "Pigs', hogs' or boars' bristles and hair; and waste thereof",
+            "value": [
+              85705814
+            ]
+          },
+          {
+            "children": [],
+            "id": 504,
+            "name": "Guts, bladders and stomachs of animals (other than fish); whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked",
+            "value": [
+              928672607
+            ]
+          },
+          {
+            "children": [],
+            "id": 505,
+            "name": "Skins and other parts of birds with feathers, down; feathers, down and parts thereof; not further worked than cleaned, disinfected, treated for preservation; powder, waste and parts of feathers",
+            "value": [
+              573486218
+            ]
+          },
+          {
+            "children": [],
+            "id": 506,
+            "name": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products",
+            "value": [
+              393145
+            ]
+          },
+          {
+            "children": [],
+            "id": 507,
+            "name": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks unworked or simply prepared, not cut to shape; waste and powder of these products",
+            "value": [
+              19101631
+            ]
+          },
+          {
+            "children": [],
+            "id": 508,
+            "name": "Coral and similar materials, unworked or simply prepared, shells of molluscs, crustaceans or echinoderms and cuttle-bone, not cut to shape powder and waste thereof",
+            "value": [
+              7962739
+            ]
+          },
+          {
+            "children": [],
+            "id": 510,
+            "name": "Ambergris, castoreum, civet and musk; cantharides; bile, dried or not glands, other animal products used in preparation of pharmaceutical products, fresh chilled, frozen or otherwise provisionally preserved",
+            "value": [
+              4720062
+            ]
+          },
+          {
+            "children": [],
+            "id": 511,
+            "name": "Animal products not elsewhere specified or included; dead animals of chapter 1 or 3, unfit for human consumption",
+            "value": [
+              207082607
+            ]
+          }
+        ],
+        "id": 5,
+        "name": "Animal originated products; not elsewhere specified or included",
+        "value": [
+          1827400047
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 601,
+            "name": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes; dormant, in growth or in flower; chicory plants and roots other than roots of heading no. 1212",
+            "value": [
+              2391651
+            ]
+          },
+          {
+            "children": [],
+            "id": 602,
+            "name": "Plants, live; n.e.c. in heading no. 0601, (including their roots) cuttings and slips; mushroom spawn",
+            "value": [
+              288274740
+            ]
+          },
+          {
+            "children": [],
+            "id": 603,
+            "name": "Flowers; cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared",
+            "value": [
+              125809301
+            ]
+          },
+          {
+            "children": [],
+            "id": 604,
+            "name": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens; suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated etc.",
+            "value": [
+              56126733
+            ]
+          }
+        ],
+        "id": 6,
+        "name": "Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",
+        "value": [
+          472602425
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 701,
+            "name": "Potatoes; fresh or chilled",
+            "value": [
+              289731555
+            ]
+          },
+          {
+            "children": [],
+            "id": 702,
+            "name": "Tomatoes; fresh or chilled",
+            "value": [
+              274112315
+            ]
+          },
+          {
+            "children": [],
+            "id": 703,
+            "name": "Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",
+            "value": [
+              2621073466
+            ]
+          },
+          {
+            "children": [],
+            "id": 704,
+            "name": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",
+            "value": [
+              692408144
+            ]
+          },
+          {
+            "children": [],
+            "id": 705,
+            "name": "Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled",
+            "value": [
+              208292108
+            ]
+          },
+          {
+            "children": [],
+            "id": 706,
+            "name": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",
+            "value": [
+              404134716
+            ]
+          },
+          {
+            "children": [],
+            "id": 707,
+            "name": "Cucumbers and gherkins; fresh or chilled",
+            "value": [
+              47728580
+            ]
+          },
+          {
+            "children": [],
+            "id": 708,
+            "name": "Leguminous vegetables; shelled or unshelled, fresh or chilled",
+            "value": [
+              148099159
+            ]
+          },
+          {
+            "children": [],
+            "id": 709,
+            "name": "Vegetables; n.e.c. in chapter 07, fresh or chilled",
+            "value": [
+              920268553
+            ]
+          },
+          {
+            "children": [],
+            "id": 710,
+            "name": "Vegetables (uncooked or cooked by steaming or boiling in water); frozen",
+            "value": [
+              1150615130
+            ]
+          },
+          {
+            "children": [],
+            "id": 711,
+            "name": "Vegetables provisionally preserved; (e.g. by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",
+            "value": [
+              148396569
+            ]
+          },
+          {
+            "children": [],
+            "id": 712,
+            "name": "Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",
+            "value": [
+              2136663433
+            ]
+          },
+          {
+            "children": [],
+            "id": 713,
+            "name": "Vegetables, leguminous; shelled, whether or not skinned or split, dried",
+            "value": [
+              463923819
+            ]
+          },
+          {
+            "children": [],
+            "id": 714,
+            "name": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",
+            "value": [
+              166205703
+            ]
+          }
+        ],
+        "id": 7,
+        "name": "Vegetables and certain roots and tubers; edible",
+        "value": [
+          9671653250
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 801,
+            "name": "Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",
+            "value": [
+              459603
+            ]
+          },
+          {
+            "children": [],
+            "id": 802,
+            "name": "Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",
+            "value": [
+              683655680
+            ]
+          },
+          {
+            "children": [],
+            "id": 803,
+            "name": "Bananas, including plantains; fresh or dried",
+            "value": [
+              15938545
+            ]
+          },
+          {
+            "children": [],
+            "id": 804,
+            "name": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",
+            "value": [
+              99149841
+            ]
+          },
+          {
+            "children": [],
+            "id": 805,
+            "name": "Citrus fruit; fresh or dried",
+            "value": [
+              1577681543
+            ]
+          },
+          {
+            "children": [],
+            "id": 806,
+            "name": "Grapes; fresh or dried",
+            "value": [
+              1267297996
+            ]
+          },
+          {
+            "children": [],
+            "id": 807,
+            "name": "Melons (including watermelons) and papaws (papayas); fresh",
+            "value": [
+              180551934
+            ]
+          },
+          {
+            "children": [],
+            "id": 808,
+            "name": "Apples, pears and quinces; fresh",
+            "value": [
+              2117348882
+            ]
+          },
+          {
+            "children": [],
+            "id": 809,
+            "name": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",
+            "value": [
+              230082885
+            ]
+          },
+          {
+            "children": [],
+            "id": 810,
+            "name": "Fruit, fresh; n.e.c. in chapter 08",
+            "value": [
+              494906304
+            ]
+          },
+          {
+            "children": [],
+            "id": 811,
+            "name": "Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",
+            "value": [
+              195885481
+            ]
+          },
+          {
+            "children": [],
+            "id": 812,
+            "name": "Fruit and nuts provisionally preserved; e.g. by sulphur dioxide gas, brine, in sulphur water or in other preservative solutions, but unsuitable in that state for immediate consumption",
+            "value": [
+              34498097
+            ]
+          },
+          {
+            "children": [],
+            "id": 813,
+            "name": "Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",
+            "value": [
+              165191975
+            ]
+          },
+          {
+            "children": [],
+            "id": 814,
+            "name": "Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",
+            "value": [
+              6548078
+            ]
+          }
+        ],
+        "id": 8,
+        "name": "Fruit and nuts, edible; peel of citrus fruit or melons",
+        "value": [
+          7069196844
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 901,
+            "name": "Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",
+            "value": [
+              137574408
+            ]
+          },
+          {
+            "children": [],
+            "id": 902,
+            "name": "Tea",
+            "value": [
+              2037981957
+            ]
+          },
+          {
+            "children": [],
+            "id": 903,
+            "name": "Mate",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 904,
+            "name": "Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta",
+            "value": [
+              572198281
+            ]
+          },
+          {
+            "children": [],
+            "id": 905,
+            "name": "Vanilla",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 906,
+            "name": "Cinnamon and cinnamon-tree flowers",
+            "value": [
+              292854827
+            ]
+          },
+          {
+            "children": [],
+            "id": 907,
+            "name": "Cloves (whole fruit, cloves and stems)",
+            "value": [
+              1386850
+            ]
+          },
+          {
+            "children": [],
+            "id": 908,
+            "name": "Nutmeg, mace and cardamoms",
+            "value": [
+              1192151
+            ]
+          },
+          {
+            "children": [],
+            "id": 909,
+            "name": "Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",
+            "value": [
+              63476152
+            ]
+          },
+          {
+            "children": [],
+            "id": 910,
+            "name": "Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",
+            "value": [
+              928790319
+            ]
+          }
+        ],
+        "id": 9,
+        "name": "Coffee, tea, mate and spices",
+        "value": [
+          4035454945
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1001,
+            "name": "Wheat and meslin",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 1003,
+            "name": "Barley",
+            "value": [
+              56149
+            ]
+          },
+          {
+            "children": [],
+            "id": 1004,
+            "name": "Oats",
+            "value": [
+              65839
+            ]
+          },
+          {
+            "children": [],
+            "id": 1005,
+            "name": "Maize (corn)",
+            "value": [
+              4274423
+            ]
+          },
+          {
+            "children": [],
+            "id": 1006,
+            "name": "Rice",
+            "value": [
+              916643282
+            ]
+          },
+          {
+            "children": [],
+            "id": 1007,
+            "name": "Grain sorghum",
+            "value": [
+              9435490
+            ]
+          },
+          {
+            "children": [],
+            "id": 1008,
+            "name": "Buckwheat, millet and canary seeds; other cereals",
+            "value": [
+              29519970
+            ]
+          }
+        ],
+        "id": 10,
+        "name": "Cereals",
+        "value": [
+          959995153
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1101,
+            "name": "Wheat or meslin flour",
+            "value": [
+              73556058
+            ]
+          },
+          {
+            "children": [],
+            "id": 1102,
+            "name": "Cereal flours; other than of wheat or meslin",
+            "value": [
+              1575951
+            ]
+          },
+          {
+            "children": [],
+            "id": 1103,
+            "name": "Cereal groats; meal and pellets",
+            "value": [
+              292176
+            ]
+          },
+          {
+            "children": [],
+            "id": 1104,
+            "name": "Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",
+            "value": [
+              40689150
+            ]
+          },
+          {
+            "children": [],
+            "id": 1105,
+            "name": "Flour, meal, powder, flakes, granules and pellets of potatoes",
+            "value": [
+              844544
+            ]
+          },
+          {
+            "children": [],
+            "id": 1106,
+            "name": "Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",
+            "value": [
+              33330422
+            ]
+          },
+          {
+            "children": [],
+            "id": 1107,
+            "name": "Malt; whether or not roasted",
+            "value": [
+              165438668
+            ]
+          },
+          {
+            "children": [],
+            "id": 1108,
+            "name": "Starches; inulin",
+            "value": [
+              264192906
+            ]
+          },
+          {
+            "children": [],
+            "id": 1109,
+            "name": "Wheat gluten; whether or not dried",
+            "value": [
+              112460124
+            ]
+          }
+        ],
+        "id": 11,
+        "name": "Products of the milling industry; malt, starches, inulin, wheat gluten",
+        "value": [
+          692379999
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1201,
+            "name": "Soya beans, whether or not broken",
+            "value": [
+              71388852
+            ]
+          },
+          {
+            "children": [],
+            "id": 1202,
+            "name": "Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",
+            "value": [
+              204914269
+            ]
+          },
+          {
+            "children": [],
+            "id": 1203,
+            "name": "Copra",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 1204,
+            "name": "Oil seeds; linseed, whether or not broken",
+            "value": [
+              1378278
+            ]
+          },
+          {
+            "children": [],
+            "id": 1205,
+            "name": "Rape or colza seeds; whether or not broken",
+            "value": [
+              482779
+            ]
+          },
+          {
+            "children": [],
+            "id": 1206,
+            "name": "Sunflower seeds; whether or not broken",
+            "value": [
+              648366227
+            ]
+          },
+          {
+            "children": [],
+            "id": 1207,
+            "name": "Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",
+            "value": [
+              241974299
+            ]
+          },
+          {
+            "children": [],
+            "id": 1208,
+            "name": "Flours and meals of oil seeds or oleaginous fruits; other than those of mustard",
+            "value": [
+              44795954
+            ]
+          },
+          {
+            "children": [],
+            "id": 1209,
+            "name": "Seeds, fruit and spores; of a kind used for sowing",
+            "value": [
+              144258301
+            ]
+          },
+          {
+            "children": [],
+            "id": 1210,
+            "name": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",
+            "value": [
+              325650
+            ]
+          },
+          {
+            "children": [],
+            "id": 1211,
+            "name": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",
+            "value": [
+              932277223
+            ]
+          },
+          {
+            "children": [],
+            "id": 1212,
+            "name": "Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",
+            "value": [
+              581830177
+            ]
+          },
+          {
+            "children": [],
+            "id": 1213,
+            "name": "Cereal straw and husks, unprepared; whether or not chopped, ground, pressed or in the form of pellets",
+            "value": [
+              2957794
+            ]
+          },
+          {
+            "children": [],
+            "id": 1214,
+            "name": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets",
+            "value": [
+              325692
+            ]
+          }
+        ],
+        "id": 12,
+        "name": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",
+        "value": [
+          2875275495
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1301,
+            "name": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)",
+            "value": [
+              8570381
+            ]
+          },
+          {
+            "children": [],
+            "id": 1302,
+            "name": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products",
+            "value": [
+              1627952646
+            ]
+          }
+        ],
+        "id": 13,
+        "name": "Lac; gums, resins and other vegetable saps and extracts",
+        "value": [
+          1636523027
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1401,
+            "name": "Vegetable materials of a kind used primarily for plaiting; (e.g. bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw and lime bark)",
+            "value": [
+              86335773
+            ]
+          },
+          {
+            "children": [],
+            "id": 1404,
+            "name": "Vegetable products not elsewhere specified or included",
+            "value": [
+              70759273
+            ]
+          }
+        ],
+        "id": 14,
+        "name": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
+        "value": [
+          157095046
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1501,
+            "name": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503",
+            "value": [
+              58796
+            ]
+          },
+          {
+            "children": [],
+            "id": 1502,
+            "name": "Fats of bovine animals, sheep or goats, other than those of heading 1503",
+            "value": [
+              1333420
+            ]
+          },
+          {
+            "children": [],
+            "id": 1504,
+            "name": "Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",
+            "value": [
+              150017886
+            ]
+          },
+          {
+            "children": [],
+            "id": 1505,
+            "name": "Wool grease and fatty substances derived therefrom (including lanolin)",
+            "value": [
+              43681574
+            ]
+          },
+          {
+            "children": [],
+            "id": 1506,
+            "name": "Animal fats and oils and their fractions; whether or not refined, but not chemically modified, n.e.c. in chapter 15",
+            "value": [
+              12116547
+            ]
+          },
+          {
+            "children": [],
+            "id": 1507,
+            "name": "Soya-bean oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              102221045
+            ]
+          },
+          {
+            "children": [],
+            "id": 1508,
+            "name": "Ground nut oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              26608771
+            ]
+          },
+          {
+            "children": [],
+            "id": 1509,
+            "name": "Olive oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              472563
+            ]
+          },
+          {
+            "children": [],
+            "id": 1510,
+            "name": "Oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",
+            "value": [
+              2816
+            ]
+          },
+          {
+            "children": [],
+            "id": 1511,
+            "name": "Palm oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              19438025
+            ]
+          },
+          {
+            "children": [],
+            "id": 1512,
+            "name": "Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",
+            "value": [
+              7498764
+            ]
+          },
+          {
+            "children": [],
+            "id": 1513,
+            "name": "Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",
+            "value": [
+              247355
+            ]
+          },
+          {
+            "children": [],
+            "id": 1514,
+            "name": "Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",
+            "value": [
+              3602393
+            ]
+          },
+          {
+            "children": [],
+            "id": 1515,
+            "name": "Fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined; but not chemically modified",
+            "value": [
+              140412690
+            ]
+          },
+          {
+            "children": [],
+            "id": 1516,
+            "name": "Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",
+            "value": [
+              92513856
+            ]
+          },
+          {
+            "children": [],
+            "id": 1517,
+            "name": "Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils of heading no. 1516",
+            "value": [
+              34539167
+            ]
+          },
+          {
+            "children": [],
+            "id": 1518,
+            "name": "Animal or vegetable fats, oils, fractions, modified in any way, excluding heading no. 1516; inedible versions of animal or vegetable fats, oils or fractions of this chapter, n.e.c. or included",
+            "value": [
+              751875620
+            ]
+          },
+          {
+            "children": [],
+            "id": 1520,
+            "name": "Glycerol, crude; glycerol waters and glycerol lyes",
+            "value": [
+              5166
+            ]
+          },
+          {
+            "children": [],
+            "id": 1521,
+            "name": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti; whether or not refined or coloured",
+            "value": [
+              51119367
+            ]
+          },
+          {
+            "children": [],
+            "id": 1522,
+            "name": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes",
+            "value": [
+              1511226
+            ]
+          }
+        ],
+        "id": 15,
+        "name": "Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes",
+        "value": [
+          1439277047
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1601,
+            "name": "Sausages and similar products of meat, meat offal or blood; food preparations based on these products",
+            "value": [
+              84636618
+            ]
+          },
+          {
+            "children": [],
+            "id": 1602,
+            "name": "Prepared or preserved meat, meat offal or blood",
+            "value": [
+              1403601424
+            ]
+          },
+          {
+            "children": [],
+            "id": 1603,
+            "name": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",
+            "value": [
+              52823498
+            ]
+          },
+          {
+            "children": [],
+            "id": 1604,
+            "name": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs",
+            "value": [
+              4155141374
+            ]
+          },
+          {
+            "children": [],
+            "id": 1605,
+            "name": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",
+            "value": [
+              3469471602
+            ]
+          }
+        ],
+        "id": 16,
+        "name": "Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",
+        "value": [
+          9165674516
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1701,
+            "name": "Cane or beet sugar and chemically pure sucrose, in solid form",
+            "value": [
+              72098608
+            ]
+          },
+          {
+            "children": [],
+            "id": 1702,
+            "name": "Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",
+            "value": [
+              761768406
+            ]
+          },
+          {
+            "children": [],
+            "id": 1703,
+            "name": "Molasses; resulting from the extraction or refining of sugar",
+            "value": [
+              157821
+            ]
+          },
+          {
+            "children": [],
+            "id": 1704,
+            "name": "Sugar confectionery (including white chocolate), not containing cocoa",
+            "value": [
+              868848399
+            ]
+          }
+        ],
+        "id": 17,
+        "name": "Sugars and sugar confectionery",
+        "value": [
+          1702873234
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1801,
+            "name": "Cocoa beans; whole or broken, raw or roasted",
+            "value": [
+              6046
+            ]
+          },
+          {
+            "children": [],
+            "id": 1802,
+            "name": "Cocoa; shells, husks, skins and other cocoa waste",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 1803,
+            "name": "Cocoa; paste; whether or not defatted",
+            "value": [
+              5958131
+            ]
+          },
+          {
+            "children": [],
+            "id": 1804,
+            "name": "Cocoa; butter, fat and oil",
+            "value": [
+              29344607
+            ]
+          },
+          {
+            "children": [],
+            "id": 1805,
+            "name": "Cocoa; powder, not containing added sugar or other sweetening matter",
+            "value": [
+              17283596
+            ]
+          },
+          {
+            "children": [],
+            "id": 1806,
+            "name": "Chocolate and other food preparations containing cocoa",
+            "value": [
+              274844416
+            ]
+          }
+        ],
+        "id": 18,
+        "name": "Cocoa and cocoa preparations",
+        "value": [
+          327436796
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1901,
+            "name": "Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",
+            "value": [
+              318106245
+            ]
+          },
+          {
+            "children": [],
+            "id": 1902,
+            "name": "Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",
+            "value": [
+              980191277
+            ]
+          },
+          {
+            "children": [],
+            "id": 1903,
+            "name": "Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",
+            "value": [
+              16151659
+            ]
+          },
+          {
+            "children": [],
+            "id": 1904,
+            "name": "Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",
+            "value": [
+              256709872
+            ]
+          },
+          {
+            "children": [],
+            "id": 1905,
+            "name": "Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",
+            "value": [
+              439172220
+            ]
+          }
+        ],
+        "id": 19,
+        "name": "Preparations of cereals, flour, starch or milk; pastrycooks' products",
+        "value": [
+          2010331273
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2001,
+            "name": "Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",
+            "value": [
+              132608069
+            ]
+          },
+          {
+            "children": [],
+            "id": 2002,
+            "name": "Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid",
+            "value": [
+              679745188
+            ]
+          },
+          {
+            "children": [],
+            "id": 2003,
+            "name": "Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",
+            "value": [
+              984903367
+            ]
+          },
+          {
+            "children": [],
+            "id": 2004,
+            "name": "Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",
+            "value": [
+              376187824
+            ]
+          },
+          {
+            "children": [],
+            "id": 2005,
+            "name": "Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",
+            "value": [
+              2016268958
+            ]
+          },
+          {
+            "children": [],
+            "id": 2006,
+            "name": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",
+            "value": [
+              286133729
+            ]
+          },
+          {
+            "children": [],
+            "id": 2007,
+            "name": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",
+            "value": [
+              83987003
+            ]
+          },
+          {
+            "children": [],
+            "id": 2008,
+            "name": "Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
+            "value": [
+              2522135484
+            ]
+          },
+          {
+            "children": [],
+            "id": 2009,
+            "name": "Fruit juices (including grape must) and vegetable juices, unfermented, not containing added spirit; whether or not containing added sugar or other sweetening matter",
+            "value": [
+              541320614
+            ]
+          }
+        ],
+        "id": 20,
+        "name": "Preparations of vegetables, fruit, nuts or other parts of plants",
+        "value": [
+          7623290236
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2101,
+            "name": "Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",
+            "value": [
+              185600666
+            ]
+          },
+          {
+            "children": [],
+            "id": 2102,
+            "name": "Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",
+            "value": [
+              342388061
+            ]
+          },
+          {
+            "children": [],
+            "id": 2103,
+            "name": "Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",
+            "value": [
+              1578306709
+            ]
+          },
+          {
+            "children": [],
+            "id": 2104,
+            "name": "Soups and broths and preparations therefor; homogenised composite food preparations",
+            "value": [
+              81498909
+            ]
+          },
+          {
+            "children": [],
+            "id": 2105,
+            "name": "Ice cream and other edible ice; whether or not containing cocoa",
+            "value": [
+              48304893
+            ]
+          },
+          {
+            "children": [],
+            "id": 2106,
+            "name": "Food preparations not elsewhere specified or included",
+            "value": [
+              2326644296
+            ]
+          }
+        ],
+        "id": 21,
+        "name": "Miscellaneous edible preparations",
+        "value": [
+          4562743534
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2201,
+            "name": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",
+            "value": [
+              660100606
+            ]
+          },
+          {
+            "children": [],
+            "id": 2202,
+            "name": "Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009",
+            "value": [
+              202785481
+            ]
+          },
+          {
+            "children": [],
+            "id": 2203,
+            "name": "Beer made from malt",
+            "value": [
+              242754048
+            ]
+          },
+          {
+            "children": [],
+            "id": 2204,
+            "name": "Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",
+            "value": [
+              26013294
+            ]
+          },
+          {
+            "children": [],
+            "id": 2205,
+            "name": "Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",
+            "value": [
+              938642
+            ]
+          },
+          {
+            "children": [],
+            "id": 2206,
+            "name": "Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",
+            "value": [
+              31305352
+            ]
+          },
+          {
+            "children": [],
+            "id": 2207,
+            "name": "Ethyl alcohol, undenatured; of an alcoholic strength by volume of 80% vol. or higher; ethyl alcohol and other spirits, denatured, of any strength",
+            "value": [
+              251878162
+            ]
+          },
+          {
+            "children": [],
+            "id": 2208,
+            "name": "Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",
+            "value": [
+              535011380
+            ]
+          },
+          {
+            "children": [],
+            "id": 2209,
+            "name": "Vinegar and substitutes for vinegar obtained from acetic acid",
+            "value": [
+              21923484
+            ]
+          }
+        ],
+        "id": 22,
+        "name": "Beverages, spirits and vinegar",
+        "value": [
+          1972710449
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2301,
+            "name": "Flours, meal and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves",
+            "value": [
+              647559
+            ]
+          },
+          {
+            "children": [],
+            "id": 2302,
+            "name": "Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",
+            "value": [
+              10145479
+            ]
+          },
+          {
+            "children": [],
+            "id": 2303,
+            "name": "Residues of starch manufacture, similar residues; beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets",
+            "value": [
+              325250974
+            ]
+          },
+          {
+            "children": [],
+            "id": 2304,
+            "name": "Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",
+            "value": [
+              390848449
+            ]
+          },
+          {
+            "children": [],
+            "id": 2305,
+            "name": "Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of ground-nut oil",
+            "value": [
+              145125
+            ]
+          },
+          {
+            "children": [],
+            "id": 2306,
+            "name": "Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of vegetable fats or oils other than those of heading no. 2304 or 2305",
+            "value": [
+              37202898
+            ]
+          },
+          {
+            "children": [],
+            "id": 2307,
+            "name": "Wine lees; argol",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 2308,
+            "name": "Vegetable materials and vegetable waste, vegetable residues and bi-products; whether or not in the form of pellets, of a kind used in animal feeding, not elsewhere specified or included",
+            "value": [
+              97910795
+            ]
+          },
+          {
+            "children": [],
+            "id": 2309,
+            "name": "Preparations of a kind used in animal feeding",
+            "value": [
+              2057078270
+            ]
+          }
+        ],
+        "id": 23,
+        "name": "Food industries, residues and wastes thereof; prepared animal fodder",
+        "value": [
+          2919229549
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2401,
+            "name": "Tobacco, unmanufactured; tobacco refuse",
+            "value": [
+              455400561
+            ]
+          },
+          {
+            "children": [],
+            "id": 2402,
+            "name": "Cigars, cheroots, cigarillos and cigarettes; of tobacco or of tobacco substitutes",
+            "value": [
+              260318435
+            ]
+          },
+          {
+            "children": [],
+            "id": 2403,
+            "name": "Manufactured tobacco and manufactured tobacco substitutes n.e.c; homogenised or reconstituted tobacco; tobacco extracts and essences",
+            "value": [
+              63033310
+            ]
+          }
+        ],
+        "id": 24,
+        "name": "Tobacco and manufactured tobacco substitutes",
+        "value": [
+          778752306
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2501,
+            "name": "Salt (including table salt and denatured salt); pure sodium chloride whether or not in aqueous solution; sea water",
+            "value": [
+              98857968
+            ]
+          },
+          {
+            "children": [],
+            "id": 2502,
+            "name": "Iron pyrites; unroasted",
+            "value": [
+              4431945
+            ]
+          },
+          {
+            "children": [],
+            "id": 2503,
+            "name": "Sulphur of all kinds; other than sublimed, precipitated and colloidal sulphur",
+            "value": [
+              664492
+            ]
+          },
+          {
+            "children": [],
+            "id": 2504,
+            "name": "Graphite; natural",
+            "value": [
+              327774770
+            ]
+          },
+          {
+            "children": [],
+            "id": 2505,
+            "name": "Sands of all kinds; natural, whether or not coloured, other than metal-bearing sands of chapter 26",
+            "value": [
+              32986991
+            ]
+          },
+          {
+            "children": [],
+            "id": 2506,
+            "name": "Quartz; (other than natural sands), quartzite, whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape",
+            "value": [
+              144381668
+            ]
+          },
+          {
+            "children": [],
+            "id": 2507,
+            "name": "Kaolin and other kaolinic clays; whether or not calcined",
+            "value": [
+              141485935
+            ]
+          },
+          {
+            "children": [],
+            "id": 2508,
+            "name": "Clays; (not including expanded clays of heading no. 6806), andalusite kyanite and sillimanite, whether or not calcined; mullite; chamotte or dinas earth",
+            "value": [
+              300691318
+            ]
+          },
+          {
+            "children": [],
+            "id": 2509,
+            "name": "Chalk",
+            "value": [
+              1518085
+            ]
+          },
+          {
+            "children": [],
+            "id": 2510,
+            "name": "Natural calcium phosphates; natural aluminium calcium phosphates and phosphatic chalk",
+            "value": [
+              37717094
+            ]
+          },
+          {
+            "children": [],
+            "id": 2511,
+            "name": "Natural barium sulphate (barytes); natural barium carbonate, (witherite) whether or not calcined, other than barium oxide of heading no. 2816",
+            "value": [
+              88255383
+            ]
+          },
+          {
+            "children": [],
+            "id": 2512,
+            "name": "Siliceous fossil meals (e.g. kieselguhr, tripolite and diatomite) and similar siliceous earths; whether or not calcined, of an apparent specific gravity of 1 or less",
+            "value": [
+              8342542
+            ]
+          },
+          {
+            "children": [],
+            "id": 2513,
+            "name": "Pumice stone; emery; natural corundum, natural garnet and other natural abrasives, whether or not heat treated",
+            "value": [
+              61627781
+            ]
+          },
+          {
+            "children": [],
+            "id": 2514,
+            "name": "Slate, whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape",
+            "value": [
+              29227070
+            ]
+          },
+          {
+            "children": [],
+            "id": 2515,
+            "name": "Marble, travertine, ecaussine and other calcareous stone; of an apparent specific gravity of less than 2.5, alabaster, whether cut by sawing etc, into blocks, slabs of a rectangular (square) shape",
+            "value": [
+              14066848
+            ]
+          },
+          {
+            "children": [],
+            "id": 2516,
+            "name": "Granite, porphyry, basalt, sandstone, other monumental and building stone, whether or not roughly trimmed, cut, by sawing etc, into blocks or slabs of a rectangular (including square) shape",
+            "value": [
+              30125429
+            ]
+          },
+          {
+            "children": [],
+            "id": 2517,
+            "name": "Pebbles, gravel, crushed stone for concrete aggregates for road or railway ballast, shingle or flint; macadam of slag, dross etc tarred granules, chippings, powder of stones of heading no. 2515 and 2516",
+            "value": [
+              491733347
+            ]
+          },
+          {
+            "children": [],
+            "id": 2518,
+            "name": "Dolomite, whether or not calcined or sintered; including dolomite roughly trimmed, or merely cut by sawing or otherwise into blocks or slabs of rectangular (including square) shape; dolomite ramming mix",
+            "value": [
+              30526657
+            ]
+          },
+          {
+            "children": [],
+            "id": 2519,
+            "name": "Natural magnesium carbonate (magnesite); fused magnesia; dead-burned (sintered) magnesia, whether or not containing small quantities of other oxides added before sintering; magnesium oxide, pure or not",
+            "value": [
+              580352002
+            ]
+          },
+          {
+            "children": [],
+            "id": 2520,
+            "name": "Gypsum; anhydrite; plasters (consisting of calcined gypsum or calcium sulphate), coloured or not, with or without small quantities of accelerators or retarders",
+            "value": [
+              18474663
+            ]
+          },
+          {
+            "children": [],
+            "id": 2521,
+            "name": "Limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement",
+            "value": [
+              2693997
+            ]
+          },
+          {
+            "children": [],
+            "id": 2522,
+            "name": "Quicklime, slaked lime and hydraulic lime; other than calcium oxide and hydroxide of heading no. 2825",
+            "value": [
+              20152518
+            ]
+          },
+          {
+            "children": [],
+            "id": 2523,
+            "name": "Portland cement, aluminous cement (ciment fondu), slag cement, supersulphate cement and similar hydraulic cements, whether or not coloured or in the form of clinkers",
+            "value": [
+              220487057
+            ]
+          },
+          {
+            "children": [],
+            "id": 2524,
+            "name": "Asbestos",
+            "value": [
+              8682137
+            ]
+          },
+          {
+            "children": [],
+            "id": 2525,
+            "name": "Mica, including splittings; mica waste",
+            "value": [
+              45454097
+            ]
+          },
+          {
+            "children": [],
+            "id": 2526,
+            "name": "Natural steatite; whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape; talc",
+            "value": [
+              132977731
+            ]
+          },
+          {
+            "children": [],
+            "id": 2528,
+            "name": "Natural borates and concentrates thereof (whether or not calcined), but not including borates separated from natural brine; natural boric acid containing not more than 85 % of H3BO3 calculated on the dry weight",
+            "value": [
+              1347368
+            ]
+          },
+          {
+            "children": [],
+            "id": 2529,
+            "name": "Feldspar; leucite; nepheline and nepheline syenite; fluorspar",
+            "value": [
+              79457896
+            ]
+          },
+          {
+            "children": [],
+            "id": 2530,
+            "name": "Mineral substances not elsewhere specified or included",
+            "value": [
+              148761617
+            ]
+          }
+        ],
+        "id": 25,
+        "name": "Salt; sulphur; earths, stone; plastering materials, lime and cement",
+        "value": [
+          3103256406
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2601,
+            "name": "Iron ores and concentrates; including roasted iron pyrites",
+            "value": [
+              1626086669
+            ]
+          },
+          {
+            "children": [],
+            "id": 2602,
+            "name": "Manganese ores and concentrates, including ferruginous manganese ores and concentrates with a manganese content of 20% or more, calculated on the dry weight",
+            "value": [
+              9198878
+            ]
+          },
+          {
+            "children": [],
+            "id": 2603,
+            "name": "Copper ores and concentrates",
+            "value": [
+              1538166
+            ]
+          },
+          {
+            "children": [],
+            "id": 2604,
+            "name": "Nickel ores and concentrates",
+            "value": [
+              12756369
+            ]
+          },
+          {
+            "children": [],
+            "id": 2605,
+            "name": "Cobalt ores and concentrates",
+            "value": [
+              24048
+            ]
+          },
+          {
+            "children": [],
+            "id": 2606,
+            "name": "Aluminium ores and concentrates",
+            "value": [
+              7455380
+            ]
+          },
+          {
+            "children": [],
+            "id": 2607,
+            "name": "Lead ores and concentrates",
+            "value": [
+              4662
+            ]
+          },
+          {
+            "children": [],
+            "id": 2608,
+            "name": "Zinc ores and concentrates",
+            "value": [
+              4578768
+            ]
+          },
+          {
+            "children": [],
+            "id": 2609,
+            "name": "Tin ores and concentrates",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 2610,
+            "name": "Chromium ores and concentrates",
+            "value": [
+              3314989
+            ]
+          },
+          {
+            "children": [],
+            "id": 2611,
+            "name": "Tungsten ores and concentrates",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 2612,
+            "name": "Uranium or thorium ores and concentrates",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 2613,
+            "name": "Molybdenum ores and concentrates",
+            "value": [
+              21793406
+            ]
+          },
+          {
+            "children": [],
+            "id": 2614,
+            "name": "Titanium ores and concentrates",
+            "value": [
+              25710827
+            ]
+          },
+          {
+            "children": [],
+            "id": 2615,
+            "name": "Niobium, tantalum, vanadium or zirconium ores and concentrates",
+            "value": [
+              25240070
+            ]
+          },
+          {
+            "children": [],
+            "id": 2616,
+            "name": "Precious metal ores and concentrates",
+            "value": [
+              6567
+            ]
+          },
+          {
+            "children": [],
+            "id": 2617,
+            "name": "Ores and concentrates; n.e.c. in heading no. 2601",
+            "value": [
+              5809473
+            ]
+          },
+          {
+            "children": [],
+            "id": 2618,
+            "name": "Granulated slag (slag sand) from the manufacture of iron or steel",
+            "value": [
+              1242978
+            ]
+          },
+          {
+            "children": [],
+            "id": 2619,
+            "name": "Slag, dross; (other than granulated slag), scalings and other waste from the manufacture of iron or steel",
+            "value": [
+              3811075
+            ]
+          },
+          {
+            "children": [],
+            "id": 2620,
+            "name": "Slag, ash and residues; (not from the manufacture of iron or steel) containing metals, arsenic or their compounds",
+            "value": [
+              5616789
+            ]
+          },
+          {
+            "children": [],
+            "id": 2621,
+            "name": "Slag and ash n.e.c. in chapter 26; including seaweed ash (kelp) and ash and residues from the incineration of municipal waste",
+            "value": [
+              187637388
+            ]
+          }
+        ],
+        "id": 26,
+        "name": "Ores, slag and ash",
+        "value": [
+          1941826502
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2701,
+            "name": "Coal; briquettes, ovoids and similar solid fuels manufactured from coal",
+            "value": [
+              435277919
+            ]
+          },
+          {
+            "children": [],
+            "id": 2702,
+            "name": "Lignite; whether or not agglomerated, excluding jet",
+            "value": [
+              482841
+            ]
+          },
+          {
+            "children": [],
+            "id": 2703,
+            "name": "Peat; (including peat litter), whether or not agglomerated",
+            "value": [
+              392895
+            ]
+          },
+          {
+            "children": [],
+            "id": 2704,
+            "name": "Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",
+            "value": [
+              772940482
+            ]
+          },
+          {
+            "children": [],
+            "id": 2706,
+            "name": "Tar distilled from coal, from lignite, peat and other mineral tars, whether or not dehydrated or partially distilled; including reconstituted tars",
+            "value": [
+              1407715
+            ]
+          },
+          {
+            "children": [],
+            "id": 2707,
+            "name": "Oils and other products of the distillation of high temperature coal tar; similar products in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents",
+            "value": [
+              19935285
+            ]
+          },
+          {
+            "children": [],
+            "id": 2708,
+            "name": "Pitch and pitch coke; obtained from coal tar or from other mineral tars",
+            "value": [
+              192855908
+            ]
+          },
+          {
+            "children": [],
+            "id": 2709,
+            "name": "Petroleum oils and oils obtained from bituminous minerals; crude",
+            "value": [
+              485280211
+            ]
+          },
+          {
+            "children": [],
+            "id": 2710,
+            "name": "Petroleum oils and oils from bituminous minerals, not crude; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; these being the basic constituents of the preparations; waste oils",
+            "value": [
+              25473642752
+            ]
+          },
+          {
+            "children": [],
+            "id": 2711,
+            "name": "Petroleum gases and other gaseous hydrocarbons",
+            "value": [
+              2034368092
+            ]
+          },
+          {
+            "children": [],
+            "id": 2712,
+            "name": "Petroleum jelly; paraffin wax, micro-crystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, similar products obtained by synthesis, other processes; coloured or not",
+            "value": [
+              517447861
+            ]
+          },
+          {
+            "children": [],
+            "id": 2713,
+            "name": "Petroleum coke, petroleum bitumen; other residues of petroleum oils or oils obtained from bituminous minerals",
+            "value": [
+              670318775
+            ]
+          },
+          {
+            "children": [],
+            "id": 2714,
+            "name": "Bitumen and asphalt, natural; bituminous or oil shale and tar sands; asphaltites and asphaltic rocks",
+            "value": [
+              1396127
+            ]
+          },
+          {
+            "children": [],
+            "id": 2715,
+            "name": "Bituminous mixtures based on natural asphalt; on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (e.g. bituminous mastics, cut-backs)",
+            "value": [
+              4230659
+            ]
+          },
+          {
+            "children": [],
+            "id": 2716,
+            "name": "Electrical energy",
+            "value": [
+              1507950802
+            ]
+          }
+        ],
+        "id": 27,
+        "name": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+        "value": [
+          32117928324
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2801,
+            "name": "Fluorine, chlorine, bromine and iodine",
+            "value": [
+              944530
+            ]
+          },
+          {
+            "children": [],
+            "id": 2802,
+            "name": "Sulphur; sublimed or precipitated, colloidal sulphur",
+            "value": [
+              186400
+            ]
+          },
+          {
+            "children": [],
+            "id": 2803,
+            "name": "Carbon; carbon blacks and other forms of carbon n.e.c.",
+            "value": [
+              576466205
+            ]
+          },
+          {
+            "children": [],
+            "id": 2804,
+            "name": "Hydrogen, rare gases and other non-metals",
+            "value": [
+              1408468027
+            ]
+          },
+          {
+            "children": [],
+            "id": 2805,
+            "name": "Alkali or alkaline-earth metals; rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed; mercury",
+            "value": [
+              210135287
+            ]
+          },
+          {
+            "children": [],
+            "id": 2806,
+            "name": "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid",
+            "value": [
+              5279315
+            ]
+          },
+          {
+            "children": [],
+            "id": 2807,
+            "name": "Sulphuric acid; oleum",
+            "value": [
+              14989775
+            ]
+          },
+          {
+            "children": [],
+            "id": 2808,
+            "name": "Nitric acid; sulphonitric acids",
+            "value": [
+              6383972
+            ]
+          },
+          {
+            "children": [],
+            "id": 2809,
+            "name": "Diphosphorus pentoxide; phosphoric acid and polyphosphoric acids",
+            "value": [
+              389381199
+            ]
+          },
+          {
+            "children": [],
+            "id": 2810,
+            "name": "Oxides of boron; boric acids",
+            "value": [
+              4282427
+            ]
+          },
+          {
+            "children": [],
+            "id": 2811,
+            "name": "Inorganic acids and other inorganic oxygen compounds of non-metals; n.e.c. in heading no. 2806 to 2810",
+            "value": [
+              934634248
+            ]
+          },
+          {
+            "children": [],
+            "id": 2812,
+            "name": "Halides and halide oxides of non-metals",
+            "value": [
+              104183220
+            ]
+          },
+          {
+            "children": [],
+            "id": 2813,
+            "name": "Sulphides of non-metals; commercial phosphorus trisulphide",
+            "value": [
+              16455190
+            ]
+          },
+          {
+            "children": [],
+            "id": 2814,
+            "name": "Ammonia; anhydrous or in aqueous solution",
+            "value": [
+              4170438
+            ]
+          },
+          {
+            "children": [],
+            "id": 2815,
+            "name": "Sodium hydroxide (caustic soda); potassium hydroxide (caustic potash) peroxides of sodium or potassium",
+            "value": [
+              350342639
+            ]
+          },
+          {
+            "children": [],
+            "id": 2816,
+            "name": "Hydroxide and peroxide of magnesium; oxides, hydroxides and peroxides of strontium or barium",
+            "value": [
+              36037255
+            ]
+          },
+          {
+            "children": [],
+            "id": 2817,
+            "name": "Zinc; oxide and peroxide",
+            "value": [
+              43879878
+            ]
+          },
+          {
+            "children": [],
+            "id": 2818,
+            "name": "Aluminium oxide (including artificial corundum); aluminium hydroxide",
+            "value": [
+              929832609
+            ]
+          },
+          {
+            "children": [],
+            "id": 2819,
+            "name": "Chromium oxides and hydroxides",
+            "value": [
+              30840919
+            ]
+          },
+          {
+            "children": [],
+            "id": 2820,
+            "name": "Manganese oxides",
+            "value": [
+              92024767
+            ]
+          },
+          {
+            "children": [],
+            "id": 2821,
+            "name": "Iron oxides and hydroxides; earth colours containing 70% or more by weight of combined iron evaluated as Fe2o3",
+            "value": [
+              291082105
+            ]
+          },
+          {
+            "children": [],
+            "id": 2822,
+            "name": "Cobalt oxides and hydroxides; commercial cobalt oxides",
+            "value": [
+              155157234
+            ]
+          },
+          {
+            "children": [],
+            "id": 2823,
+            "name": "Titanium oxides",
+            "value": [
+              136275816
+            ]
+          },
+          {
+            "children": [],
+            "id": 2824,
+            "name": "Lead oxides; red lead and orange lead",
+            "value": [
+              1760783
+            ]
+          },
+          {
+            "children": [],
+            "id": 2825,
+            "name": "Hydrazine and hydroxylamine and their inorganic salts; other inorganic bases; other metal oxides, hydroxides and peroxides",
+            "value": [
+              1252146402
+            ]
+          },
+          {
+            "children": [],
+            "id": 2826,
+            "name": "Fluorides; fluorosilicates, fluoroaluminates and other complex fluorine salts",
+            "value": [
+              353361480
+            ]
+          },
+          {
+            "children": [],
+            "id": 2827,
+            "name": "Chlorides; chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
+            "value": [
+              614463776
+            ]
+          },
+          {
+            "children": [],
+            "id": 2828,
+            "name": "Hypochlorites; commercial calcium hypochlorite; chlorites; hypobromites",
+            "value": [
+              142659330
+            ]
+          },
+          {
+            "children": [],
+            "id": 2829,
+            "name": "Chlorates and perchlorates; bromates and perbromates; iodates and periodates",
+            "value": [
+              38183886
+            ]
+          },
+          {
+            "children": [],
+            "id": 2830,
+            "name": "Sulphides; polysulphides whether or not chemically defined",
+            "value": [
+              99958630
+            ]
+          },
+          {
+            "children": [],
+            "id": 2831,
+            "name": "Dithionites and sulphoxylates",
+            "value": [
+              60612332
+            ]
+          },
+          {
+            "children": [],
+            "id": 2832,
+            "name": "Sulphites; thiosulphates",
+            "value": [
+              132225980
+            ]
+          },
+          {
+            "children": [],
+            "id": 2833,
+            "name": "Sulphates; alums; peroxosulphates (persulphates)",
+            "value": [
+              967960472
+            ]
+          },
+          {
+            "children": [],
+            "id": 2834,
+            "name": "Nitrites; nitrates",
+            "value": [
+              165380862
+            ]
+          },
+          {
+            "children": [],
+            "id": 2835,
+            "name": "Phosphinates (hypophosphites), phosphonates (phosphites), and phosphates; and polyphosphates, whether or not chemically defined",
+            "value": [
+              994948606
+            ]
+          },
+          {
+            "children": [],
+            "id": 2836,
+            "name": "Carbonates; peroxocarbonates (percarbonates); commercial ammonium carbonate containing ammonium carbamate",
+            "value": [
+              866946325
+            ]
+          },
+          {
+            "children": [],
+            "id": 2837,
+            "name": "Cyanides, cyanide oxides and complex cyanides",
+            "value": [
+              263068200
+            ]
+          },
+          {
+            "children": [],
+            "id": 2839,
+            "name": "Silicates; commercial alkali metal silicates",
+            "value": [
+              118675755
+            ]
+          },
+          {
+            "children": [],
+            "id": 2840,
+            "name": "Borates; peroxoborates (perborates)",
+            "value": [
+              27394690
+            ]
+          },
+          {
+            "children": [],
+            "id": 2841,
+            "name": "Salts of oxometallic or peroxometallic acids",
+            "value": [
+              416888041
+            ]
+          },
+          {
+            "children": [],
+            "id": 2842,
+            "name": "Salts of inorganic acids or peroxoacids, n.e.c. including aluminosilicates whether or not chemically defined, but excluding azides",
+            "value": [
+              535648225
+            ]
+          },
+          {
+            "children": [],
+            "id": 2843,
+            "name": "Colloidal precious metals; inorganic or organic compounds of precious metals, whether or not chemically defined; amalgams of precious metals",
+            "value": [
+              164455060
+            ]
+          },
+          {
+            "children": [],
+            "id": 2844,
+            "name": "Radioactive chemical elements and radioactive isotopes (including the fissile or fertile chemical elements and isotopes); and their compounds; mixtures and residues containing these products",
+            "value": [
+              184447958
+            ]
+          },
+          {
+            "children": [],
+            "id": 2845,
+            "name": "Isotopes other than those of heading no. 2844; compounds, inorganic or organic, of such isotopes, whether or not chemically defined",
+            "value": [
+              16003309
+            ]
+          },
+          {
+            "children": [],
+            "id": 2846,
+            "name": "Compounds, inorganic or organic, of rare-earth metals; of yttrium or of scandium or of mixtures of these metals",
+            "value": [
+              263110003
+            ]
+          },
+          {
+            "children": [],
+            "id": 2847,
+            "name": "Hydrogen peroxide; whether or not solidified with urea",
+            "value": [
+              6530003
+            ]
+          },
+          {
+            "children": [],
+            "id": 2849,
+            "name": "Carbides, whether or not chemically defined",
+            "value": [
+              431611548
+            ]
+          },
+          {
+            "children": [],
+            "id": 2850,
+            "name": "Hydrides, nitrides, azides, silicides and borides, whether or not chemically defined, other than compounds which are also carbides of heading no. 2849",
+            "value": [
+              113271099
+            ]
+          },
+          {
+            "children": [],
+            "id": 2852,
+            "name": "Inorganic or organic compounds of mercury, excluding amalgams, whether or not chemically defined",
+            "value": [
+              26091
+            ]
+          },
+          {
+            "children": [],
+            "id": 2853,
+            "name": "Phosphides, chemically defined or not, not ferrophosphorus; other inorganic compounds n.e.c. (including distilled, conductivity water and water of like purity); liquid air, rare gases removed or not; compressed air; amalgams, not precious metal amalgams",
+            "value": [
+              1234446041
+            ]
+          }
+        ],
+        "id": 28,
+        "name": "Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",
+        "value": [
+          15207618342
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2901,
+            "name": "Acyclic hydrocarbons",
+            "value": [
+              164794982
+            ]
+          },
+          {
+            "children": [],
+            "id": 2902,
+            "name": "Cyclic hydrocarbons",
+            "value": [
+              319556341
+            ]
+          },
+          {
+            "children": [],
+            "id": 2903,
+            "name": "Halogenated derivatives of hydrocarbons",
+            "value": [
+              1712024758
+            ]
+          },
+          {
+            "children": [],
+            "id": 2904,
+            "name": "Sulphonated, nitrated or nitrosated derivatives of hydrocarbons; whether or not halogenated",
+            "value": [
+              254126685
+            ]
+          },
+          {
+            "children": [],
+            "id": 2905,
+            "name": "Acyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              1414528217
+            ]
+          },
+          {
+            "children": [],
+            "id": 2906,
+            "name": "Alcohols; cyclic, and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              544650279
+            ]
+          },
+          {
+            "children": [],
+            "id": 2907,
+            "name": "Phenols; monophenols, polyphenols, and phenol-alcohols",
+            "value": [
+              352219664
+            ]
+          },
+          {
+            "children": [],
+            "id": 2908,
+            "name": "Phenols or phenol-alcohols; halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              99583193
+            ]
+          },
+          {
+            "children": [],
+            "id": 2909,
+            "name": "Ethers, ether-alcohols, ether-phenols, ether-alcohol-phenols, alcohol peroxides, ether peroxides, ketone peroxides (chemically defined or not); halogenated, sulphonated, nitrated, nitrosated derivative",
+            "value": [
+              877544158
+            ]
+          },
+          {
+            "children": [],
+            "id": 2910,
+            "name": "Epoxides, epoxyalcohols, epoxyphenols and epoxyethers; with a three-membered ring and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              174767346
+            ]
+          },
+          {
+            "children": [],
+            "id": 2911,
+            "name": "Acetals and hemiacetals; whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrostated derivatives",
+            "value": [
+              11374483
+            ]
+          },
+          {
+            "children": [],
+            "id": 2912,
+            "name": "Aldehydes, whether or not with other oxygen function; cyclic polymers of aldehydes; paraformaldehyde",
+            "value": [
+              501418387
+            ]
+          },
+          {
+            "children": [],
+            "id": 2913,
+            "name": "Aldehydes; halogenated, sulphonated, nitrated or nitrosated derivatives of products of heading no. 2912",
+            "value": [
+              44064382
+            ]
+          },
+          {
+            "children": [],
+            "id": 2914,
+            "name": "Ketones and quinones; whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrostated derivatives",
+            "value": [
+              1387370399
+            ]
+          },
+          {
+            "children": [],
+            "id": 2915,
+            "name": "Acids; saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              1596430051
+            ]
+          },
+          {
+            "children": [],
+            "id": 2916,
+            "name": "Acids; unsaturated acyclic monocarboxylic, cyclic monocarboxylic, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              1622999352
+            ]
+          },
+          {
+            "children": [],
+            "id": 2917,
+            "name": "Acids; polycarboxylic acids, their anhydrides, halides, peroxides and peroxy-acids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              1662916557
+            ]
+          },
+          {
+            "children": [],
+            "id": 2918,
+            "name": "Acids; carboxylic acid with additional oxygen function and their anhydrides, halides, peroxides, peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              2499066146
+            ]
+          },
+          {
+            "children": [],
+            "id": 2919,
+            "name": "Esters; phosphoric, and their salts, including lactophosphates, their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              447961504
+            ]
+          },
+          {
+            "children": [],
+            "id": 2920,
+            "name": "Esters of other inorganic acids of non-metals (other than of hydrogen halides) and their salts, their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              354436473
+            ]
+          },
+          {
+            "children": [],
+            "id": 2921,
+            "name": "Amine-function compounds",
+            "value": [
+              1906631605
+            ]
+          },
+          {
+            "children": [],
+            "id": 2922,
+            "name": "Oxygen-function amino-compounds",
+            "value": [
+              4167641971
+            ]
+          },
+          {
+            "children": [],
+            "id": 2923,
+            "name": "Quaternary ammonium salts and hydroxides; lecithins and other phosphoaminolipids, whether or not chemically defined",
+            "value": [
+              396039863
+            ]
+          },
+          {
+            "children": [],
+            "id": 2924,
+            "name": "Carboxyamide-function compounds; amide-function compounds of carbonic acid",
+            "value": [
+              1937341437
+            ]
+          }
+        ],
+        "id": 29,
+        "name": "Organic chemicals",
+        "value": [
+          56963172277
+        ]
+      }
+    ]
+  },
+  "Import": {
+    "total": 673279720559,
+    "tree": [
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 101,
+            "name": "Horses, asses, mules and hinnies; live",
+            "value": [
+              8275258
+            ]
+          },
+          {
+            "children": [],
+            "id": 102,
+            "name": "Bovine animals; live",
+            "value": [
+              487158201
+            ]
+          },
+          {
+            "children": [],
+            "id": 103,
+            "name": "Swine; live",
+            "value": [
+              66515789
+            ]
+          },
+          {
+            "children": [],
+            "id": 104,
+            "name": "Sheep and goats; live",
+            "value": [
+              16784691
+            ]
+          },
+          {
+            "children": [],
+            "id": 105,
+            "name": "Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",
+            "value": [
+              35720694
+            ]
+          },
+          {
+            "children": [],
+            "id": 106,
+            "name": "Animals; live, n.e.c. in chapter 01",
+            "value": [
+              20318993
+            ]
+          }
+        ],
+        "id": 1,
+        "name": "Animals; live",
+        "value": [
+          634773626
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 201,
+            "name": "Meat of bovine animals; fresh or chilled",
+            "value": [
+              407641386
+            ]
+          },
+          {
+            "children": [],
+            "id": 202,
+            "name": "Meat of bovine animals; frozen",
+            "value": [
+              9771458657
+            ]
+          },
+          {
+            "children": [],
+            "id": 203,
+            "name": "Meat of swine; fresh, chilled or frozen",
+            "value": [
+              11881216394
+            ]
+          },
+          {
+            "children": [],
+            "id": 204,
+            "name": "Meat of sheep or goats; fresh, chilled or frozen",
+            "value": [
+              1744289183
+            ]
+          },
+          {
+            "children": [],
+            "id": 205,
+            "name": "Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",
+            "value": [
+              35593078
+            ]
+          },
+          {
+            "children": [],
+            "id": 206,
+            "name": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",
+            "value": [
+              2763505012
+            ]
+          },
+          {
+            "children": [],
+            "id": 207,
+            "name": "Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",
+            "value": [
+              3500983489
+            ]
+          },
+          {
+            "children": [],
+            "id": 208,
+            "name": "Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",
+            "value": [
+              6866068
+            ]
+          },
+          {
+            "children": [],
+            "id": 209,
+            "name": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",
+            "value": [
+              138896452
+            ]
+          },
+          {
+            "children": [],
+            "id": 210,
+            "name": "Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",
+            "value": [
+              21351411
+            ]
+          }
+        ],
+        "id": 2,
+        "name": "Meat and edible meat offal",
+        "value": [
+          30271801130
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 301,
+            "name": "Fish; live",
+            "value": [
+              135627301
+            ]
+          },
+          {
+            "children": [],
+            "id": 302,
+            "name": "Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",
+            "value": [
+              417996122
+            ]
+          },
+          {
+            "children": [],
+            "id": 303,
+            "name": "Fish; frozen, excluding fish fillets and other fish meat of heading 0304",
+            "value": [
+              3925431690
+            ]
+          },
+          {
+            "children": [],
+            "id": 304,
+            "name": "Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",
+            "value": [
+              527107768
+            ]
+          },
+          {
+            "children": [],
+            "id": 305,
+            "name": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption",
+            "value": [
+              172208774
+            ]
+          },
+          {
+            "children": [],
+            "id": 306,
+            "name": "Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine; edible flours, meals, pellets",
+            "value": [
+              5908141102
+            ]
+          },
+          {
+            "children": [],
+            "id": 307,
+            "name": "Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, cooked or not before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption",
+            "value": [
+              1184572335
+            ]
+          },
+          {
+            "children": [],
+            "id": 308,
+            "name": "Aquatic invertebrates, other than crustaceans and molluscs; live, fresh, chilled, frozen, dried, salted or in brine, smoked, whether or not cooked before or during the smoking process; flours, meals, and pellets, fit for human consumption",
+            "value": [
+              101280588
+            ]
+          }
+        ],
+        "id": 3,
+        "name": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+        "value": [
+          12372365680
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 401,
+            "name": "Milk and cream; not concentrated, not containing added sugar or other sweetening matter",
+            "value": [
+              1308780662
+            ]
+          },
+          {
+            "children": [],
+            "id": 402,
+            "name": "Milk and cream; concentrated or containing added sugar or other sweetening matter",
+            "value": [
+              3331360675
+            ]
+          },
+          {
+            "children": [],
+            "id": 403,
+            "name": "Buttermilk, curdled milk and cream, yoghurt, kephir, fermented or acidified milk or cream, whether or not concentrated, containing added sugar, sweetening matter, flavoured or added fruit or cocoa",
+            "value": [
+              57883893
+            ]
+          },
+          {
+            "children": [],
+            "id": 404,
+            "name": "Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",
+            "value": [
+              817798019
+            ]
+          },
+          {
+            "children": [],
+            "id": 405,
+            "name": "Butter and other fats and oils derived from milk; dairy spreads",
+            "value": [
+              546182718
+            ]
+          },
+          {
+            "children": [],
+            "id": 406,
+            "name": "Cheese and curd",
+            "value": [
+              590341458
+            ]
+          },
+          {
+            "children": [],
+            "id": 407,
+            "name": "Birds' eggs, in shell; fresh, preserved or cooked",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 408,
+            "name": "Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",
+            "value": [
+              301485
+            ]
+          },
+          {
+            "children": [],
+            "id": 409,
+            "name": "Honey; natural",
+            "value": [
+              89230556
+            ]
+          },
+          {
+            "children": [],
+            "id": 410,
+            "name": "Edible products of animal origin; not elsewhere specified or included",
+            "value": [
+              546863458
+            ]
+          }
+        ],
+        "id": 4,
+        "name": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
+        "value": [
+          7288742924
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 501,
+            "name": "Human hair; unworked, whether or not washed or scoured; waste of human hair",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 502,
+            "name": "Pigs', hogs' or boars' bristles and hair; and waste thereof",
+            "value": [
+              28981
+            ]
+          },
+          {
+            "children": [],
+            "id": 504,
+            "name": "Guts, bladders and stomachs of animals (other than fish); whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked",
+            "value": [
+              461343548
+            ]
+          },
+          {
+            "children": [],
+            "id": 505,
+            "name": "Skins and other parts of birds with feathers, down; feathers, down and parts thereof; not further worked than cleaned, disinfected, treated for preservation; powder, waste and parts of feathers",
+            "value": [
+              127836561
+            ]
+          },
+          {
+            "children": [],
+            "id": 506,
+            "name": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products",
+            "value": [
+              21206017
+            ]
+          },
+          {
+            "children": [],
+            "id": 507,
+            "name": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks unworked or simply prepared, not cut to shape; waste and powder of these products",
+            "value": [
+              35990248
+            ]
+          },
+          {
+            "children": [],
+            "id": 508,
+            "name": "Coral and similar materials, unworked or simply prepared, shells of molluscs, crustaceans or echinoderms and cuttle-bone, not cut to shape powder and waste thereof",
+            "value": [
+              13430204
+            ]
+          },
+          {
+            "children": [],
+            "id": 510,
+            "name": "Ambergris, castoreum, civet and musk; cantharides; bile, dried or not glands, other animal products used in preparation of pharmaceutical products, fresh chilled, frozen or otherwise provisionally preserved",
+            "value": [
+              2173923
+            ]
+          },
+          {
+            "children": [],
+            "id": 511,
+            "name": "Animal products not elsewhere specified or included; dead animals of chapter 1 or 3, unfit for human consumption",
+            "value": [
+              101707394
+            ]
+          }
+        ],
+        "id": 5,
+        "name": "Animal originated products; not elsewhere specified or included",
+        "value": [
+          763716876
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 601,
+            "name": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes; dormant, in growth or in flower; chicory plants and roots other than roots of heading no. 1212",
+            "value": [
+              94273222
+            ]
+          },
+          {
+            "children": [],
+            "id": 602,
+            "name": "Plants, live; n.e.c. in heading no. 0601, (including their roots) cuttings and slips; mushroom spawn",
+            "value": [
+              95222609
+            ]
+          },
+          {
+            "children": [],
+            "id": 603,
+            "name": "Flowers; cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared",
+            "value": [
+              45110047
+            ]
+          },
+          {
+            "children": [],
+            "id": 604,
+            "name": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens; suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated etc.",
+            "value": [
+              9159659
+            ]
+          }
+        ],
+        "id": 6,
+        "name": "Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",
+        "value": [
+          243765537
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 701,
+            "name": "Potatoes; fresh or chilled",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 702,
+            "name": "Tomatoes; fresh or chilled",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 703,
+            "name": "Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",
+            "value": [
+              43298
+            ]
+          },
+          {
+            "children": [],
+            "id": 704,
+            "name": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",
+            "value": [
+              23129
+            ]
+          },
+          {
+            "children": [],
+            "id": 705,
+            "name": "Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled",
+            "value": [
+              859
+            ]
+          },
+          {
+            "children": [],
+            "id": 706,
+            "name": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",
+            "value": [
+              49157
+            ]
+          },
+          {
+            "children": [],
+            "id": 707,
+            "name": "Cucumbers and gherkins; fresh or chilled",
+            "value": [
+              4434
+            ]
+          },
+          {
+            "children": [],
+            "id": 708,
+            "name": "Leguminous vegetables; shelled or unshelled, fresh or chilled",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 709,
+            "name": "Vegetables; n.e.c. in chapter 07, fresh or chilled",
+            "value": [
+              50191123
+            ]
+          },
+          {
+            "children": [],
+            "id": 710,
+            "name": "Vegetables (uncooked or cooked by steaming or boiling in water); frozen",
+            "value": [
+              36716012
+            ]
+          },
+          {
+            "children": [],
+            "id": 711,
+            "name": "Vegetables provisionally preserved; (e.g. by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",
+            "value": [
+              2517302
+            ]
+          },
+          {
+            "children": [],
+            "id": 712,
+            "name": "Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",
+            "value": [
+              11988462
+            ]
+          },
+          {
+            "children": [],
+            "id": 713,
+            "name": "Vegetables, leguminous; shelled, whether or not skinned or split, dried",
+            "value": [
+              1070461069
+            ]
+          },
+          {
+            "children": [],
+            "id": 714,
+            "name": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",
+            "value": [
+              784597691
+            ]
+          }
+        ],
+        "id": 7,
+        "name": "Vegetables and certain roots and tubers; edible",
+        "value": [
+          1956592536
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 801,
+            "name": "Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",
+            "value": [
+              490279959
+            ]
+          },
+          {
+            "children": [],
+            "id": 802,
+            "name": "Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",
+            "value": [
+              1574949889
+            ]
+          },
+          {
+            "children": [],
+            "id": 803,
+            "name": "Bananas, including plantains; fresh or dried",
+            "value": [
+              933264367
+            ]
+          },
+          {
+            "children": [],
+            "id": 804,
+            "name": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",
+            "value": [
+              1007635486
+            ]
+          },
+          {
+            "children": [],
+            "id": 805,
+            "name": "Citrus fruit; fresh or dried",
+            "value": [
+              491602167
+            ]
+          },
+          {
+            "children": [],
+            "id": 806,
+            "name": "Grapes; fresh or dried",
+            "value": [
+              676292906
+            ]
+          },
+          {
+            "children": [],
+            "id": 807,
+            "name": "Melons (including watermelons) and papaws (papayas); fresh",
+            "value": [
+              17969966
+            ]
+          },
+          {
+            "children": [],
+            "id": 808,
+            "name": "Apples, pears and quinces; fresh",
+            "value": [
+              156742364
+            ]
+          },
+          {
+            "children": [],
+            "id": 809,
+            "name": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",
+            "value": [
+              1891340038
+            ]
+          },
+          {
+            "children": [],
+            "id": 810,
+            "name": "Fruit, fresh; n.e.c. in chapter 08",
+            "value": [
+              4113920582
+            ]
+          },
+          {
+            "children": [],
+            "id": 811,
+            "name": "Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",
+            "value": [
+              428444050
+            ]
+          },
+          {
+            "children": [],
+            "id": 812,
+            "name": "Fruit and nuts provisionally preserved; e.g. by sulphur dioxide gas, brine, in sulphur water or in other preservative solutions, but unsuitable in that state for immediate consumption",
+            "value": [
+              22131152
+            ]
+          },
+          {
+            "children": [],
+            "id": 813,
+            "name": "Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",
+            "value": [
+              210949579
+            ]
+          },
+          {
+            "children": [],
+            "id": 814,
+            "name": "Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",
+            "value": [
+              491112
+            ]
+          }
+        ],
+        "id": 8,
+        "name": "Fruit and nuts, edible; peel of citrus fruit or melons",
+        "value": [
+          12016013617
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 901,
+            "name": "Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",
+            "value": [
+              313048551
+            ]
+          },
+          {
+            "children": [],
+            "id": 902,
+            "name": "Tea",
+            "value": [
+              180014042
+            ]
+          },
+          {
+            "children": [],
+            "id": 903,
+            "name": "Mate",
+            "value": [
+              484731
+            ]
+          },
+          {
+            "children": [],
+            "id": 904,
+            "name": "Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta",
+            "value": [
+              452869914
+            ]
+          },
+          {
+            "children": [],
+            "id": 905,
+            "name": "Vanilla",
+            "value": [
+              1465624
+            ]
+          },
+          {
+            "children": [],
+            "id": 906,
+            "name": "Cinnamon and cinnamon-tree flowers",
+            "value": [
+              3027178
+            ]
+          },
+          {
+            "children": [],
+            "id": 907,
+            "name": "Cloves (whole fruit, cloves and stems)",
+            "value": [
+              11083892
+            ]
+          },
+          {
+            "children": [],
+            "id": 908,
+            "name": "Nutmeg, mace and cardamoms",
+            "value": [
+              84591772
+            ]
+          },
+          {
+            "children": [],
+            "id": 909,
+            "name": "Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",
+            "value": [
+              154335548
+            ]
+          },
+          {
+            "children": [],
+            "id": 910,
+            "name": "Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",
+            "value": [
+              36890679
+            ]
+          }
+        ],
+        "id": 9,
+        "name": "Coffee, tea, mate and spices",
+        "value": [
+          1237811931
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1001,
+            "name": "Wheat and meslin",
+            "value": [
+              2260233422
+            ]
+          },
+          {
+            "children": [],
+            "id": 1003,
+            "name": "Barley",
+            "value": [
+              1879890851
+            ]
+          },
+          {
+            "children": [],
+            "id": 1004,
+            "name": "Oats",
+            "value": [
+              68023944
+            ]
+          },
+          {
+            "children": [],
+            "id": 1005,
+            "name": "Maize (corn)",
+            "value": [
+              2490317150
+            ]
+          },
+          {
+            "children": [],
+            "id": 1006,
+            "name": "Rice",
+            "value": [
+              1459293943
+            ]
+          },
+          {
+            "children": [],
+            "id": 1007,
+            "name": "Grain sorghum",
+            "value": [
+              1156071581
+            ]
+          },
+          {
+            "children": [],
+            "id": 1008,
+            "name": "Buckwheat, millet and canary seeds; other cereals",
+            "value": [
+              10704991
+            ]
+          }
+        ],
+        "id": 10,
+        "name": "Cereals",
+        "value": [
+          9324535882
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1101,
+            "name": "Wheat or meslin flour",
+            "value": [
+              85440857
+            ]
+          },
+          {
+            "children": [],
+            "id": 1102,
+            "name": "Cereal flours; other than of wheat or meslin",
+            "value": [
+              37785847
+            ]
+          },
+          {
+            "children": [],
+            "id": 1103,
+            "name": "Cereal groats; meal and pellets",
+            "value": [
+              1291905
+            ]
+          },
+          {
+            "children": [],
+            "id": 1104,
+            "name": "Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",
+            "value": [
+              66788480
+            ]
+          },
+          {
+            "children": [],
+            "id": 1105,
+            "name": "Flour, meal, powder, flakes, granules and pellets of potatoes",
+            "value": [
+              29376340
+            ]
+          },
+          {
+            "children": [],
+            "id": 1106,
+            "name": "Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",
+            "value": [
+              9749307
+            ]
+          },
+          {
+            "children": [],
+            "id": 1107,
+            "name": "Malt; whether or not roasted",
+            "value": [
+              8188816
+            ]
+          },
+          {
+            "children": [],
+            "id": 1108,
+            "name": "Starches; inulin",
+            "value": [
+              1199148876
+            ]
+          },
+          {
+            "children": [],
+            "id": 1109,
+            "name": "Wheat gluten; whether or not dried",
+            "value": [
+              2016170
+            ]
+          }
+        ],
+        "id": 11,
+        "name": "Products of the milling industry; malt, starches, inulin, wheat gluten",
+        "value": [
+          1439786598
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1201,
+            "name": "Soya beans, whether or not broken",
+            "value": [
+              39528004360
+            ]
+          },
+          {
+            "children": [],
+            "id": 1202,
+            "name": "Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",
+            "value": [
+              835616990
+            ]
+          },
+          {
+            "children": [],
+            "id": 1203,
+            "name": "Copra",
+            "value": [
+              8136
+            ]
+          },
+          {
+            "children": [],
+            "id": 1204,
+            "name": "Oil seeds; linseed, whether or not broken",
+            "value": [
+              171186121
+            ]
+          },
+          {
+            "children": [],
+            "id": 1205,
+            "name": "Rape or colza seeds; whether or not broken",
+            "value": [
+              1362205002
+            ]
+          },
+          {
+            "children": [],
+            "id": 1206,
+            "name": "Sunflower seeds; whether or not broken",
+            "value": [
+              79655145
+            ]
+          },
+          {
+            "children": [],
+            "id": 1207,
+            "name": "Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",
+            "value": [
+              1317527708
+            ]
+          },
+          {
+            "children": [],
+            "id": 1208,
+            "name": "Flours and meals of oil seeds or oleaginous fruits; other than those of mustard",
+            "value": [
+              59964
+            ]
+          },
+          {
+            "children": [],
+            "id": 1209,
+            "name": "Seeds, fruit and spores; of a kind used for sowing",
+            "value": [
+              424320125
+            ]
+          },
+          {
+            "children": [],
+            "id": 1210,
+            "name": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",
+            "value": [
+              48452278
+            ]
+          },
+          {
+            "children": [],
+            "id": 1211,
+            "name": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",
+            "value": [
+              149602174
+            ]
+          },
+          {
+            "children": [],
+            "id": 1212,
+            "name": "Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",
+            "value": [
+              425346690
+            ]
+          },
+          {
+            "children": [],
+            "id": 1213,
+            "name": "Cereal straw and husks, unprepared; whether or not chopped, ground, pressed or in the form of pellets",
+            "value": [
+              5930023
+            ]
+          },
+          {
+            "children": [],
+            "id": 1214,
+            "name": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets",
+            "value": [
+              614949333
+            ]
+          }
+        ],
+        "id": 12,
+        "name": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",
+        "value": [
+          44962864049
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1301,
+            "name": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)",
+            "value": [
+              62616172
+            ]
+          },
+          {
+            "children": [],
+            "id": 1302,
+            "name": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products",
+            "value": [
+              308182475
+            ]
+          }
+        ],
+        "id": 13,
+        "name": "Lac; gums, resins and other vegetable saps and extracts",
+        "value": [
+          370798647
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1401,
+            "name": "Vegetable materials of a kind used primarily for plaiting; (e.g. bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw and lime bark)",
+            "value": [
+              18142444
+            ]
+          },
+          {
+            "children": [],
+            "id": 1404,
+            "name": "Vegetable products not elsewhere specified or included",
+            "value": [
+              110976479
+            ]
+          }
+        ],
+        "id": 14,
+        "name": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
+        "value": [
+          129118923
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1501,
+            "name": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503",
+            "value": [
+              1324310
+            ]
+          },
+          {
+            "children": [],
+            "id": 1502,
+            "name": "Fats of bovine animals, sheep or goats, other than those of heading 1503",
+            "value": [
+              81962870
+            ]
+          },
+          {
+            "children": [],
+            "id": 1504,
+            "name": "Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",
+            "value": [
+              258810872
+            ]
+          },
+          {
+            "children": [],
+            "id": 1505,
+            "name": "Wool grease and fatty substances derived therefrom (including lanolin)",
+            "value": [
+              404329
+            ]
+          },
+          {
+            "children": [],
+            "id": 1506,
+            "name": "Animal fats and oils and their fractions; whether or not refined, but not chemically modified, n.e.c. in chapter 15",
+            "value": [
+              2690550
+            ]
+          },
+          {
+            "children": [],
+            "id": 1507,
+            "name": "Soya-bean oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              725372258
+            ]
+          },
+          {
+            "children": [],
+            "id": 1508,
+            "name": "Ground nut oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              432567919
+            ]
+          },
+          {
+            "children": [],
+            "id": 1509,
+            "name": "Olive oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              156767988
+            ]
+          },
+          {
+            "children": [],
+            "id": 1510,
+            "name": "Oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",
+            "value": [
+              10627291
+            ]
+          },
+          {
+            "children": [],
+            "id": 1511,
+            "name": "Palm oil and its fractions; whether or not refined, but not chemically modified",
+            "value": [
+              4123221577
+            ]
+          },
+          {
+            "children": [],
+            "id": 1512,
+            "name": "Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",
+            "value": [
+              1565526261
+            ]
+          },
+          {
+            "children": [],
+            "id": 1513,
+            "name": "Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",
+            "value": [
+              728012723
+            ]
+          },
+          {
+            "children": [],
+            "id": 1514,
+            "name": "Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",
+            "value": [
+              1640901161
+            ]
+          },
+          {
+            "children": [],
+            "id": 1515,
+            "name": "Fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined; but not chemically modified",
+            "value": [
+              545810849
+            ]
+          },
+          {
+            "children": [],
+            "id": 1516,
+            "name": "Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",
+            "value": [
+              151446160
+            ]
+          },
+          {
+            "children": [],
+            "id": 1517,
+            "name": "Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils of heading no. 1516",
+            "value": [
+              477200754
+            ]
+          },
+          {
+            "children": [],
+            "id": 1518,
+            "name": "Animal or vegetable fats, oils, fractions, modified in any way, excluding heading no. 1516; inedible versions of animal or vegetable fats, oils or fractions of this chapter, n.e.c. or included",
+            "value": [
+              61426460
+            ]
+          },
+          {
+            "children": [],
+            "id": 1520,
+            "name": "Glycerol, crude; glycerol waters and glycerol lyes",
+            "value": [
+              268428025
+            ]
+          },
+          {
+            "children": [],
+            "id": 1521,
+            "name": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti; whether or not refined or coloured",
+            "value": [
+              21665815
+            ]
+          },
+          {
+            "children": [],
+            "id": 1522,
+            "name": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes",
+            "value": []
+          }
+        ],
+        "id": 15,
+        "name": "Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes",
+        "value": [
+          11254168172
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1601,
+            "name": "Sausages and similar products of meat, meat offal or blood; food preparations based on these products",
+            "value": [
+              3978673
+            ]
+          },
+          {
+            "children": [],
+            "id": 1602,
+            "name": "Prepared or preserved meat, meat offal or blood",
+            "value": [
+              56360508
+            ]
+          },
+          {
+            "children": [],
+            "id": 1603,
+            "name": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",
+            "value": [
+              578176
+            ]
+          },
+          {
+            "children": [],
+            "id": 1604,
+            "name": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs",
+            "value": [
+              163386358
+            ]
+          },
+          {
+            "children": [],
+            "id": 1605,
+            "name": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",
+            "value": [
+              128417267
+            ]
+          }
+        ],
+        "id": 16,
+        "name": "Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",
+        "value": [
+          352720982
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1701,
+            "name": "Cane or beet sugar and chemically pure sucrose, in solid form",
+            "value": [
+              1801965116
+            ]
+          },
+          {
+            "children": [],
+            "id": 1702,
+            "name": "Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",
+            "value": [
+              567098052
+            ]
+          },
+          {
+            "children": [],
+            "id": 1703,
+            "name": "Molasses; resulting from the extraction or refining of sugar",
+            "value": [
+              10
+            ]
+          },
+          {
+            "children": [],
+            "id": 1704,
+            "name": "Sugar confectionery (including white chocolate), not containing cocoa",
+            "value": [
+              267426615
+            ]
+          }
+        ],
+        "id": 17,
+        "name": "Sugars and sugar confectionery",
+        "value": [
+          2636489793
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1801,
+            "name": "Cocoa beans; whole or broken, raw or roasted",
+            "value": [
+              52968298
+            ]
+          },
+          {
+            "children": [],
+            "id": 1802,
+            "name": "Cocoa; shells, husks, skins and other cocoa waste",
+            "value": [
+              552705
+            ]
+          },
+          {
+            "children": [],
+            "id": 1803,
+            "name": "Cocoa; paste; whether or not defatted",
+            "value": [
+              70899328
+            ]
+          },
+          {
+            "children": [],
+            "id": 1804,
+            "name": "Cocoa; butter, fat and oil",
+            "value": [
+              76015433
+            ]
+          },
+          {
+            "children": [],
+            "id": 1805,
+            "name": "Cocoa; powder, not containing added sugar or other sweetening matter",
+            "value": [
+              101314560
+            ]
+          },
+          {
+            "children": [],
+            "id": 1806,
+            "name": "Chocolate and other food preparations containing cocoa",
+            "value": [
+              473845728
+            ]
+          }
+        ],
+        "id": 18,
+        "name": "Cocoa and cocoa preparations",
+        "value": [
+          775596052
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 1901,
+            "name": "Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",
+            "value": [
+              5898383656
+            ]
+          },
+          {
+            "children": [],
+            "id": 1902,
+            "name": "Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",
+            "value": [
+              341504554
+            ]
+          },
+          {
+            "children": [],
+            "id": 1903,
+            "name": "Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",
+            "value": [
+              10439980
+            ]
+          },
+          {
+            "children": [],
+            "id": 1904,
+            "name": "Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",
+            "value": [
+              260660249
+            ]
+          },
+          {
+            "children": [],
+            "id": 1905,
+            "name": "Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",
+            "value": [
+              819622822
+            ]
+          }
+        ],
+        "id": 19,
+        "name": "Preparations of cereals, flour, starch or milk; pastrycooks' products",
+        "value": [
+          7330611261
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2001,
+            "name": "Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",
+            "value": [
+              11821950
+            ]
+          },
+          {
+            "children": [],
+            "id": 2002,
+            "name": "Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid",
+            "value": [
+              11690965
+            ]
+          },
+          {
+            "children": [],
+            "id": 2003,
+            "name": "Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",
+            "value": [
+              3694539
+            ]
+          },
+          {
+            "children": [],
+            "id": 2004,
+            "name": "Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",
+            "value": [
+              118362327
+            ]
+          },
+          {
+            "children": [],
+            "id": 2005,
+            "name": "Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",
+            "value": [
+              29017217
+            ]
+          },
+          {
+            "children": [],
+            "id": 2006,
+            "name": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",
+            "value": [
+              55108214
+            ]
+          },
+          {
+            "children": [],
+            "id": 2007,
+            "name": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",
+            "value": [
+              85141145
+            ]
+          },
+          {
+            "children": [],
+            "id": 2008,
+            "name": "Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
+            "value": [
+              726341276
+            ]
+          },
+          {
+            "children": [],
+            "id": 2009,
+            "name": "Fruit juices (including grape must) and vegetable juices, unfermented, not containing added spirit; whether or not containing added sugar or other sweetening matter",
+            "value": [
+              302672972
+            ]
+          }
+        ],
+        "id": 20,
+        "name": "Preparations of vegetables, fruit, nuts or other parts of plants",
+        "value": [
+          1343850605
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2101,
+            "name": "Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",
+            "value": [
+              251373936
+            ]
+          },
+          {
+            "children": [],
+            "id": 2102,
+            "name": "Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",
+            "value": [
+              16702349
+            ]
+          },
+          {
+            "children": [],
+            "id": 2103,
+            "name": "Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",
+            "value": [
+              217637106
+            ]
+          },
+          {
+            "children": [],
+            "id": 2104,
+            "name": "Soups and broths and preparations therefor; homogenised composite food preparations",
+            "value": [
+              28617896
+            ]
+          },
+          {
+            "children": [],
+            "id": 2105,
+            "name": "Ice cream and other edible ice; whether or not containing cocoa",
+            "value": [
+              91956214
+            ]
+          },
+          {
+            "children": [],
+            "id": 2106,
+            "name": "Food preparations not elsewhere specified or included",
+            "value": [
+              3861920371
+            ]
+          }
+        ],
+        "id": 21,
+        "name": "Miscellaneous edible preparations",
+        "value": [
+          4468207872
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2201,
+            "name": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",
+            "value": [
+              106960282
+            ]
+          },
+          {
+            "children": [],
+            "id": 2202,
+            "name": "Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009",
+            "value": [
+              809584573
+            ]
+          },
+          {
+            "children": [],
+            "id": 2203,
+            "name": "Beer made from malt",
+            "value": [
+              695085824
+            ]
+          },
+          {
+            "children": [],
+            "id": 2204,
+            "name": "Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",
+            "value": [
+              1827258715
+            ]
+          },
+          {
+            "children": [],
+            "id": 2205,
+            "name": "Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",
+            "value": [
+              7319017
+            ]
+          },
+          {
+            "children": [],
+            "id": 2206,
+            "name": "Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",
+            "value": [
+              73432963
+            ]
+          },
+          {
+            "children": [],
+            "id": 2207,
+            "name": "Ethyl alcohol, undenatured; of an alcoholic strength by volume of 80% vol. or higher; ethyl alcohol and other spirits, denatured, of any strength",
+            "value": [
+              35625422
+            ]
+          },
+          {
+            "children": [],
+            "id": 2208,
+            "name": "Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",
+            "value": [
+              1527512666
+            ]
+          },
+          {
+            "children": [],
+            "id": 2209,
+            "name": "Vinegar and substitutes for vinegar obtained from acetic acid",
+            "value": [
+              7182826
+            ]
+          }
+        ],
+        "id": 22,
+        "name": "Beverages, spirits and vinegar",
+        "value": [
+          5089962288
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2301,
+            "name": "Flours, meal and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves",
+            "value": [
+              2210053841
+            ]
+          },
+          {
+            "children": [],
+            "id": 2302,
+            "name": "Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",
+            "value": [
+              152699482
+            ]
+          },
+          {
+            "children": [],
+            "id": 2303,
+            "name": "Residues of starch manufacture, similar residues; beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets",
+            "value": [
+              88120634
+            ]
+          },
+          {
+            "children": [],
+            "id": 2304,
+            "name": "Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",
+            "value": [
+              37142934
+            ]
+          },
+          {
+            "children": [],
+            "id": 2305,
+            "name": "Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of ground-nut oil",
+            "value": [
+              35424284
+            ]
+          },
+          {
+            "children": [],
+            "id": 2306,
+            "name": "Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of vegetable fats or oils other than those of heading no. 2304 or 2305",
+            "value": [
+              1285431380
+            ]
+          },
+          {
+            "children": [],
+            "id": 2307,
+            "name": "Wine lees; argol",
+            "value": [
+              30
+            ]
+          },
+          {
+            "children": [],
+            "id": 2308,
+            "name": "Vegetable materials and vegetable waste, vegetable residues and bi-products; whether or not in the form of pellets, of a kind used in animal feeding, not elsewhere specified or included",
+            "value": [
+              16094450
+            ]
+          },
+          {
+            "children": [],
+            "id": 2309,
+            "name": "Preparations of a kind used in animal feeding",
+            "value": [
+              973152851
+            ]
+          }
+        ],
+        "id": 23,
+        "name": "Food industries, residues and wastes thereof; prepared animal fodder",
+        "value": [
+          4798119886
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2401,
+            "name": "Tobacco, unmanufactured; tobacco refuse",
+            "value": [
+              773876556
+            ]
+          },
+          {
+            "children": [],
+            "id": 2402,
+            "name": "Cigars, cheroots, cigarillos and cigarettes; of tobacco or of tobacco substitutes",
+            "value": [
+              339181819
+            ]
+          },
+          {
+            "children": [],
+            "id": 2403,
+            "name": "Manufactured tobacco and manufactured tobacco substitutes n.e.c; homogenised or reconstituted tobacco; tobacco extracts and essences",
+            "value": [
+              53480838
+            ]
+          }
+        ],
+        "id": 24,
+        "name": "Tobacco and manufactured tobacco substitutes",
+        "value": [
+          1166539213
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2501,
+            "name": "Salt (including table salt and denatured salt); pure sodium chloride whether or not in aqueous solution; sea water",
+            "value": [
+              255338388
+            ]
+          },
+          {
+            "children": [],
+            "id": 2502,
+            "name": "Iron pyrites; unroasted",
+            "value": [
+              48761957
+            ]
+          },
+          {
+            "children": [],
+            "id": 2503,
+            "name": "Sulphur of all kinds; other than sublimed, precipitated and colloidal sulphur",
+            "value": [
+              604418802
+            ]
+          },
+          {
+            "children": [],
+            "id": 2504,
+            "name": "Graphite; natural",
+            "value": [
+              17493567
+            ]
+          },
+          {
+            "children": [],
+            "id": 2505,
+            "name": "Sands of all kinds; natural, whether or not coloured, other than metal-bearing sands of chapter 26",
+            "value": [
+              193562287
+            ]
+          },
+          {
+            "children": [],
+            "id": 2506,
+            "name": "Quartz; (other than natural sands), quartzite, whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape",
+            "value": [
+              127883386
+            ]
+          },
+          {
+            "children": [],
+            "id": 2507,
+            "name": "Kaolin and other kaolinic clays; whether or not calcined",
+            "value": [
+              125880308
+            ]
+          },
+          {
+            "children": [],
+            "id": 2508,
+            "name": "Clays; (not including expanded clays of heading no. 6806), andalusite kyanite and sillimanite, whether or not calcined; mullite; chamotte or dinas earth",
+            "value": [
+              83157334
+            ]
+          },
+          {
+            "children": [],
+            "id": 2509,
+            "name": "Chalk",
+            "value": [
+              552798
+            ]
+          },
+          {
+            "children": [],
+            "id": 2510,
+            "name": "Natural calcium phosphates; natural aluminium calcium phosphates and phosphatic chalk",
+            "value": [
+              3325619
+            ]
+          },
+          {
+            "children": [],
+            "id": 2511,
+            "name": "Natural barium sulphate (barytes); natural barium carbonate, (witherite) whether or not calcined, other than barium oxide of heading no. 2816",
+            "value": [
+              8828783
+            ]
+          },
+          {
+            "children": [],
+            "id": 2512,
+            "name": "Siliceous fossil meals (e.g. kieselguhr, tripolite and diatomite) and similar siliceous earths; whether or not calcined, of an apparent specific gravity of 1 or less",
+            "value": [
+              13188625
+            ]
+          },
+          {
+            "children": [],
+            "id": 2513,
+            "name": "Pumice stone; emery; natural corundum, natural garnet and other natural abrasives, whether or not heat treated",
+            "value": [
+              18684498
+            ]
+          },
+          {
+            "children": [],
+            "id": 2514,
+            "name": "Slate, whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape",
+            "value": [
+              471464
+            ]
+          },
+          {
+            "children": [],
+            "id": 2515,
+            "name": "Marble, travertine, ecaussine and other calcareous stone; of an apparent specific gravity of less than 2.5, alabaster, whether cut by sawing etc, into blocks, slabs of a rectangular (square) shape",
+            "value": [
+              1275943986
+            ]
+          },
+          {
+            "children": [],
+            "id": 2516,
+            "name": "Granite, porphyry, basalt, sandstone, other monumental and building stone, whether or not roughly trimmed, cut, by sawing etc, into blocks or slabs of a rectangular (including square) shape",
+            "value": [
+              1005593102
+            ]
+          },
+          {
+            "children": [],
+            "id": 2517,
+            "name": "Pebbles, gravel, crushed stone for concrete aggregates for road or railway ballast, shingle or flint; macadam of slag, dross etc tarred granules, chippings, powder of stones of heading no. 2515 and 2516",
+            "value": [
+              21377584
+            ]
+          },
+          {
+            "children": [],
+            "id": 2518,
+            "name": "Dolomite, whether or not calcined or sintered; including dolomite roughly trimmed, or merely cut by sawing or otherwise into blocks or slabs of rectangular (including square) shape; dolomite ramming mix",
+            "value": [
+              127615481
+            ]
+          },
+          {
+            "children": [],
+            "id": 2519,
+            "name": "Natural magnesium carbonate (magnesite); fused magnesia; dead-burned (sintered) magnesia, whether or not containing small quantities of other oxides added before sintering; magnesium oxide, pure or not",
+            "value": [
+              56503109
+            ]
+          },
+          {
+            "children": [],
+            "id": 2520,
+            "name": "Gypsum; anhydrite; plasters (consisting of calcined gypsum or calcium sulphate), coloured or not, with or without small quantities of accelerators or retarders",
+            "value": [
+              46254499
+            ]
+          },
+          {
+            "children": [],
+            "id": 2521,
+            "name": "Limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement",
+            "value": [
+              92284446
+            ]
+          },
+          {
+            "children": [],
+            "id": 2522,
+            "name": "Quicklime, slaked lime and hydraulic lime; other than calcium oxide and hydroxide of heading no. 2825",
+            "value": [
+              4913361
+            ]
+          },
+          {
+            "children": [],
+            "id": 2523,
+            "name": "Portland cement, aluminous cement (ciment fondu), slag cement, supersulphate cement and similar hydraulic cements, whether or not coloured or in the form of clinkers",
+            "value": [
+              1518204199
+            ]
+          },
+          {
+            "children": [],
+            "id": 2524,
+            "name": "Asbestos",
+            "value": [
+              40633992
+            ]
+          },
+          {
+            "children": [],
+            "id": 2525,
+            "name": "Mica, including splittings; mica waste",
+            "value": [
+              62711714
+            ]
+          },
+          {
+            "children": [],
+            "id": 2526,
+            "name": "Natural steatite; whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape; talc",
+            "value": [
+              35663578
+            ]
+          },
+          {
+            "children": [],
+            "id": 2528,
+            "name": "Natural borates and concentrates thereof (whether or not calcined), but not including borates separated from natural brine; natural boric acid containing not more than 85 % of H3BO3 calculated on the dry weight",
+            "value": [
+              93232466
+            ]
+          },
+          {
+            "children": [],
+            "id": 2529,
+            "name": "Feldspar; leucite; nepheline and nepheline syenite; fluorspar",
+            "value": [
+              139898249
+            ]
+          },
+          {
+            "children": [],
+            "id": 2530,
+            "name": "Mineral substances not elsewhere specified or included",
+            "value": [
+              863781867
+            ]
+          }
+        ],
+        "id": 25,
+        "name": "Salt; sulphur; earths, stone; plastering materials, lime and cement",
+        "value": [
+          6886159449
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2601,
+            "name": "Iron ores and concentrates; including roasted iron pyrites",
+            "value": [
+              118944291251
+            ]
+          },
+          {
+            "children": [],
+            "id": 2602,
+            "name": "Manganese ores and concentrates, including ferruginous manganese ores and concentrates with a manganese content of 20% or more, calculated on the dry weight",
+            "value": [
+              4904340535
+            ]
+          },
+          {
+            "children": [],
+            "id": 2603,
+            "name": "Copper ores and concentrates",
+            "value": [
+              34297834596
+            ]
+          },
+          {
+            "children": [],
+            "id": 2604,
+            "name": "Nickel ores and concentrates",
+            "value": [
+              2900562636
+            ]
+          },
+          {
+            "children": [],
+            "id": 2605,
+            "name": "Cobalt ores and concentrates",
+            "value": [
+              112212087
+            ]
+          },
+          {
+            "children": [],
+            "id": 2606,
+            "name": "Aluminium ores and concentrates",
+            "value": [
+              5052141667
+            ]
+          },
+          {
+            "children": [],
+            "id": 2607,
+            "name": "Lead ores and concentrates",
+            "value": [
+              1714466862
+            ]
+          },
+          {
+            "children": [],
+            "id": 2608,
+            "name": "Zinc ores and concentrates",
+            "value": [
+              2472212268
+            ]
+          },
+          {
+            "children": [],
+            "id": 2609,
+            "name": "Tin ores and concentrates",
+            "value": [
+              554711567
+            ]
+          },
+          {
+            "children": [],
+            "id": 2610,
+            "name": "Chromium ores and concentrates",
+            "value": [
+              2044285767
+            ]
+          },
+          {
+            "children": [],
+            "id": 2611,
+            "name": "Tungsten ores and concentrates",
+            "value": [
+              15934465
+            ]
+          },
+          {
+            "children": [],
+            "id": 2612,
+            "name": "Uranium or thorium ores and concentrates",
+            "value": [
+              41096325
+            ]
+          },
+          {
+            "children": [],
+            "id": 2613,
+            "name": "Molybdenum ores and concentrates",
+            "value": [
+              845824629
+            ]
+          },
+          {
+            "children": [],
+            "id": 2614,
+            "name": "Titanium ores and concentrates",
+            "value": [
+              642983173
+            ]
+          },
+          {
+            "children": [],
+            "id": 2615,
+            "name": "Niobium, tantalum, vanadium or zirconium ores and concentrates",
+            "value": [
+              1042142439
+            ]
+          },
+          {
+            "children": [],
+            "id": 2616,
+            "name": "Precious metal ores and concentrates",
+            "value": [
+              4309663482
+            ]
+          },
+          {
+            "children": [],
+            "id": 2617,
+            "name": "Ores and concentrates; n.e.c. in heading no. 2601",
+            "value": [
+              120812586
+            ]
+          },
+          {
+            "children": [],
+            "id": 2618,
+            "name": "Granulated slag (slag sand) from the manufacture of iron or steel",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 2619,
+            "name": "Slag, dross; (other than granulated slag), scalings and other waste from the manufacture of iron or steel",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 2620,
+            "name": "Slag, ash and residues; (not from the manufacture of iron or steel) containing metals, arsenic or their compounds",
+            "value": []
+          },
+          {
+            "children": [],
+            "id": 2621,
+            "name": "Slag and ash n.e.c. in chapter 26; including seaweed ash (kelp) and ash and residues from the incineration of municipal waste",
+            "value": [
+              608685
+            ]
+          }
+        ],
+        "id": 26,
+        "name": "Ores, slag and ash",
+        "value": [
+          180016125020
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2701,
+            "name": "Coal; briquettes, ovoids and similar solid fuels manufactured from coal",
+            "value": [
+              16385098537
+            ]
+          },
+          {
+            "children": [],
+            "id": 2702,
+            "name": "Lignite; whether or not agglomerated, excluding jet",
+            "value": [
+              3852181042
+            ]
+          },
+          {
+            "children": [],
+            "id": 2703,
+            "name": "Peat; (including peat litter), whether or not agglomerated",
+            "value": [
+              65256446
+            ]
+          },
+          {
+            "children": [],
+            "id": 2704,
+            "name": "Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",
+            "value": [
+              690955834
+            ]
+          },
+          {
+            "children": [],
+            "id": 2706,
+            "name": "Tar distilled from coal, from lignite, peat and other mineral tars, whether or not dehydrated or partially distilled; including reconstituted tars",
+            "value": [
+              44352619
+            ]
+          },
+          {
+            "children": [],
+            "id": 2707,
+            "name": "Oils and other products of the distillation of high temperature coal tar; similar products in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents",
+            "value": [
+              9586508174
+            ]
+          },
+          {
+            "children": [],
+            "id": 2708,
+            "name": "Pitch and pitch coke; obtained from coal tar or from other mineral tars",
+            "value": [
+              51655094
+            ]
+          },
+          {
+            "children": [],
+            "id": 2709,
+            "name": "Petroleum oils and oils obtained from bituminous minerals; crude",
+            "value": [
+              176321269390
+            ]
+          },
+          {
+            "children": [],
+            "id": 2710,
+            "name": "Petroleum oils and oils from bituminous minerals, not crude; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; these being the basic constituents of the preparations; waste oils",
+            "value": [
+              11793687996
+            ]
+          },
+          {
+            "children": [],
+            "id": 2711,
+            "name": "Petroleum gases and other gaseous hydrocarbons",
+            "value": [
+              42078492434
+            ]
+          },
+          {
+            "children": [],
+            "id": 2712,
+            "name": "Petroleum jelly; paraffin wax, micro-crystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, similar products obtained by synthesis, other processes; coloured or not",
+            "value": [
+              129880164
+            ]
+          },
+          {
+            "children": [],
+            "id": 2713,
+            "name": "Petroleum coke, petroleum bitumen; other residues of petroleum oils or oils obtained from bituminous minerals",
+            "value": [
+              2552306499
+            ]
+          },
+          {
+            "children": [],
+            "id": 2714,
+            "name": "Bitumen and asphalt, natural; bituminous or oil shale and tar sands; asphaltites and asphaltic rocks",
+            "value": [
+              21306471
+            ]
+          },
+          {
+            "children": [],
+            "id": 2715,
+            "name": "Bituminous mixtures based on natural asphalt; on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (e.g. bituminous mastics, cut-backs)",
+            "value": [
+              3805866843
+            ]
+          },
+          {
+            "children": [],
+            "id": 2716,
+            "name": "Electrical energy",
+            "value": [
+              177663025
+            ]
+          }
+        ],
+        "id": 27,
+        "name": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+        "value": [
+          267556480568
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2801,
+            "name": "Fluorine, chlorine, bromine and iodine",
+            "value": [
+              421772220
+            ]
+          },
+          {
+            "children": [],
+            "id": 2802,
+            "name": "Sulphur; sublimed or precipitated, colloidal sulphur",
+            "value": [
+              398745
+            ]
+          },
+          {
+            "children": [],
+            "id": 2803,
+            "name": "Carbon; carbon blacks and other forms of carbon n.e.c.",
+            "value": [
+              233991511
+            ]
+          },
+          {
+            "children": [],
+            "id": 2804,
+            "name": "Hydrogen, rare gases and other non-metals",
+            "value": [
+              1422071024
+            ]
+          },
+          {
+            "children": [],
+            "id": 2805,
+            "name": "Alkali or alkaline-earth metals; rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed; mercury",
+            "value": [
+              10662063
+            ]
+          },
+          {
+            "children": [],
+            "id": 2806,
+            "name": "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid",
+            "value": [
+              25996801
+            ]
+          },
+          {
+            "children": [],
+            "id": 2807,
+            "name": "Sulphuric acid; oleum",
+            "value": [
+              36187754
+            ]
+          },
+          {
+            "children": [],
+            "id": 2808,
+            "name": "Nitric acid; sulphonitric acids",
+            "value": [
+              23438746
+            ]
+          },
+          {
+            "children": [],
+            "id": 2809,
+            "name": "Diphosphorus pentoxide; phosphoric acid and polyphosphoric acids",
+            "value": [
+              37094064
+            ]
+          },
+          {
+            "children": [],
+            "id": 2810,
+            "name": "Oxides of boron; boric acids",
+            "value": [
+              158946869
+            ]
+          },
+          {
+            "children": [],
+            "id": 2811,
+            "name": "Inorganic acids and other inorganic oxygen compounds of non-metals; n.e.c. in heading no. 2806 to 2810",
+            "value": [
+              406121527
+            ]
+          },
+          {
+            "children": [],
+            "id": 2812,
+            "name": "Halides and halide oxides of non-metals",
+            "value": [
+              106275390
+            ]
+          },
+          {
+            "children": [],
+            "id": 2813,
+            "name": "Sulphides of non-metals; commercial phosphorus trisulphide",
+            "value": [
+              488279
+            ]
+          },
+          {
+            "children": [],
+            "id": 2814,
+            "name": "Ammonia; anhydrous or in aqueous solution",
+            "value": [
+              331003909
+            ]
+          },
+          {
+            "children": [],
+            "id": 2815,
+            "name": "Sodium hydroxide (caustic soda); potassium hydroxide (caustic potash) peroxides of sodium or potassium",
+            "value": [
+              19783666
+            ]
+          },
+          {
+            "children": [],
+            "id": 2816,
+            "name": "Hydroxide and peroxide of magnesium; oxides, hydroxides and peroxides of strontium or barium",
+            "value": [
+              20632615
+            ]
+          },
+          {
+            "children": [],
+            "id": 2817,
+            "name": "Zinc; oxide and peroxide",
+            "value": [
+              24154754
+            ]
+          },
+          {
+            "children": [],
+            "id": 2818,
+            "name": "Aluminium oxide (including artificial corundum); aluminium hydroxide",
+            "value": [
+              1292370070
+            ]
+          },
+          {
+            "children": [],
+            "id": 2819,
+            "name": "Chromium oxides and hydroxides",
+            "value": [
+              18302587
+            ]
+          },
+          {
+            "children": [],
+            "id": 2820,
+            "name": "Manganese oxides",
+            "value": [
+              9730548
+            ]
+          },
+          {
+            "children": [],
+            "id": 2821,
+            "name": "Iron oxides and hydroxides; earth colours containing 70% or more by weight of combined iron evaluated as Fe2o3",
+            "value": [
+              73094456
+            ]
+          },
+          {
+            "children": [],
+            "id": 2822,
+            "name": "Cobalt oxides and hydroxides; commercial cobalt oxides",
+            "value": [
+              55801303
+            ]
+          },
+          {
+            "children": [],
+            "id": 2823,
+            "name": "Titanium oxides",
+            "value": [
+              34862765
+            ]
+          },
+          {
+            "children": [],
+            "id": 2824,
+            "name": "Lead oxides; red lead and orange lead",
+            "value": [
+              349270
+            ]
+          },
+          {
+            "children": [],
+            "id": 2825,
+            "name": "Hydrazine and hydroxylamine and their inorganic salts; other inorganic bases; other metal oxides, hydroxides and peroxides",
+            "value": [
+              297928860
+            ]
+          },
+          {
+            "children": [],
+            "id": 2826,
+            "name": "Fluorides; fluorosilicates, fluoroaluminates and other complex fluorine salts",
+            "value": [
+              101203329
+            ]
+          },
+          {
+            "children": [],
+            "id": 2827,
+            "name": "Chlorides; chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
+            "value": [
+              133149602
+            ]
+          },
+          {
+            "children": [],
+            "id": 2828,
+            "name": "Hypochlorites; commercial calcium hypochlorite; chlorites; hypobromites",
+            "value": [
+              20427238
+            ]
+          },
+          {
+            "children": [],
+            "id": 2829,
+            "name": "Chlorates and perchlorates; bromates and perbromates; iodates and periodates",
+            "value": [
+              6274957
+            ]
+          },
+          {
+            "children": [],
+            "id": 2830,
+            "name": "Sulphides; polysulphides whether or not chemically defined",
+            "value": [
+              24589865
+            ]
+          },
+          {
+            "children": [],
+            "id": 2831,
+            "name": "Dithionites and sulphoxylates",
+            "value": [
+              7762538
+            ]
+          },
+          {
+            "children": [],
+            "id": 2832,
+            "name": "Sulphites; thiosulphates",
+            "value": [
+              3638505
+            ]
+          },
+          {
+            "children": [],
+            "id": 2833,
+            "name": "Sulphates; alums; peroxosulphates (persulphates)",
+            "value": [
+              137535936
+            ]
+          },
+          {
+            "children": [],
+            "id": 2834,
+            "name": "Nitrites; nitrates",
+            "value": [
+              8985619
+            ]
+          },
+          {
+            "children": [],
+            "id": 2835,
+            "name": "Phosphinates (hypophosphites), phosphonates (phosphites), and phosphates; and polyphosphates, whether or not chemically defined",
+            "value": [
+              44090317
+            ]
+          },
+          {
+            "children": [],
+            "id": 2836,
+            "name": "Carbonates; peroxocarbonates (percarbonates); commercial ammonium carbonate containing ammonium carbamate",
+            "value": [
+              404487655
+            ]
+          },
+          {
+            "children": [],
+            "id": 2837,
+            "name": "Cyanides, cyanide oxides and complex cyanides",
+            "value": [
+              11547494
+            ]
+          },
+          {
+            "children": [],
+            "id": 2839,
+            "name": "Silicates; commercial alkali metal silicates",
+            "value": [
+              15764383
+            ]
+          },
+          {
+            "children": [],
+            "id": 2840,
+            "name": "Borates; peroxoborates (perborates)",
+            "value": [
+              230781293
+            ]
+          },
+          {
+            "children": [],
+            "id": 2841,
+            "name": "Salts of oxometallic or peroxometallic acids",
+            "value": [
+              424685645
+            ]
+          },
+          {
+            "children": [],
+            "id": 2842,
+            "name": "Salts of inorganic acids or peroxoacids, n.e.c. including aluminosilicates whether or not chemically defined, but excluding azides",
+            "value": [
+              1172375927
+            ]
+          },
+          {
+            "children": [],
+            "id": 2843,
+            "name": "Colloidal precious metals; inorganic or organic compounds of precious metals, whether or not chemically defined; amalgams of precious metals",
+            "value": [
+              631770178
+            ]
+          },
+          {
+            "children": [],
+            "id": 2844,
+            "name": "Radioactive chemical elements and radioactive isotopes (including the fissile or fertile chemical elements and isotopes); and their compounds; mixtures and residues containing these products",
+            "value": [
+              1778029222
+            ]
+          },
+          {
+            "children": [],
+            "id": 2845,
+            "name": "Isotopes other than those of heading no. 2844; compounds, inorganic or organic, of such isotopes, whether or not chemically defined",
+            "value": [
+              90480354
+            ]
+          },
+          {
+            "children": [],
+            "id": 2846,
+            "name": "Compounds, inorganic or organic, of rare-earth metals; of yttrium or of scandium or of mixtures of these metals",
+            "value": [
+              503797781
+            ]
+          },
+          {
+            "children": [],
+            "id": 2847,
+            "name": "Hydrogen peroxide; whether or not solidified with urea",
+            "value": [
+              32512045
+            ]
+          },
+          {
+            "children": [],
+            "id": 2849,
+            "name": "Carbides, whether or not chemically defined",
+            "value": [
+              13220164
+            ]
+          },
+          {
+            "children": [],
+            "id": 2850,
+            "name": "Hydrides, nitrides, azides, silicides and borides, whether or not chemically defined, other than compounds which are also carbides of heading no. 2849",
+            "value": [
+              101069318
+            ]
+          },
+          {
+            "children": [],
+            "id": 2852,
+            "name": "Inorganic or organic compounds of mercury, excluding amalgams, whether or not chemically defined",
+            "value": [
+              619334
+            ]
+          },
+          {
+            "children": [],
+            "id": 2853,
+            "name": "Phosphides, chemically defined or not, not ferrophosphorus; other inorganic compounds n.e.c. (including distilled, conductivity water and water of like purity); liquid air, rare gases removed or not; compressed air; amalgams, not precious metal amalgams",
+            "value": [
+              74077588
+            ]
+          }
+        ],
+        "id": 28,
+        "name": "Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",
+        "value": [
+          11034336083
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "id": 2901,
+            "name": "Acyclic hydrocarbons",
+            "value": [
+              4222070008
+            ]
+          },
+          {
+            "children": [],
+            "id": 2902,
+            "name": "Cyclic hydrocarbons",
+            "value": [
+              12149455232
+            ]
+          },
+          {
+            "children": [],
+            "id": 2903,
+            "name": "Halogenated derivatives of hydrocarbons",
+            "value": [
+              938216336
+            ]
+          },
+          {
+            "children": [],
+            "id": 2904,
+            "name": "Sulphonated, nitrated or nitrosated derivatives of hydrocarbons; whether or not halogenated",
+            "value": [
+              60682194
+            ]
+          },
+          {
+            "children": [],
+            "id": 2905,
+            "name": "Acyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              9267535123
+            ]
+          },
+          {
+            "children": [],
+            "id": 2906,
+            "name": "Alcohols; cyclic, and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              314347233
+            ]
+          },
+          {
+            "children": [],
+            "id": 2907,
+            "name": "Phenols; monophenols, polyphenols, and phenol-alcohols",
+            "value": [
+              1480243500
+            ]
+          },
+          {
+            "children": [],
+            "id": 2908,
+            "name": "Phenols or phenol-alcohols; halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              244703846
+            ]
+          },
+          {
+            "children": [],
+            "id": 2909,
+            "name": "Ethers, ether-alcohols, ether-phenols, ether-alcohol-phenols, alcohol peroxides, ether peroxides, ketone peroxides (chemically defined or not); halogenated, sulphonated, nitrated, nitrosated derivative",
+            "value": [
+              1309665582
+            ]
+          },
+          {
+            "children": [],
+            "id": 2910,
+            "name": "Epoxides, epoxyalcohols, epoxyphenols and epoxyethers; with a three-membered ring and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              633983116
+            ]
+          },
+          {
+            "children": [],
+            "id": 2911,
+            "name": "Acetals and hemiacetals; whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrostated derivatives",
+            "value": [
+              4325870
+            ]
+          },
+          {
+            "children": [],
+            "id": 2912,
+            "name": "Aldehydes, whether or not with other oxygen function; cyclic polymers of aldehydes; paraformaldehyde",
+            "value": [
+              155406883
+            ]
+          },
+          {
+            "children": [],
+            "id": 2913,
+            "name": "Aldehydes; halogenated, sulphonated, nitrated or nitrosated derivatives of products of heading no. 2912",
+            "value": [
+              9323517
+            ]
+          },
+          {
+            "children": [],
+            "id": 2914,
+            "name": "Ketones and quinones; whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrostated derivatives",
+            "value": [
+              746513756
+            ]
+          },
+          {
+            "children": [],
+            "id": 2915,
+            "name": "Acids; saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              676401294
+            ]
+          },
+          {
+            "children": [],
+            "id": 2916,
+            "name": "Acids; unsaturated acyclic monocarboxylic, cyclic monocarboxylic, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              643415705
+            ]
+          },
+          {
+            "children": [],
+            "id": 2917,
+            "name": "Acids; polycarboxylic acids, their anhydrides, halides, peroxides and peroxy-acids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              857599170
+            ]
+          },
+          {
+            "children": [],
+            "id": 2918,
+            "name": "Acids; carboxylic acid with additional oxygen function and their anhydrides, halides, peroxides, peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              262637750
+            ]
+          },
+          {
+            "children": [],
+            "id": 2919,
+            "name": "Esters; phosphoric, and their salts, including lactophosphates, their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              37324629
+            ]
+          },
+          {
+            "children": [],
+            "id": 2920,
+            "name": "Esters of other inorganic acids of non-metals (other than of hydrogen halides) and their salts, their halogenated, sulphonated, nitrated or nitrosated derivatives",
+            "value": [
+              121036985
+            ]
+          },
+          {
+            "children": [],
+            "id": 2921,
+            "name": "Amine-function compounds",
+            "value": [
+              733415910
+            ]
+          },
+          {
+            "children": [],
+            "id": 2922,
+            "name": "Oxygen-function amino-compounds",
+            "value": [
+              500311958
+            ]
+          },
+          {
+            "children": [],
+            "id": 2923,
+            "name": "Quaternary ammonium salts and hydroxides; lecithins and other phosphoaminolipids, whether or not chemically defined",
+            "value": [
+              99027292
+            ]
+          },
+          {
+            "children": [],
+            "id": 2924,
+            "name": "Carboxyamide-function compounds; amide-function compounds of carbonic acid",
+            "value": [
+              871296664
+            ]
+          }
+        ],
+        "id": 29,
+        "name": "Organic chemicals",
+        "value": [
+          45557665359
+        ]
+      }
+    ]
+  }
+}
