@@ -67,3 +67,42 @@ h5,
 h6 {
   color: #333;
 }
+
+
+//Globe-Viewer-Tooltip-Container
+.globe-viewer-tooltip-container {
+  $background: rgba(255,255,255,.6);
+  $otherAccent: #269A46;
+  height: 170px;
+  width: 360px;
+  padding: 20px;
+  border-radius: 5px;
+  background: $background;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  .flag-img {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
+  }
+  .country-title {
+    font-family: 'Sriracha', arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 90px;
+    margin-bottom: 20px;
+    color: $otherAccent;
+  }
+  .description{
+    margin-top: 3px;
+    margin-bottom: 1px;
+    padding-left: 85px;
+    color: #5a5a5a;
+  }
+}
