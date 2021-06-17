@@ -56,7 +56,7 @@ export default {
       trade_mode: "exports",
       map: "",
       accessToken:
-        "pk.eyJ1IjoieXVleXVhbndlbiIsImEiOiJja25zOXhtNTYyZzZ2MnZueG1tZmRoaTZmIn0.T7uJoZ3bRJs9f82LjGc-Hw",
+        "pk.eyJ1IjoiamVubnlsaSIsImEiOiJja254NWVoZTMwNjYxMndyeHVyYnlqbjJuIn0.Wgh8N0qRAw1ax8myJ5TdOQ",
       items: [],
       sliderValue: "2015",
       year: "2015",
@@ -101,7 +101,7 @@ export default {
 
     var map = new mapboxgl.Map({
       container: "globalMap",
-      style: "mapbox://styles/mapbox/light-v10",
+      style: "mapbox://styles/jennyli/ckohe8fg94l9217olugjwrycx",
       center: [-2.82308, 27.28041],
       zoom: 1.49,
       maxBounds: bounds, // Sets bounds as max
@@ -281,7 +281,8 @@ export default {
 <style scoped lang="scss">
 #globalMap {
   //   position: absolute;
-  width: 1300px;
+  width: 100vw;
+  //width: 1300px;
   height: 600px;
 }
 

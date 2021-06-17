@@ -6,12 +6,13 @@
 import {gdp} from "assets/json/worldData";
 import * as echarts from "echarts";
 
+let myChart;
+
 export default {
   name: "tradeLineChart",
   props: ["chartData","title"],
   data: function () {
     return {
-      myChart:null,
       xAxisData: [],
     };
   },
@@ -113,11 +114,11 @@ export default {
         series: seriesList,
       };
 
-      this.myChart.setOption(option);
+      myChart.setOption(option);
     },
   },
   mounted() {
-    this.myChart = echarts.init(this.$refs["chart"]);
+    myChart = echarts.init(this.$refs["chart"]);
     this.initChart();
   },
 }

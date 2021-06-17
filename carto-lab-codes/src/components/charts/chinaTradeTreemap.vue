@@ -1,5 +1,5 @@
 <template>
-  <div ref="chart" style="height: 500px; width: 1000px" />
+  <div ref="chart" style="height: 500px; width: 100%" />
 </template>
 
 <script>
@@ -200,7 +200,7 @@ export default {
       series: modes.map(function (mode, idx) {
         let seriesOpt = self.createSeriesCommon(idx);
         seriesOpt.name = mode;
-        seriesOpt.roam = true;
+        seriesOpt.roam = false;
         seriesOpt.top = 80;
         seriesOpt.visualDimension = idx === 2 ? 2 : null;
         seriesOpt.data = self.buildData(idx, self.jsonData[mode]["tree"]);
@@ -213,9 +213,24 @@ export default {
 
     myChart.on("click", function(params){
       if(params.data){
-        console.log(params.data);
-        console.log(params.seriesName);
+        // console.log(params.data);
+        // console.log(params.seriesName);
+        let direct = params.seriesName;
+        let commodityCode = params.data.id.toString();
+        let h1Code = 0;
+        if (commodityCode.length % 2 !== 0){
+          h1Code = commodityCode.substring(0,1)
+        }else{
+          h1Code = commodityCode.substring(0,2)
+        }
+        // console.log(h1Code);
+        self.$emit("updateCommodity", h1Code, direct, params.data.name);
       }
+    });
+    myChart.on('legendselectchanged', function (params) {
+      let direct = params.name;
+      self.$emit("updateCommodity", "Overall", direct, "Overall");
+      // console.log(params);
     });
   },
 };

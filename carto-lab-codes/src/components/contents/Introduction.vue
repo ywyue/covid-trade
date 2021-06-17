@@ -32,6 +32,16 @@
       </div>
     </div>
     <q-space class="q-ma-xl" />
+    <div class="text-body1">
+      Major date:
+      <q-space/>
+      January 9 — WHO Announces Mysterious Coronavirus-Related Pneumonia in Wuhan, China
+      January 21 — Chinese Scientist Confirms COVID-19 Human Transmission
+      January 31 — WHO Issues Global Health Emergency
+      February 2 — Global Air Travel Is Restricted
+      March 11 — WHO Declares COVID-19 a Pandemic
+      March 25 — Reports Find Extended Shutdowns Can Delay Second Wave
+    </div>
   </q-page>
 </template>
 

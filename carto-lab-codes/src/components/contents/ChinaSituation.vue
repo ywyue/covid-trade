@@ -12,26 +12,25 @@
       data-url="https://flo.uri.sh/visualisation/6440972/embed"
     ></div>
     <div>
-      <china-trade-treemap />
-      <!--      <test-sunburst />-->
+      <trade-commodity-destination />
     </div>
-    <tradeCartogram />
   </q-page>
 </template>
 
 <script>
-import ChinaTradeTreemap from "components/charts/chinaTradeTreemap";
 import TestSunburst from "components/charts/testSunburst";
 import tradeCartogram from "components/maps/tradeCartogram";
 import SessionBanner from "components/tools/SessionBanner";
 import SubsessionTitle from "components/tools/SubsessionTitle";
+import TradeCommodityDestination from "components/contents/ChinaSituation/tradeCommodityDestination";
+
 export default {
   name: "ChinaSituation",
   components: {
+    TradeCommodityDestination,
     SubsessionTitle,
     SessionBanner,
     TestSunburst,
-    ChinaTradeTreemap,
     tradeCartogram,
   },
   mounted() {
@@ -42,6 +41,7 @@ export default {
     );
     document.head.appendChild(recaptchaScript);
   },
+  methods: {},
 };
 </script>
 
