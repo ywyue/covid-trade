@@ -42,15 +42,19 @@
       March 11 — WHO Declares COVID-19 a Pandemic
       March 25 — Reports Find Extended Shutdowns Can Delay Second Wave
     </div>
+    <q-space class="q-ma-xl"/>
+    <GlobeLayout/>
   </q-page>
 </template>
 
 <script>
 import NumberCounter from "components/tools/NumberCounter";
+import GlobeLayout from "components/contents/Intro/GlobeLayout";
+
 
 export default {
   name: "Introduction",
-  components: { NumberCounter },
+  components: {GlobeLayout, NumberCounter },
   data: function () {
     return {};
   },
