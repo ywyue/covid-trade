@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <Banner />
+    <Background />
     <div class="text-center text-h2">Introduction</div>
     <q-space class="q-ma-xl" />
     <div>
@@ -99,9 +99,6 @@ import TimelineCovid from "components/contents/Intro/TimelineCovid";
 import SubsessionTitle from "components/tools/SubsessionTitle";
 import SessionBanner from "components/tools/SessionBanner";
 import GDPLineChart from "components/charts/GDPLineChart";
-
-import ParallaxSection from "layouts/ParallaxSection";
-import Banner from "components/contents/Banner";
 // import Background from './Intro/background.vue';
 
 export default {
@@ -114,8 +111,6 @@ export default {
     GlobeLayout,
     NumberCounter,
     GDPLineChart,
-    ParallaxSection,
-    Banner,
     // Background,
   },
   data: function () {
