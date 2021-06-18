@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <Banner />
+    <Background />
     <div class="text-center text-h2">Introduction</div>
     <q-space class="q-ma-xl" />
     <div>
@@ -65,16 +65,22 @@
     <!--    gdp line chart -->
 
     <div class="row items-start justify-center">
-      <div class="col-12 col-md-8 ">
-        <div class="text-h6">The strike of the pandemic to the world economy is even harder than the global financial crisis.</div>
+      <div class="col-12 col-md-8">
+        <div class="text-h6">
+          The strike of the pandemic to the world economy is even harder than
+          the global financial crisis.
+        </div>
         <q-space class="q-ma-md" />
         <div class="text-body1">
-          <strong>In 2020, gross domestic product (GDP) fell by around 3.3%, with an expected global recovery of 6.0% in 2021.</strong>
-          Developed countries are affected more in 2020 than developing countries and expect a weaker recovery in 2021.
-
-          Unlike the global financial crisis of 2008/2009, developing countries experienced negative growth in 2020,
-          and developed economies experienced a much deeper fall.
-
+          <strong
+            >In 2020, gross domestic product (GDP) fell by around 3.3%, with an
+            expected global recovery of 6.0% in 2021.</strong
+          >
+          Developed countries are affected more in 2020 than developing
+          countries and expect a weaker recovery in 2021. Unlike the global
+          financial crisis of 2008/2009, developing countries experienced
+          negative growth in 2020, and developed economies experienced a much
+          deeper fall.
         </div>
       </div>
     </div>
@@ -86,8 +92,7 @@
     </div>
 
     <q-space class="q-ma-md" />
-    <GlobeLayout/>
-
+    <GlobeLayout />
   </q-page>
 </template>
 
@@ -99,10 +104,7 @@ import TimelineCovid from "components/contents/Intro/TimelineCovid";
 import SubsessionTitle from "components/tools/SubsessionTitle";
 import SessionBanner from "components/tools/SessionBanner";
 import GDPLineChart from "components/charts/GDPLineChart";
-
-import ParallaxSection from "layouts/ParallaxSection";
-import Banner from "components/contents/Banner";
-
+// import Background from './Intro/background.vue';
 
 export default {
   name: "Introduction",
@@ -113,8 +115,6 @@ export default {
     GlobeLayout,
     NumberCounter,
     GDPLineChart,
-    ParallaxSection,
-    Banner,
     // Background,
   },
   data: function () {
