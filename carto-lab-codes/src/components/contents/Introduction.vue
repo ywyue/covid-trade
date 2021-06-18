@@ -80,9 +80,9 @@
 
     <div class="row items-start justify-center">
       <div class="col-12 col-md-8">
-        <div class="text-h6">
+        <div class="text-h6"><strong class="text-primary">
           The strike of the pandemic to the world economy is even harder than
-          the global financial crisis.
+          the global financial crisis.</strong>
         </div>
         <q-space class="q-ma-md" />
         <div class="text-body1">

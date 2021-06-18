@@ -23,9 +23,9 @@
         </div>
       </div>
       <div class="col-12 col-md-6 q-pa-xl">
-        <div class="text-h6">
+        <div class="text-h6"><strong class="text-primary">
           The change percent of GDP in 2020 shows divergent trends in different
-          regions.
+          regions.</strong>
         </div>
         <q-space class="q-ma-lg" />
         <div class="text-body1">
