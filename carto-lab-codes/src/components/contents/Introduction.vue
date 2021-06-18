@@ -1,7 +1,21 @@
 <template>
   <q-page>
     <Background />
-    <div class="text-center text-h2">Introduction</div>
+    <br/>
+    <q-space class="q-md-xl"/>
+    <div class="text-center items-center row justify-center q-mt-lg">
+      <div class="col-12 col-md-7">
+        <div class="text-body1">
+          Since January 9, 2020, the pandemic of COVID-19 has impacted the world largely.
+          People experienced the lockdown, gradually got used to the health restrictions and started to receive vaccination.
+
+          The world faces a new challenge after the Global Financial Crisis in 2008. Much longer period can be expected for
+          the globe to recover from the pandemic.
+          <q-space class="q-ma-md"/>
+          Through the timeline below, you may find how the world fight against the virus.
+        </div>
+      </div>
+    </div>
     <q-space class="q-ma-xl" />
     <div>
       <timeline-covid />
