@@ -1,9 +1,6 @@
 <template>
-  <div class="q-px-lg q-pb-md">
+  <div class="q-px-lg q-pb-md text-body1">
     <q-timeline :layout="layout" color="secondary">
-      <!--      <q-timeline-entry heading>-->
-      <!--        Key dates of COVID-19-->
-      <!--      </q-timeline-entry>-->
 
       <q-timeline-entry subtitle="January 9, 2020" side="left">
         <q-card class="my-card left" flat>
@@ -15,19 +12,22 @@
               src="images/who_logo.png"
             ></q-img>
             <q-card-section>
-              <a
-                href="https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-china"
-              >
-                <strong
-                  >WHO Statement regarding cluster of pneumonia cases in Wuhan,
-                  China</strong
+
+                <a
+                  href="https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-china"
                 >
-              </a>
-              <q-space class="q-ma-sm" />
-              At this point, the World Health Organization (WHO) still has
-              doubts about the roots of what would become the COVID-19 pandemic,
-              noting that the spate of pneumonia-like cases in Wuhan could have
-              stemmed from a new coronavirus.
+                  <strong
+                  >WHO Statement regarding cluster of pneumonia cases in Wuhan,
+                    China</strong
+                  >
+                </a>
+                <q-space class="q-ma-sm" />
+                At this point, the World Health Organization (WHO) still has
+                doubts about the roots of what would become the COVID-19 pandemic,
+                noting that the spate of pneumonia-like cases in Wuhan could have
+                stemmed from a new coronavirus.
+
+
             </q-card-section>
           </q-card-section>
         </q-card>
@@ -66,12 +66,6 @@
       <q-timeline-entry subtitle="March 11, 2020" side="left">
         <q-card class="my-card left" flat>
           <q-card-section horizontal>
-            <!--            <q-img-->
-            <!--              class="col-5"-->
-            <!--              height="150px"-->
-            <!--              width="150px"-->
-            <!--              src="images/who_logo.png"-->
-            <!--            ></q-img>-->
             <q-card-section>
               <a
                 href="https://www.who.int/director-general/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
@@ -123,7 +117,7 @@ export default {
 
 <style scoped>
 .my-card {
-  width: 90%;
+  width: 95%;
   max-width: 650px;
 }
 

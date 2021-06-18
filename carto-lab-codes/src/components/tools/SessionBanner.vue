@@ -17,7 +17,7 @@
           }"
         >
           <div class="q-ma-md">
-            <p class="text-h2 text-white q-pl-md session-title">{{ title }}</p>
+            <p class="text-h2 text-white q-pl-md session-title text-bold">{{ title }}</p>
             <div class="text-h5 text-white text-center">
               {{ subtitle }}
             </div>
