@@ -59,7 +59,7 @@
     </div>
     <q-space class="q-ma-lg" />
     <div class="row justify-center">
-      <div class="col-10">
+      <div class="col-9">
         <weekly-port-call-line-chart />
       </div>
     </div>
@@ -67,7 +67,7 @@
     <q-space class="q-ma-xl" />
     <!--    Global Trade Map  -->
     <subsession-title title="Divergent Regional and Country Level Trends" />
-    <div class="row justify-center">
+    <div class="row justify-center q-mt-sm">
       <div class="col-12 col-md-8">
         <div class="text-body1 q-mt-lg q-mb-lg">
           <strong
