@@ -7,11 +7,17 @@
 //  src: url(../assets/font/Lato-Regular.ttf);
 //}
 
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 @font-face {
-  font-family: "Oswald", sans-serif;
-  src: url(../assets/font/Oswald-Regular.ttf);
+  font-family: "Alegreya Sans";
+  src: url("../assets/font/AlegreyaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url("../assets/font/AlegreyaSans-Bold.ttf");
+  font-weight: bold;
 }
 
 ul,
