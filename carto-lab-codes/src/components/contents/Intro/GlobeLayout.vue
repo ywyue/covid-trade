@@ -2,7 +2,8 @@
   <div>
     <div class="row">
       <div class="col-12 col-md-6">
-        <div ref="mapviewContainer">
+        <div class="text-h6">Gross Domestic Product Change Rate between 2019 and 2020</div>
+        <div ref="mapviewContainer" class="q-mb-xm">
           <q-resize-observer @resize="onResize" />
           <GlobeGDP
             ref="mapViewer"
@@ -11,13 +12,20 @@
             :height="globeHeight"
           />
         </div>
+        <div class="row q-pl-xl q-mt-xm justify-center">
+          <div class="col-12 col-md-10">
+            <span id="negative-bar"></span>
+            <span id="positive-bar"></span>
+            <br/>
+            <span id="negative-text">- 60.0%</span>
+            <span id="zero-text">0</span>
+            <span id="positive-text">+ 40.0%</span>
+          </div>
+        </div>
       </div>
       <div class="col-12 col-md-6">
         Some text.....
-        <div id="legend" class="legend">
-          <div class="bar"></div>
-          <a>GDP 2020 (US Billion)</a>
-        </div>
+
       </div>
     </div>
   </div>
@@ -55,9 +63,49 @@ export default {
 </script>
 
 <style scoped>
-.legend .bar {
-  height: 15px;
+
+#negative-bar {
+  display: inline-block;
   width: 50%;
-  background: linear-gradient(to right, #ffda67, #5ec9db);
+  height: 15px;
+  margin-right: 0;
+  margin-left: 10px;
+  background:linear-gradient(to left, #ffffff, #084080)
+}
+
+#positive-bar {
+  display: inline-block;
+  width: 30%;
+  height: 15px;
+  margin-right: 0;
+  margin-left: 1px;
+  background:linear-gradient(to right, #ffffff, #7F0000)
+}
+
+#negative-text{
+  display: inline-block;
+  width: 50%;
+  height: 15px;
+  margin-right: 0px;
+  margin-left: 0;
+  text-align: left;
+}
+
+#zero-text {
+  display: inline-block;
+  width: 30%;
+  height: 15px;
+  margin-right: 0px;
+  margin-left: 0;
+  text-align: left;
+}
+
+#positive-text {
+  display: inline-block;
+  width: 10%;
+  height: 15px;
+  margin-right: 0px;
+  margin-left: 0;
+  text-align: left;
 }
 </style>

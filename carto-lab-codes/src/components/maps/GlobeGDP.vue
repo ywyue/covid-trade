@@ -17,8 +17,8 @@ export default {
       globeColorScale: d3.scaleSequentialSqrt(
         d3.interpolateRgb("#FFDA67", "#5EC9DB")
       ),
-      positiveColorScale: d3.scaleSequentialPow(d3.interpolateYlOrRd),
-      negativeColorScale: d3.scaleSequentialPow(d3.interpolateYlGnBu),
+      positiveColorScale: d3.scaleSequentialPow(d3.interpolateReds),
+      negativeColorScale: d3.scaleSequentialPow(d3.interpolateBlues),
       dataColumn: "rate",//"gdp_2020",
       dataFilePath: "data/world_gdp_by_area.geojson",
       flagEndpoint: "https://corona.lmao.ninja/assets/img/flags", //url to get country flags
@@ -112,7 +112,7 @@ export default {
             .polygonAltitude(0.06)
             .polygonCapColor((d) =>
               d.properties[this.dataColumn] === null
-                ? "#ffffff"
+                ? "#2F4F4F"
                 : getVal(d)>0
                 ? this.positiveColorScale(transferVal(getVal(d)))
                 : this.negativeColorScale(transferVal(getVal(d)))
@@ -129,7 +129,7 @@ export default {
                   d === hoverD
                     ? "#2F4F4F"
                     : d.properties[this.dataColumn] === null
-                    ? "#ffffff"
+                    ? "#2F4F4F"
                     : getVal(d)>0
                       ? this.positiveColorScale(transferVal(getVal(d)))
                       : this.negativeColorScale(transferVal(getVal(d)))
