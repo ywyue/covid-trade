@@ -27,13 +27,13 @@
     <subsession-title title="What can governments do?"/>
     <div class="row justify-center text-center" >
       <div class="col-12 col-md-3 title" >
-        <div class="text-h5 title-text">Vaccinate and co-operate</div>
+        <div class="text-h5 text-bold title-text">Vaccinate and co-operate</div>
       </div>
       <div class="col-12 col-md-3 title">
-        <div class="text-h5 title-text">Support people and business</div>
+        <div class="text-h5 text-bold title-text">Support people and business</div>
       </div>
       <div class="col-12 col-md-3 title">
-        <div class="text-h5 title-text">Prepare for a sustainable recovery</div>
+        <div class="text-h5 text-bold title-text">Prepare for a sustainable recovery</div>
       </div>
     </div>
     <div class="row justify-center text-body2">

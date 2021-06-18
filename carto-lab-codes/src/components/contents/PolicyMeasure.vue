@@ -2,7 +2,7 @@
   <q-page>
     <session-banner
       img-url="images/container2.jpg"
-      title="Policies and measurements"
+      title="Policies & Measurements"
       subtitle=""
     />
     <subsession-title
