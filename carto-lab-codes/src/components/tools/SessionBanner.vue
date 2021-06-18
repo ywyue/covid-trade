@@ -1,9 +1,9 @@
 <template>
-<!--  SESSION BANNER : Banner for each session with parallel effect -->
+  <!--  SESSION BANNER : Banner for each session with parallel effect -->
   <div class="q-mb-md q-mt-lg">
-    <q-parallax :height="450" :speed="0.5">
+    <q-parallax :height="250" :speed="0.5">
       <template v-slot:media>
-        <img :src="imgUrl">
+        <img :src="imgUrl" />
       </template>
 
       <template v-slot:content="scope">
@@ -11,15 +11,16 @@
           class="absolute column items-center"
           :style="{
             opacity: 0.9 + (1 - scope.percentScrolled) * 0.1,
-            top: (scope.percentScrolled * 60) + '%',
+            top: scope.percentScrolled * 60 + '%',
             left: 0,
-            right: 0
+            right: 0,
           }"
         >
-          <div class="q-ma-md"><p class="text-h2 text-white q-pl-md session-title">{{title}}</p>
-          </div>
-          <div class="text-h5 text-white q-ma-md">
-            {{subtitle}}
+          <div class="q-ma-md">
+            <p class="text-h2 text-white q-pl-md session-title">{{ title }}</p>
+            <div class="text-h5 text-white text-center">
+              {{ subtitle }}
+            </div>
           </div>
         </div>
       </template>
@@ -30,12 +31,12 @@
 <script>
 export default {
   name: "SessionBanner",
-  props:["imgUrl","title","subtitle"]
-}
+  props: ["imgUrl", "title", "subtitle"],
+};
 </script>
 
 <style scoped lang="scss">
-img{
+img {
   opacity: 0.95;
 }
 .session-title {
