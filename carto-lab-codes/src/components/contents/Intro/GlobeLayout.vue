@@ -18,8 +18,8 @@
             <span id="positive-bar"></span>
             <br/>
             <span id="negative-text">- 60.0%</span>
-            <span id="zero-text">0</span>
-            <span id="positive-text">+ 40.0%</span>
+            <span id="zero-text">0.0</span>
+            <span id="positive-text">+ 45.0%</span>
           </div>
         </div>
       </div>
@@ -33,6 +33,8 @@
 
 <script>
 import GlobeGDP from "components/maps/GlobeGDP";
+import * as d3 from "d3";
+
 export default {
   name: "GlobeLayout",
   components: { GlobeGDP },
@@ -41,6 +43,8 @@ export default {
       globeSizePercent: 0.99, //use 99% of the div
       globeWidth: 0,
       globeHeight: 0,
+      positiveColorScale: d3.scaleSequentialPow(d3.interpolateBlues),
+      negativeColorScale: d3.scaleSequentialPow(d3.interpolateReds),
     };
   },
   mounted() {
@@ -50,6 +54,9 @@ export default {
     this.globeHeight =
       this.$refs.mapviewContainer.getBoundingClientRect().height *
       this.globeSizePercent;
+
+    console.log(this.positiveColorScale(0.5));
+    console.log(this.negativeColorScale(0.5));
   },
   methods: {
     onResize(size) {
@@ -70,7 +77,7 @@ export default {
   height: 15px;
   margin-right: 0;
   margin-left: 10px;
-  background:linear-gradient(to left, #ffffff, #084080)
+  background:linear-gradient(to left, rgb(255,245,240), rgb(249,105,76), rgb(103,0,13));
 }
 
 #positive-bar {
@@ -79,7 +86,7 @@ export default {
   height: 15px;
   margin-right: 0;
   margin-left: 1px;
-  background:linear-gradient(to right, #ffffff, #7F0000)
+  background:linear-gradient(to right, rgb(247,251,255), rgb(109,174,213), rgb(8,48,107));
 }
 
 #negative-text{

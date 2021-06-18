@@ -17,8 +17,8 @@ export default {
       globeColorScale: d3.scaleSequentialSqrt(
         d3.interpolateRgb("#FFDA67", "#5EC9DB")
       ),
-      positiveColorScale: d3.scaleSequentialPow(d3.interpolateReds),
-      negativeColorScale: d3.scaleSequentialPow(d3.interpolateBlues),
+      positiveColorScale: d3.scaleSequentialPow(d3.interpolateBlues),
+      negativeColorScale: d3.scaleSequentialPow(d3.interpolateReds),
       dataColumn: "rate",//"gdp_2020",
       dataFilePath: "data/world_gdp_by_area.geojson",
       flagEndpoint: "https://corona.lmao.ninja/assets/img/flags", //url to get country flags
