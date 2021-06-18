@@ -1,5 +1,5 @@
 <template>
-  <div class="q-px-lg q-pb-md text-body1">
+  <div class="q-px-lg q-pb-md text-body2">
     <q-timeline :layout="layout" color="secondary">
 
       <q-timeline-entry subtitle="January 9, 2020" side="left">
