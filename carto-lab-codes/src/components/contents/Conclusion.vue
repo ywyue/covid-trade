@@ -36,7 +36,7 @@
         <div class="text-h5 title-text">Prepare for a sustainable recovery</div>
       </div>
     </div>
-    <div class="row justify-center">
+    <div class="row justify-center text-body2">
       <div class="col-12 col-md-3 content">
         Increase vaccine production and accelerate vaccination across the world.
         <q-space class="q-ma-sm"/>

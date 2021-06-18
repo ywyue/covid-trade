@@ -1,7 +1,7 @@
 <template>
 <!--  SUBSESSION TITLE : Title of each subsection-->
-  <div class="q-mt-xl q-mb-md text-center">
-    <p class="text-h5 q-pl-lg q-pr-lg " style="font-size: 200%">{{title}}</p>
+  <div class="q-mt-xl q-mb-sm text-center">
+    <p class="text-h5 q-pl-lg q-pr-lg text-weight-bold" style="font-size: 200%">{{title}}</p>
   </div>
 </template>
 
