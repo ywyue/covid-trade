@@ -1,5 +1,5 @@
 <template>
-  <div ref="chart" style="height: 250px"></div>
+  <div ref="chart" style="height: 350px"></div>
 </template>
 
 <script>
@@ -64,7 +64,7 @@ export default {
           text: this.title,
           subtext: this.subtitle,
           sublink: this.sublink,
-          left: 45,
+          left: "center",
         },
         legend: {
           // left: "80%",

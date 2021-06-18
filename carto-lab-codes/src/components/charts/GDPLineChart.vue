@@ -29,10 +29,11 @@ export default {
             label: {
               position: "insideTopRight",
               textBorderColor: "rgb(255,255,255)",
-              color: "rgba(0,0,0,1)",
+              color: "rgb(92,92,92)",
             },
             data: [
               [{ name: "Outbreak of COVID-19", xAxis: 15 }, { xAxis: 16 }],
+              [{ name: "Global Financial Crisis", xAxis: 3, label:{position:"insideBottomRight"} }, { xAxis: 4 }],
             ],
           },
         });
@@ -59,7 +60,7 @@ export default {
         text: "Annual percent change of gross domestic product (GDP)",
         subtext:
           "Data from IMF World Economic Outlook Database. Value in 2021 is the forecast.",
-        left: 45,
+        left: "center",
       },
 
       legend: {

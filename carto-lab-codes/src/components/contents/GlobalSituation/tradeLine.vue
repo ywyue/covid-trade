@@ -1,23 +1,30 @@
 <template>
 <div>
-  <div class="q-gutter-sm">
-    <q-radio
-      v-model="trade_mode"
-      val="exports"
-      label="Export"
-      color="teal"
-      v-on:click.enter="updateData"
-    />
-    <q-radio
-      v-model="trade_mode"
-      val="imports"
-      label="Import"
-      color="cyan"
-      v-on:click.enter="updateData"
-    />
-  </div>
   <div style="height:450px">
     <trade-line-chart :chartData="chartData" :title="title" ref="chart"/>
+  </div>
+  <div class=" row justify-center q-ml-md q-mr-md q-pl-sm q-pr-sm items-center" style="background-color:#e3e3e3">
+    <div class="col-12 col-md-2 text-left" >
+      <q-radio
+        v-model="trade_mode"
+        val="exports"
+        label="Export"
+        color="teal"
+        v-on:click.enter="updateData"
+      />
+    </div>
+    <div class="col-12 col-md-2 text-left" >
+      <q-radio
+        v-model="trade_mode"
+        val="imports"
+        label="Import"
+        color="cyan"
+        v-on:click.enter="updateData"
+      />
+    </div>
+    <div class="col-12 col-md-7 " >
+      <div class="text-caption text-right">Data from IMF World Economic Outlook Database. Value in 2021 is the forecast.</div>
+    </div>
   </div>
 </div>
 </template>

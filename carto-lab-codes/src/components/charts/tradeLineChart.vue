@@ -85,8 +85,8 @@ export default {
         animationDuration: 1000,
         title: {
           text: this.title,
-          subtext: "subtitle",
-          left: 45,
+          // subtext: "subtitle",
+          left: "center",
         },
 
         legend: {
@@ -105,6 +105,7 @@ export default {
         },
         yAxis: {
           type: "value",
+          name:"%",
           min: -15,
           max: 20,
         },

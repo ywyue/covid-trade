@@ -49,6 +49,33 @@
       </div>
     </div>
     <q-space class="q-ma-xl" />
+
+    <!--    Global Economy: GDP Change -->
+    <session-banner img-url="images/container.jpg"
+                    title="COVID-19 Impacts the Global Economy"
+                    subtitle="The health crisis has unleashed a global economic shock"/>
+    <q-space class="q-ma-xl" />
+    <!--    gdp line chart -->
+    <div class="row items-start text-center justify-center">
+      <div class="col-12 col-md-8 text-center">
+        <div class="text-h6">The strike of the pandemic to the world economy is even harder than the global financial crisis.</div>
+        <div class="text-body1">
+          In 2020, gross domestic product (GDP) fell by around 3.3%, with an expected global recovery of 6.0%.
+          Developed countries are affected more in 2020 than developing countries and expect a weaker recovery in 2021.
+
+          Unlike the global financial crisis of 2008/2009, developing countries experienced negative growth in 2020,
+          and developed economies experienced a much deeper fall.
+        </div>
+      </div>
+    </div>
+    <q-space class="q-ma-xl" />
+    <div class="row items-start text-center justify-center">
+      <div class="col-12 col-md-10">
+        <GDPLineChart ref="gdpChart" />
+      </div>
+    </div>
+    <q-space class="q-ma-xl" />
+    <subsession-title title="COVID-19 Impacts the Global Economy"/>
     <GlobeLayout/>
   </q-page>
 </template>
@@ -57,11 +84,14 @@
 import NumberCounter from "components/tools/NumberCounter";
 import GlobeLayout from "components/contents/Intro/GlobeLayout";
 import TimelineCovid from "components/contents/Intro/TimelineCovid";
+import SubsessionTitle from "components/tools/SubsessionTitle";
+import SessionBanner from "components/tools/SessionBanner";
+import GDPLineChart from "components/charts/GDPLineChart";
 
 
 export default {
   name: "Introduction",
-  components: {TimelineCovid, GlobeLayout, NumberCounter },
+  components: {SessionBanner, SubsessionTitle, TimelineCovid, GlobeLayout, NumberCounter, GDPLineChart,},
   data: function () {
     return {};
   },
