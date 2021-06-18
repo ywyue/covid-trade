@@ -3,6 +3,7 @@
     <session-banner
       img-url="images/container.jpg"
       title="Global Trade During COVID-19"
+      subtitle=""
     />
     <!--    trade export & import line chart   -->
     <subsession-title

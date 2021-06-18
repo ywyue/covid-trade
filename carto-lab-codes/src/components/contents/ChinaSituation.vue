@@ -3,6 +3,7 @@
     <session-banner
       img-url="images/container3.jpg"
       title="China's Trade During COVID-19"
+      subtitle=""
     />
     <subsession-title title="Visualization of China's trade flow" />
 

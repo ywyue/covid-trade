@@ -3,6 +3,7 @@
     <session-banner
       img-url="images/container2.jpg"
       title="Policies and measurements"
+      subtitle=""
     />
     <subsession-title
       title="China's trade responses to the COVID-19 Pandemic"

@@ -11,11 +11,14 @@
       <div class="callout">
         <!-- <h1>Global trade</h1> -->
         <h3>How COVID-19 is changing the world: an economic perspective</h3>
-        <h5>
-          The COVID-19 pandemic represents an unprecedented disruption to the
-          global economy and world trade, as production and consumption are
-          scaled back across the globe.
-        </h5>
+
+          <h5>
+            The COVID-19 pandemic represents an unprecedented disruption to the
+            global economy and world trade, as production and consumption are
+            scaled back across the globe.
+          </h5>
+
+
       </div>
     </section>
   </section>

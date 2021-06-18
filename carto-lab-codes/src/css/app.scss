@@ -1,15 +1,17 @@
 // app global css in SCSS form
 
-// app global css in SCSS or CSS form
-@font-face {
-  font-family: "Alegreya Sans";
-  src: url("../assets/font/AlegreyaSans-Regular.ttf");
-}
+//@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+//
+//@font-face {
+//  font-family: Lato;
+//  src: url(../assets/font/Lato-Regular.ttf);
+//}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 @font-face {
-  font-family: "Alegreya Sans";
-  src: url("../assets/font/AlegreyaSans-Bold.ttf");
-  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  src: url(../assets/font/Oswald-Regular.ttf);
 }
 
 ul,
@@ -71,6 +73,10 @@ h4,
 h5,
 h6 {
   color: #333;
+}
+
+strong {
+  color: rgb(6, 167, 216);
 }
 
 //Globe-Viewer-Tooltip-Container
