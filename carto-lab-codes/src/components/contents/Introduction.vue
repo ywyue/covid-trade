@@ -104,7 +104,7 @@ import TimelineCovid from "components/contents/Intro/TimelineCovid";
 import SubsessionTitle from "components/tools/SubsessionTitle";
 import SessionBanner from "components/tools/SessionBanner";
 import GDPLineChart from "components/charts/GDPLineChart";
-// import Background from './Intro/background.vue';
+import Background from "components/contents/Intro/Background.vue";
 
 export default {
   name: "Introduction",
@@ -115,7 +115,7 @@ export default {
     GlobeLayout,
     NumberCounter,
     GDPLineChart,
-    // Background,
+    Background,
   },
   data: function () {
     return {};
