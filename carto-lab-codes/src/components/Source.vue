@@ -1,10 +1,21 @@
 <template>
-
-  <div class="q-pa-md items-center" style="background-color:#e0e0e0; height: 60px; display:flex; justify-content:center;">
-    <q-btn @click="scroll" flat align="around"
-           label="Source"
-           icon="article"
-           style="margin:auto; display:block;"/>
+  <div
+    class="q-pa-md items-center"
+    style="
+      background-color: #e0e0e0;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+    "
+  >
+    <q-btn
+      @click="scroll"
+      flat
+      align="around"
+      label="Source"
+      icon="article"
+      style="margin: auto; display: block"
+    />
   </div>
 
   <div class="row" style="background-color: #e0e0e0" v-if="show" id="source">
@@ -27,6 +38,12 @@
           >AIS: Weekly Port Calls</a
         >
       </div>
+      <div class="text-body2">
+        <a
+          href="https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/export/"
+          >OPENDATASOFT</a
+        >
+      </div>
     </div>
     <q-separator vertical inset color="white" />
     <div class="column">
@@ -47,20 +64,25 @@
         <a href="https://docs.mapbox.com/mapbox-gl-js/api/">Mapbox</a>,
         <a href="https://globe.gl/">Globe.GL</a>,
         <a href="https://d3js.org/">D3.js</a>,
-        <a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a>
+        <a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a>,
+        <a href="https://flourish.studio/">Flourish</a>
       </div>
     </div>
     <q-separator vertical inset color="white" />
     <div class="column">
-      <span style="color: #505050; font-size: 120%">Images: </span>
+      <span style="color: #505050; font-size: 120%">Multimedia: </span>
       <div class="text-body2">
-        <a href="https://www.flaticon.com/">FLATICON.COM</a>
+        Images: <a href="https://www.flaticon.com/">Flaticon</a>,
+        <a href="https://www.pexels.com/">Pexels</a>,
+        <a href="https://unsplash.com/">Unsplash</a>
       </div>
-      <div class="text-body2"><a href="https://www.pexels.com/">Pexels</a></div>
       <div class="text-body2">
-        <a href="https://unsplash.com/">unsplash.com</a>
+        Videos:
+        <a href="https://www.pexels.com/">Pexels</a>,
+        <a href="https://www.oecd.org/economic-outlook/">OECD</a>
       </div>
     </div>
+
     <q-space class="q-ma-md" />
   </div>
   <div class="text-body2 q-pl-lg q-pr-lg q-pb-sm">

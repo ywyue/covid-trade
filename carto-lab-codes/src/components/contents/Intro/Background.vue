@@ -101,10 +101,11 @@ h5 {
   text-align: center;
   font-weight: bold;
   color: white;
-  background: rgb(6, 167, 216);
+  background: rgb(6, 167, 216, 0.7);
   width: 70%;
   min-width: 375px;
   margin: auto;
+  padding: 10px;
 }
 
 .desc {
