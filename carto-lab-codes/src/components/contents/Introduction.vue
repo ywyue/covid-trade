@@ -6,7 +6,7 @@
     <div class="text-center items-center row justify-center q-mt-lg">
       <div class="col-12 col-md-7">
         <div class="text-body1">
-          Since January 9, 2020, the pandemic of COVID-19 has impacted the world largely.
+          Since the outbreak of the coronavirus disease of 2019 (COVID-19), the pandemic of COVID-19 has impacted the world largely.
           People experienced the lockdown, gradually got used to the health restrictions and started to receive vaccination.
 
           The world faces a new challenge after the Global Financial Crisis in 2008. Much longer period can be expected for
@@ -24,7 +24,7 @@
     <div class="text-center items-center row justify-center">
       <div class="col-12 col-md-8">
         <div class="text-body1">
-          Since the outbreak of the coronavirus disease of 2019 (COVID-19), more
+          During the COVID-19 period, more
           than 1 million people have lost their lives due to the pandemic, and
           the global economy is expected to contract by a staggering 4.3% in
           2020. Millions of jobs have already been lost, millions of livelihoods
