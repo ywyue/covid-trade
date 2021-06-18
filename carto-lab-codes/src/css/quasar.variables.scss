@@ -1,16 +1,17 @@
 // Quasar SCSS (& Sass) Variables
 
-$primary   : #0C120C;
-$secondary : #C20114;
-$accent    : #6D7275;
+$primary: #0c120c;
+$secondary: #c20114;
+$accent: #6d7275;
 
-$dark      : #1D1D1D;
+$dark: #1d1d1d;
 
-$positive  : #ECEBF3;
-$negative  : #C20114;
-$info      : #C7D6D5;
-$warning   : #F2C037;
-
+$positive: #ecebf3;
+$negative: #c20114;
+$info: #c7d6d5;
+$warning: #f2c037;
 
 // Self-defined variables
-$counter : #279B48;
+$typography-font-family: "Alegreya Sans", "-apple-system", "Helvetica Neue",
+  Helvetica, Arial, sans-serif !default;
+$counter: #279b48;

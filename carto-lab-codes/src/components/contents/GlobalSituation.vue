@@ -3,7 +3,6 @@
     <session-banner
       img-url="images/container.jpg"
       title="Global Trade During COVID-19"
-      subtitle="The health crisis has unleashed a global economic shock"
     />
     <!--    trade export & import line chart   -->
     <subsession-title
@@ -94,19 +93,27 @@
     <div class="row justify-center">
       <div class="col-12 col-md-8">
         <div class="text-body1 q-mt-lg q-mb-lg">
-
-          If we zoom to the major trading economies, we can further understand how trade patterns changed during COVID-19.
-          <strong>In the first half of 2020, all major economies experienced significant falls in both imports and exports
-            of goods.</strong>
-          The volumes of trade in goods remained lower in the third quarter of 2020 than in the same quarter
-          of the previous year for almost all major economies except China and South Africa.
-          In the fourth quarter of 2020, trade in goods recovered gradually across many major economies.
-          <q-space class="q-ma-md"/>
-          <strong>Although the major economies faced downturns of trading, China was the exception to this trend.</strong> After the recession
-          in the first half year of 2020, both imports and exports of goods increased compared to the same quarter of 2019.
-          In the later session, we will explore the trading and measurements of China during COVID-19,
-          to further discuss the possible reasons making it as the exception.
-
+          If we zoom to the major trading economies, we can further understand
+          how trade patterns changed during COVID-19.
+          <strong
+            >In the first half of 2020, all major economies experienced
+            significant falls in both imports and exports of goods.</strong
+          >
+          The volumes of trade in goods remained lower in the third quarter of
+          2020 than in the same quarter of the previous year for almost all
+          major economies except China and South Africa. In the fourth quarter
+          of 2020, trade in goods recovered gradually across many major
+          economies.
+          <q-space class="q-ma-md" />
+          <strong
+            >Although the major economies faced downturns of trading, China was
+            the exception to this trend.</strong
+          >
+          After the recession in the first half year of 2020, both imports and
+          exports of goods increased compared to the same quarter of 2019. In
+          the later session, we will explore the trading and measurements of
+          China during COVID-19, to further discuss the possible reasons making
+          it as the exception.
         </div>
       </div>
     </div>
