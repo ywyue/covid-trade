@@ -52,7 +52,6 @@
     </div>
     <q-separator vertical inset color="white" />
     <div class="column">
-
       <span style="color: #505050; font-size: 120%">Images: </span>
       <div class="text-body2">
         <a href="https://www.flaticon.com/">FLATICON.COM</a>
