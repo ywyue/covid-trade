@@ -63,7 +63,7 @@ export default {
   components: { GlobeGDP },
   data() {
     return {
-      globeSizePercent: 0.99, //use 99% of the div
+      globeSizePercent: 0.9, //use 99% of the div
       globeWidth: 0,
       globeHeight: 0,
       positiveColorScale: d3.scaleSequentialPow(d3.interpolateBlues),

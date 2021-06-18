@@ -34,7 +34,7 @@ export default {
         .lineHoverPrecision(0)
         .width(this.width)
         .height(this.height)
-        .pointOfView({ lat: 0, lng: 0, altitude: 1.75 }, 4000);
+        .pointOfView({ lat: 0, lng: 0, altitude: 1.85 }, 4000);
       this.showLayer();
       this.autoRotate(true);
     },
