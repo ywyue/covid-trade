@@ -134,4 +134,8 @@ export default {
 .right {
   float: left;
 }
+
+a {
+  color: rgb(6, 167, 216)
+}
 </style>
