@@ -2,7 +2,6 @@
   <div>
     <div class="row">
       <div class="col-12 col-md-6">
-        <div class="text-h6">Gross Domestic Product Change Rate between 2019 and 2020</div>
         <div ref="mapviewContainer" class="q-mb-xm">
           <q-resize-observer @resize="onResize" />
           <GlobeGDP
@@ -24,7 +23,7 @@
         </div>
       </div>
       <div class="col-12 col-md-6">
-        Some text.....
+
 
       </div>
     </div>

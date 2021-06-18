@@ -56,8 +56,8 @@
                     subtitle="The health crisis has unleashed a global economic shock"/>
     <q-space class="q-ma-xl" />
     <!--    gdp line chart -->
-    <div class="row items-start text-center justify-center">
-      <div class="col-12 col-md-8 text-center">
+    <div class="row items-start justify-center">
+      <div class="col-12 col-md-8 ">
         <div class="text-h6">The strike of the pandemic to the world economy is even harder than the global financial crisis.</div>
         <div class="text-body1">
           In 2020, gross domestic product (GDP) fell by around 3.3%, with an expected global recovery of 6.0%.
@@ -75,7 +75,6 @@
       </div>
     </div>
     <q-space class="q-ma-xl" />
-    <subsession-title title="COVID-19 Impacts the Global Economy"/>
     <GlobeLayout/>
   </q-page>
 </template>
