@@ -64,12 +64,10 @@
     </div>
     <q-separator vertical inset color="white" />
     <div class="column">
-      <<<<<<< HEAD
       <span style="color: #505050; font-size: 120%">Images: </span>
       <div class="text-body2">
         <a href="https://www.flaticon.com/">FLATICON.COM</a>
       </div>
-      =======
       <span style="color: #505050; font-size: 120%">Images: </span>
       <div class="text-body2">
         <a href="https://www.flaticon.com/">FLATICON.COM</a>
@@ -78,7 +76,6 @@
       <div class="text-body2">
         <a href="https://unsplash.com/">unsplash.com</a>
       </div>
-      >>>>>>> 0db2e6dc8d0ade33ae46f45525dd1e098032536b
     </div>
     <q-space class="q-ma-md" />
   </div>
