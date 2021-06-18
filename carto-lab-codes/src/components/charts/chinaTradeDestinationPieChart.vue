@@ -41,11 +41,11 @@ export default {
       // Only show top 10 destinations; aggregate the other countries value
       let updateData = this.jsonData[commodity][direction];
       updateData.sort((a, b) => (a.value < b.value ? 1 : -1));
-      console.log(updateData);
+      // console.log(updateData);
       this.chartData = [];
       let otherTotal = 0;
       updateData.forEach((item, idx) => {
-        console.log(idx);
+        // console.log(idx);
         if (idx < 10) {
           this.chartData.push(item);
         } else {
