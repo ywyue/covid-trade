@@ -1,8 +1,8 @@
 <template>
-  <div class="q-pa-md items-center" style="background-color:#e0e0e0; height: 60px; margin-top:0px; display:flex; justify-content:center;">
+  <div class="q-pa-md items-center" style="background-color:#e0e0e0; height: 60px; display:flex; justify-content:center;">
     <q-btn @click="scroll" flat align="around"
            label="Source"
-           icon="lightbulb_outline"
+           icon="article"
            style="margin:auto; display:block;"/>
   </div>
 

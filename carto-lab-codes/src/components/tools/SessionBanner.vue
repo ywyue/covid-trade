@@ -1,7 +1,7 @@
 <template>
   <!--  SESSION BANNER : Banner for each session with parallel effect -->
   <div class="q-mb-md q-mt-lg">
-    <q-parallax :height="250" :speed="0.5">
+    <q-parallax :height="275" :speed="0.5">
       <template v-slot:media>
         <img :src="imgUrl" />
       </template>

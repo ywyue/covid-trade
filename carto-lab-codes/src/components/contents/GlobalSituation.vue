@@ -80,6 +80,8 @@
           <q-space class="q-ma-md"/>
           <strong>Although the major economies faced downturns of trading, China was the exception to this trend.</strong> After the recession
           in the first half year of 2020, both imports and exports of goods increased compared to the same quarter of 2019.
+          In the later session, we will explore the trading and measurements of China during COVID-19,
+          to further discuss the possible reasons making it as the exception.
         </div>
       </div>
     </div>
