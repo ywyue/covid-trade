@@ -7,11 +7,17 @@
 //  src: url(../assets/font/Lato-Regular.ttf);
 //}
 
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 @font-face {
-  font-family: 'Oswald', sans-serif;
-  src: url(../assets/font/Oswald-Regular.ttf);
+  font-family: "Alegreya Sans";
+  src: url("../assets/font/AlegreyaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url("../assets/font/AlegreyaSans-Bold.ttf");
+  font-weight: bold;
 }
 
 ul,
@@ -76,22 +82,20 @@ h6 {
 }
 
 strong {
-  color: rgb(6, 167, 216)
+  color: rgb(6, 167, 216);
 }
-
-
 
 //Globe-Viewer-Tooltip-Container
 .globe-viewer-tooltip-container {
-  $background: rgba(255,255,255,.6);
-  $otherAccent: #269A46;
+  $background: rgba(255, 255, 255, 0.6);
+  $otherAccent: #269a46;
   height: 180px;
   width: 360px;
   padding: 20px;
   border-radius: 5px;
   background: $background;
   position: relative;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   .flag-img {
     height: 100px;
     width: 100px;
@@ -101,10 +105,10 @@ strong {
     top: 0px;
     left: 0px;
     border-radius: 50%;
-    box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
   }
   .country-title {
-    font-family: 'Sriracha', arial, sans-serif;
+    font-family: "Sriracha", arial, sans-serif;
     font-size: 18px;
     text-align: left;
     font-weight: bolder;
@@ -112,7 +116,7 @@ strong {
     margin-bottom: 10px;
     color: #343434;
   }
-  .description{
+  .description {
     margin-top: 1px;
     margin-bottom: 5px;
     padding-left: 95px;

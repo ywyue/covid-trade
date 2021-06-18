@@ -12,14 +12,15 @@
         <div class="text-body1 q-mt-lg q-mb-lg">
           Since 2014, China is not only the world's largest exporter, but also
           the largest trading nation in terms of the sum of its exports and
-          imports. According to UN Comtrade Database, China exported $259.06
-          billion in goods in 2020 while it imported $205.559 billion. Despite
-          the impact of COVID, China’s exports have increased by 3.68% in 2020
+          imports. According to UN Comtrade Database, China exported
+          <b>$259.06 billion</b> in goods in 2020 while it imported
+          <b>$205.559 billion</b>. Despite the impact of COVID, China’s exports
+          have increased by <b>3.68%</b> in 2020
 
           <q-space class="q-ma-md" />
-          The U.S. has been the TOP 1 export destination of Chinese goods for
-          the past 5 years. Regarding imports, most of China's imports come from
-          South Korea, Japan and the United States.
+          <b>The United States</b> has been the TOP 1 export destination of
+          Chinese goods for the past 5 years. Regarding imports, most of China's
+          imports come from <b>South Korea, Japan and the United States</b>.
         </div>
       </div>
     </div>
@@ -30,16 +31,28 @@
       data-url="https://flo.uri.sh/visualisation/6468975/embed"
     ></div>
 
+    <subsession-title
+      title="Commodity composition and flow of China's import and export"
+    />
+
     <div class="row justify-center">
       <div class="col-12 col-md-8">
         <div class="text-body1 q-mt-lg q-mb-lg">
           Detailed information about the types of commodities traded of China in
           2020 can be found from the tree map below. The most recent imports of
-          China are led by Crude Petroleum (26.19%), Iron Ore (17.67%), and
-          Petroleum Gas (6.25%).
+          China are led by Mineral fuels (39.74%), Ores, slag and ash (26.74%),
+          and Organic chemicals (6.77%).
 
           <q-space class="q-ma-md" />
-          The most recent exports are led by
+          The most recent exports are led by Organic chemicals (30.99%), Mineral
+          fuels (17.47%), and Inorganic chemicals (8.27%).
+          <b>Medical commodities share about 0.66% of the total exports</b>.
+
+          <q-space class="q-ma-md" />
+          *<i
+            >Note: The pie chart on the right will update if a product category
+            on the tree map is selected.
+          </i>
         </div>
       </div>
     </div>
