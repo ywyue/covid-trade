@@ -15,7 +15,7 @@
           <div class="col-12 col-md-10">
             <span id="negative-bar"></span>
             <span id="positive-bar"></span>
-            <br/>
+            <br />
             <span id="negative-text">- 60.0%</span>
             <span id="zero-text">0.0</span>
             <span id="positive-text">+ 45.0%</span>
@@ -23,20 +23,30 @@
         </div>
       </div>
       <div class="col-12 col-md-6 q-pa-xl">
-        <div class="text-h6">The growth of GDP shows divergent trends in different regions.</div>
-        <q-space class="q-ma-lg"/>
+        <div class="text-h6">
+          The change percent of GDP in 2020 shows divergent trends in different
+          regions.
+        </div>
+        <q-space class="q-ma-lg" />
         <div class="text-body1">
-          <strong>The Americas experienced negative output growth in 2020</strong>: Argentina at -10.0
-          per cent, Brazil at -4.1 per cent, Mexico at -8.2 per cent and the United States of America at
-          -3.5 per cent.
-          <strong>European countries suffered significant negative growth this
-            year</strong>, with France at -8.2 per cent, Germany at -4.9 per cent, Italy at -8.9 per cent and the
-          United Kingdom of Great Britain and Northern Ireland at -9.9 per cent.
-          Growth of GDP in South Africa fell by 6.9 per cent.
-          <q-space class="q-ma-lg"/>
-          <strong>Several countries experienced the opposite trends, showing positive growth during COVID-19.</strong>
-            China showed 2.3 per cent growth compared to the previous year.
-          <q-space class="q-ma-lg"/>
+          <strong
+            >The Americas experienced negative output growth in 2020</strong
+          >: Argentina at -10.0 per cent, Brazil at -4.1 per cent, Mexico at
+          -8.2 per cent and the United States of America at -3.5 per cent.
+          <strong
+            >European countries suffered significant negative growth this
+            year</strong
+          >, with France at -8.2 per cent, Germany at -4.9 per cent, Italy at
+          -8.9 per cent and the United Kingdom of Great Britain and Northern
+          Ireland at -9.9 per cent. Growth of GDP in South Africa fell by 6.9
+          per cent.
+          <q-space class="q-ma-lg" />
+          <strong
+            >Several countries experienced the opposite trends, showing positive
+            growth during COVID-19.</strong
+          >
+          China showed 2.3 per cent growth compared to the previous year.
+          <q-space class="q-ma-lg" />
           You may explore data of more countries in the 3D Globe.
         </div>
       </div>
@@ -83,14 +93,18 @@ export default {
 </script>
 
 <style scoped>
-
 #negative-bar {
   display: inline-block;
   width: 50%;
   height: 15px;
   margin-right: 0;
   margin-left: 10px;
-  background:linear-gradient(to left, rgb(255,245,240), rgb(249,105,76), rgb(103,0,13));
+  background: linear-gradient(
+    to left,
+    rgb(255, 245, 240),
+    rgb(249, 105, 76),
+    rgb(103, 0, 13)
+  );
 }
 
 #positive-bar {
@@ -99,10 +113,15 @@ export default {
   height: 15px;
   margin-right: 0;
   margin-left: 1px;
-  background:linear-gradient(to right, rgb(247,251,255), rgb(109,174,213), rgb(8,48,107));
+  background: linear-gradient(
+    to right,
+    rgb(247, 251, 255),
+    rgb(109, 174, 213),
+    rgb(8, 48, 107)
+  );
 }
 
-#negative-text{
+#negative-text {
   display: inline-block;
   width: 50%;
   height: 15px;
