@@ -17,7 +17,9 @@ export default {
       globeColorScale: d3.scaleSequentialSqrt(
         d3.interpolateRgb("#FFDA67", "#5EC9DB")
       ),
-      dataColumn: "gdp_2020",
+      positiveColorScale: d3.scaleSequentialPow(d3.interpolateYlOrRd),
+      negativeColorScale: d3.scaleSequentialPow(d3.interpolateYlGnBu),
+      dataColumn: "rate",//"gdp_2020",
       dataFilePath: "data/world_gdp_by_area.geojson",
       flagEndpoint: "https://corona.lmao.ninja/assets/img/flags", //url to get country flags
     };
@@ -91,27 +93,29 @@ export default {
 
     showLayer() {
       // Show layer
-      const getVal = (feat) => Math.log(feat.properties[this.dataColumn]);
+      const getVal = (feat) => feat.properties[this.dataColumn];
+      const transferVal = (feat) => Math.log(Math.abs(feat));
 
       fetch(this.dataFilePath)
         .then((res) => res.json())
         .then((countries) => {
           const minVal = Math.min(...countries.features.map(getVal));
           const maxVal = Math.max(...countries.features.map(getVal));
-          // console.log(countries.features.map(getVal));
-          // console.log(countries.features.map(0));
           console.log(minVal);
           console.log(maxVal);
-          this.globeColorScale.domain([0, maxVal]);
+          this.positiveColorScale.domain([0, transferVal(maxVal)]);
+          this.negativeColorScale.domain([0, transferVal(-minVal)]);
           this.world
             .polygonsData(
               countries.features.filter((d) => d.properties.ISO_A3 !== "AQ")
             )
             .polygonAltitude(0.06)
             .polygonCapColor((d) =>
-              d.properties.gdp_2020 === null
+              d.properties[this.dataColumn] === null
                 ? "#ffffff"
-                : this.globeColorScale(getVal(d))
+                : getVal(d)>0
+                ? this.positiveColorScale(transferVal(getVal(d)))
+                : this.negativeColorScale(transferVal(getVal(d)))
             )
             .polygonSideColor(() => "rgba(255,255,255,0.15)")
             .polygonStrokeColor(() => "rgba(40,70,70,0.65)")
@@ -124,9 +128,11 @@ export default {
                 .polygonCapColor((d) =>
                   d === hoverD
                     ? "#2F4F4F"
-                    : d.properties.gdp_2020 === null
+                    : d.properties[this.dataColumn] === null
                     ? "#ffffff"
-                    : this.globeColorScale(getVal(d))
+                    : getVal(d)>0
+                      ? this.positiveColorScale(transferVal(getVal(d)))
+                      : this.negativeColorScale(transferVal(getVal(d)))
                 )
             )
             .polygonsTransitionDuration(300);
