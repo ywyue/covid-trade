@@ -43,13 +43,42 @@
     <q-separator vertical inset color="white" />
     <div class="column">
       <span style="color: #505050; font-size: 120%">Software:</span>
+      <div class="text-body2">
+        Data Processing: <a href="https://pandas.pydata.org/">Pandas</a>,
+        <a href="https://geopandas.org/">GeoPandas</a>,
+        <a herf="https://www.qgis.org/en/site/">QGIS</a>
+      </div>
+      <div class="text-body2">
+        Front-end design and development:
+        <a href="https://v3.vuejs.org/">Vue</a>,
+        <a href="https://quasar.dev/">Quasar</a>,
+        <a href="https://animejs.com/">animejs</a>
+      </div>
+      <div class="text-body2">
+        Visualization:
+        <a href="https://docs.mapbox.com/mapbox-gl-js/api/">Mapbox</a>,
+        <a href="https://globe.gl/">Globe.GL</a>,
+        <a href="https://d3js.org/">D3.js</a>,
+        <a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a>
+      </div>
     </div>
     <q-separator vertical inset color="white" />
     <div class="column">
+      <<<<<<< HEAD
       <span style="color: #505050; font-size: 120%">Images: </span>
       <div class="text-body2">
         <a href="https://www.flaticon.com/">FLATICON.COM</a>
       </div>
+      =======
+      <span style="color: #505050; font-size: 120%">Images: </span>
+      <div class="text-body2">
+        <a href="https://www.flaticon.com/">FLATICON.COM</a>
+      </div>
+      <div class="text-body2"><a href="https://www.pexels.com/">Pexels</a></div>
+      <div class="text-body2">
+        <a href="https://unsplash.com/">unsplash.com</a>
+      </div>
+      >>>>>>> 0db2e6dc8d0ade33ae46f45525dd1e098032536b
     </div>
     <q-space class="q-ma-md" />
   </div>

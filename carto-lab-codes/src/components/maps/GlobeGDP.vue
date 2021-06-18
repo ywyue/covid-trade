@@ -62,11 +62,11 @@ export default {
       let div_html = `<div class="globe-viewer-tooltip-container">
                         <img class="flag-img" src="${this.flagEndpoint}/${flagName}.png"/>
                         <div class="country-title">${d.ADMIN}</div>
-                        <div class="description"><table>
-                        <tr><th class="text-left">GDP:</th><th class="text-right">${GDP}</th></tr>
-                        <tr><th class="text-left">Change:</th><th class="text-right">${changeRate}</th></tr>
+                        <div class="description"><table style="width: 100%">
+                        <tr><th class="text-left">GDP 2020</th><th class="text-right">${GDP}</th></tr>
+                        <tr><th class="text-left">Change*</th><th class="text-right">${changeRate}</th></tr>
                         </table>
-                        </div><div class="text-caption">Notes: Change percentage of GDP between 2019 and 2020.</div>
+                        </div><div class="text-caption">Notes: *Change percentage of GDP between 2019 and 2020.</div>
                       </div>`;
 
       return div_html;
