@@ -1,5 +1,5 @@
 <template>
-<div ref="chart" style="height:500px; width:100%;"></div>
+  <div ref="chart" style="height: 500px; width: 100%"></div>
 </template>
 
 <script>
@@ -11,27 +11,27 @@ let myChart;
 export default {
   name: "chinaTradeDestinationPieChart",
   props: ["column"],
-  data(){
-    return{
+  data() {
+    return {
       chartData: null,
       chartTitle: "",
       seriesNameMap: {
-        "Import": "China imports from",
-        "Export": "China exports to"
+        Import: "China imports from",
+        Export: "China exports to",
       },
       seriesName: null,
       commodity: null,
       jsonData: json,
-    }
+    };
   },
   watch: {
-    column(val){
+    column(val) {
       this.processData(val);
       this.initChart();
-    }
+    },
   },
-  methods:{
-    processData(val){
+  methods: {
+    processData(val) {
       let rec = val.split("-");
       let direction = rec[1];
       let commodity = rec[0];
@@ -40,82 +40,83 @@ export default {
 
       // Only show top 10 destinations; aggregate the other countries value
       let updateData = this.jsonData[commodity][direction];
-      updateData.sort((a,b) => (a.value<b.value) ? 1 : -1);
+      updateData.sort((a, b) => (a.value < b.value ? 1 : -1));
       console.log(updateData);
       this.chartData = [];
       let otherTotal = 0;
-      updateData.forEach((item, idx)=>{
+      updateData.forEach((item, idx) => {
         console.log(idx);
-        if (idx<10){
+        if (idx < 10) {
           this.chartData.push(item);
-        }else{
+        } else {
           otherTotal += item.value;
         }
       });
       this.chartData.push({
-        name:"Other Regions",
+        name: "Other Regions",
         value: otherTotal,
-        itemStyle:{
-          color: "#c1c1c1"
-        }
+        itemStyle: {
+          color: "#c1c1c1",
+        },
       });
     },
-    initChart(){
+    initChart() {
       var option = {
-        title:{
-          text:"Share of trade volume by regions "+this.seriesName,
-          subtext: "Commodity Type: "+this.commodity,
+        title: {
+          text: "Share of trade volume by regions " + this.seriesName,
+          subtext: "Commodity Type: " + this.commodity,
         },
         tooltip: {
-          trigger: 'item'
+          trigger: "item",
         },
         legend: {
           show: true,
-          top: '90%',
-          left: 'center'
+          top: "90%",
+          left: "center",
         },
         series: [
           {
             name: this.seriesName,
-            type: 'pie',
-            radius: ['40%', '70%'],
+            type: "pie",
+            radius: ["40%", "70%"],
             avoidLabelOverlap: false,
             itemStyle: {
               borderRadius: 0,
-              borderColor: '#fff',
-              borderWidth: 1
+              borderColor: "#fff",
+              borderWidth: 1,
             },
             label: {
               show: false,
-              position: 'center'
+              position: "center",
             },
             emphasis: {
               label: {
                 show: true,
-                fontSize: '40',
-                fontWeight: 'bold',
-                formatter: '{b}\n{d}%'
-              }
+                fontSize: "40",
+                fontWeight: "bold",
+                formatter: "{b}\n{d}%",
+              },
             },
             labelLine: {
-              show: false
+              show: false,
             },
             data: this.chartData,
-          }
-        ]
+          },
+        ],
       };
 
       option && myChart.setOption(option);
     },
   },
-  mounted(){
+  mounted() {
     myChart = echarts.init(this.$refs["chart"]);
     this.processData("Overall-Import-Overall");
     this.initChart();
-  }
-}
+    window.addEventListener("resize", function () {
+      myChart.resize();
+    });
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

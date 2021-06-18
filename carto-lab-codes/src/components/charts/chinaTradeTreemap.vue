@@ -12,7 +12,7 @@ export default {
     return {
       options: {},
       jsonData: json,
-      categories: ['Import', 'Export']
+      categories: ["Import", "Export"],
     };
   },
   methods: {
@@ -57,15 +57,16 @@ export default {
           normal: {
             position: "insideTopLeft",
             formatter: function (params) {
-              let trade_mode = self.categories[mode]
-              let share = params.value[0]/self.jsonData[trade_mode]['total']*100
+              let trade_mode = self.categories[mode];
+              let share =
+                (params.value[0] / self.jsonData[trade_mode]["total"]) * 100;
               var arr = [
                 "{name|" + params.name + "}",
                 "{hr|}",
-                "{budget|" + share.toFixed(2) +
-                  "%} {label|" + trade_mode + "}",
-                "{household|$ "+
-                echarts.format.addCommas(params.value[0]) +"}"
+                "{budget|" + share.toFixed(2) + "%} {label|" + trade_mode + "}",
+                "{household|$ " +
+                  echarts.format.addCommas(params.value[0]) +
+                  "}",
               ];
 
               return arr.join("\n");
@@ -120,8 +121,8 @@ export default {
       return function (info) {
         var value = info.value;
         var amount = value[0];
-        let trade_mode = self.categories[mode]
-        let share = amount/self.jsonData[trade_mode]['total']*100
+        let trade_mode = self.categories[mode];
+        let share = (amount / self.jsonData[trade_mode]["total"]) * 100;
         amount = self.isValidNumber(amount)
           ? formatUtil.addCommas(amount) + "$"
           : "-";
@@ -129,9 +130,17 @@ export default {
         return [
           '<div class="tooltip-title" style="width:400px; white-space:pre-wrap">' +
             formatUtil.encodeHTML(info.name) +
-            "</div><hr/><table style=\"width:400px; white-space:pre-wrap\">",
-          "<tr><th class='text-left'>2020 "+self.categories[mode]+" (USD):</th><th class='text-right'> &nbsp;&nbsp;" + amount + "</th></tr>",
-          "<tr><th class='text-left'>Share among total "+trade_mode.toLowerCase()+":</th><th class='text-right'> "+share.toFixed(2)+"%</th></tr></table>"
+            '</div><hr/><table style="width:400px; white-space:pre-wrap">',
+          "<tr><th class='text-left'>2020 " +
+            self.categories[mode] +
+            " (USD):</th><th class='text-right'> &nbsp;&nbsp;" +
+            amount +
+            "</th></tr>",
+          "<tr><th class='text-left'>Share among total " +
+            trade_mode.toLowerCase() +
+            ":</th><th class='text-right'> " +
+            share.toFixed(2) +
+            "%</th></tr></table>",
         ].join("");
       };
     },
@@ -211,30 +220,33 @@ export default {
 
     myChart.setOption(this.options);
 
-    myChart.on("click", function(params){
-      if(params.data){
+    myChart.on("click", function (params) {
+      if (params.data) {
         // console.log(params.data);
         // console.log(params.seriesName);
         let direct = params.seriesName;
         let commodityCode = params.data.id.toString();
         let h1Code = 0;
-        if (commodityCode.length % 2 !== 0){
-          h1Code = commodityCode.substring(0,1)
-        }else{
-          h1Code = commodityCode.substring(0,2)
+        if (commodityCode.length % 2 !== 0) {
+          h1Code = commodityCode.substring(0, 1);
+        } else {
+          h1Code = commodityCode.substring(0, 2);
         }
         // console.log(h1Code);
         self.$emit("updateCommodity", h1Code, direct, params.data.name);
       }
     });
-    myChart.on('legendselectchanged', function (params) {
+    myChart.on("legendselectchanged", function (params) {
       let direct = params.name;
       self.$emit("updateCommodity", "Overall", direct, "Overall");
       // console.log(params);
+    });
+
+    window.addEventListener("resize", function () {
+      myChart.resize();
     });
   },
 };
 </script>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
