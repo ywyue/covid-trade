@@ -57,7 +57,7 @@
 
     <!--    Global Economy: GDP Change -->
     <session-banner
-      img-url="images/container.jpg"
+      img-url="images/port.jpg"
       title="COVID-19 Impacts the Global Economy"
       subtitle="The health crisis has unleashed a global economic shock"
     />
