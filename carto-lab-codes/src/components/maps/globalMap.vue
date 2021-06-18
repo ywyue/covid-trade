@@ -3,7 +3,8 @@
     <div id="globalMap"></div>
 
     <div class="map-overlay" id="legend">
-      <div class="q-pa-md">
+      <div class="q-pa-xm">
+        <div class="text-h6">World Trades By Regions, 2005-2020</div>
         <div class="q-gutter-sm">
           <q-radio
             v-model="trade_mode"
@@ -21,7 +22,6 @@
           ></q-radio>
         </div>
       </div>
-
       <a>Trade value (Million USD)</a>
       <div v-for="item in items" :key="item">
         <span
@@ -30,9 +30,7 @@
         ></span
         ><span>{{ item.value }}</span>
       </div>
-
-      <br />
-
+      <q-space class="q-ma-sm"/>
       <label id="year">Year: {{ sliderValue }}</label>
       <input
         id="slider"
@@ -289,14 +287,14 @@ export default {
 /*Container bottom left*/
 
 .container {
-  //   position: relative;
+     position: relative;
   width: 1300px;
   height: 600px;
 }
 
 .map-overlay {
   position: absolute;
-  bottom: 30px;
+  bottom: 15px;
   left: 30px;
   background: rgba(255, 255, 255, 0.8);
   font-family: Arial, sans-serif;
@@ -310,9 +308,9 @@ export default {
   //   padding-left: 20px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   line-height: 20px;
-  height: 355px;
+  height: 360px;
   margin-bottom: 40px;
-  width: 230px;
+  width: 250px;
 }
 
 .legend-key {

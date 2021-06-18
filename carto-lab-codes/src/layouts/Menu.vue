@@ -56,8 +56,8 @@ export default {
   },
 };
 </script>
-<style scoped>
-.active {
-  background-color: #279b48;
-}
+<style scoped lang="sass">
+.active
+  background-color: #afafaf
+
 </style>

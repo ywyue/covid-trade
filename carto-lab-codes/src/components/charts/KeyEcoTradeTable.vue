@@ -1,28 +1,28 @@
 <template>
-<div class="q-pa-md" style="width:100%">
-  <q-markup-table flat separator="horizontal">
-    <thead class="bg-dark text-positive">
-    <tr>
+<div class="q-pa-xm" style="width:100%">
+  <q-markup-table flat square separator="horizontal">
+    <thead class="text-primary ">
+    <tr class="bg-dark">
       <th class="text-center" colspan="7">
-        <div class="text-body1 text-bold text-positive">Change of trade volume in 2020 among key economies</div>
+        <div class="text-h6 text-positive">Change of Trade Volume Among Major Trading Economies in 2020</div>
       </th>
     </tr>
     <tr>
       <th></th>
-      <th colspan="3"><div class="text-body2 text-bold text-positive">IMPORTS</div></th>
-      <th colspan="3"><div class="text-body2 text-bold text-positive">EXPORTS</div></th>
+      <th colspan="3"><div class="text-body2 text-bold text-primary">IMPORTS</div></th>
+      <th colspan="3"><div class="text-body2 text-bold text-primary">EXPORTS</div></th>
     </tr>
     <tr class="text-left">
       <th></th>
-      <th><div class="text-body2 text-bold text-positive">1ST HALF</div></th>
-      <th><div class="text-body2 text-bold text-positive">Q3</div></th>
-      <th><div class="text-body2 text-bold text-positive">Q4</div></th>
-      <th><div class="text-body2 text-bold text-positive">1ST HALF</div></th>
-      <th><div class="text-body2 text-bold text-positive">Q3</div></th>
-      <th><div class="text-body2 text-bold text-positive">Q4</div></th>
+      <th><div class="text-body2 text-bold text-primary">1ST HALF</div></th>
+      <th><div class="text-body2 text-bold text-primary">Q3</div></th>
+      <th><div class="text-body2 text-bold text-primary">Q4</div></th>
+      <th><div class="text-body2 text-bold text-primary">1ST HALF</div></th>
+      <th><div class="text-body2 text-bold text-primary">Q3</div></th>
+      <th><div class="text-body2 text-bold text-primary">Q4</div></th>
     </tr>
     </thead>
-    <tbody class="bg-positive hover-table">
+    <tbody class="hover-table">
     <tr v-for="(record, index) in jsonData" :key="index" class="text-left">
       <th class="table-text column-head">
         <q-img v-if="record['iso_a2'] !== null"
@@ -75,8 +75,8 @@
     </tbody>
     <thead class="bg-dark text-positive">
     <tr>
-      <th class="text-left" colspan="7">
-        <div class="text-caption text-positive">Notes:...</div>
+      <th class="text-right" colspan="7">
+        <div class="text-caption text-positive q-pr-lg">Notes: The data is collected from UNCTAD Global Trade Update, February 2021. Year-over-year growth rates, in US$.</div>
       </th>
     </tr>
     </thead>

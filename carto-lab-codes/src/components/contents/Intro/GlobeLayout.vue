@@ -1,8 +1,7 @@
 <template>
   <div>
-    <div class="row">
+    <div class="row items-center">
       <div class="col-12 col-md-6">
-        <div class="text-h6">Gross Domestic Product Change Rate between 2019 and 2020</div>
         <div ref="mapviewContainer" class="q-mb-xm">
           <q-resize-observer @resize="onResize" />
           <GlobeGDP
@@ -23,9 +22,23 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6">
-        Some text.....
-
+      <div class="col-12 col-md-6 q-pa-xl">
+        <div class="text-h6">The growth of GDP shows divergent trends in different regions.</div>
+        <q-space class="q-ma-lg"/>
+        <div class="text-body1">
+          <strong>The Americas experienced negative output growth in 2020</strong>: Argentina at -10.0
+          per cent, Brazil at -4.1 per cent, Mexico at -8.2 per cent and the United States of America at
+          -3.5 per cent.
+          <strong>European countries suffered significant negative growth this
+            year</strong>, with France at -8.2 per cent, Germany at -4.9 per cent, Italy at -8.9 per cent and the
+          United Kingdom of Great Britain and Northern Ireland at -9.9 per cent.
+          Growth of GDP in South Africa fell by 6.9 per cent.
+          <q-space class="q-ma-lg"/>
+          <strong>Several countries experienced the opposite trends, showing positive growth during COVID-19.</strong>
+            China showed 2.3 per cent growth compared to the previous year.
+          <q-space class="q-ma-lg"/>
+          You may explore data of more countries in the 3D Globe.
+        </div>
       </div>
     </div>
   </div>

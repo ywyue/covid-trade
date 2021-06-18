@@ -1,24 +1,28 @@
 <template>
-  <div class="q-pa-md" style="background-color:#3A3A3A; height: 70px; margin-top:0px; display:flex; justify-content:center;">
-    <q-btn @click="scroll" push align="around"  text-color="white" label="Source" icon="lightbulb_outline" style="margin:auto; display:block; background:#4B4B4B;"/>
+  <div class="q-pa-md items-center" style="background-color:#e0e0e0; height: 60px; margin-top:0px; display:flex; justify-content:center;">
+    <q-btn @click="scroll" flat align="around"
+           label="Source"
+           icon="lightbulb_outline"
+           style="margin:auto; display:block;"/>
   </div>
 
-  <div class="row" style="background-color:#3A3A3A;" v-if="show" id="source">
+  <div class="row" style="background-color:#e0e0e0;" v-if="show" id="source">
     <div class="column">
-      <span style="color:whitesmoke; font-size:120%">Data Source:</span>
+      <span style="color:#505050; font-size:120%">Data Source:</span>
       <div class="text-body2"><a href="https://www.imf.org/external/pubs/ft/weo/disclaim.htm">IMF World Economic Outlook Database</a></div>
       <div class="text-body2"><a href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx">UNCTAD STAT</a></div>
       <div class="text-body2"><a href="https://marketplace.officialstatistics.org/ais-weekly-port-calls">AIS: Weekly Port Calls</a></div>
     </div>
     <q-separator vertical inset color="white"/>
     <div class="column">
-      <span style="color:whitesmoke; font-size:120%">Software:</span>
+      <span style="color:#505050; font-size:120%">Software:</span>
     </div>
     <q-separator vertical inset color="white"/>
     <div class="column">
-      <span style="color:whitesmoke; font-size:120%">Images: </span>
+      <span style="color:#505050; font-size:120%">Images: </span>
       <div class="text-body2"><a href="https://www.flaticon.com/">FLATICON.COM</a></div>
     </div>
+    <q-space class="q-ma-md"/>
   </div>
   <div class="text-body2 q-pl-lg q-pr-lg q-pb-sm">
     &copy; 2021 Yuanwen Yue & Jingyan Li. All rights reserved.
@@ -56,7 +60,6 @@ export default {
     float: left;
     width: 33%;
     padding-left: 2%;
-    color: #D2D2D2;
   }
 
   .row:after {
@@ -70,12 +73,11 @@ export default {
   }
 
   p {
-    color: #D2D2D2;
     font-size: 90%;
   }
 
   a {
-    color: #D2D2D2;
+    color: #505050;
     text-decoration: underline;
     font-size: 80%;
   }
