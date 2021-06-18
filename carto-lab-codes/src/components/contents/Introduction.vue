@@ -93,7 +93,7 @@
 
 <script>
 import NumberCounter from "components/tools/NumberCounter";
-import Background from "components/contents/Intro/Background";
+
 import GlobeLayout from "components/contents/Intro/GlobeLayout";
 import TimelineCovid from "components/contents/Intro/TimelineCovid";
 import SubsessionTitle from "components/tools/SubsessionTitle";
@@ -102,14 +102,13 @@ import GDPLineChart from "components/charts/GDPLineChart";
 
 import ParallaxSection from "layouts/ParallaxSection";
 import Banner from "components/contents/Banner";
-// import Background from './Intro/background.vue';
+
 
 export default {
   name: "Introduction",
   components: {
     SessionBanner,
     SubsessionTitle,
-    Background,
     TimelineCovid,
     GlobeLayout,
     NumberCounter,

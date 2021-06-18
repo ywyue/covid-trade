@@ -3,7 +3,7 @@
     <div class="col-12 col-md-4">
       <q-card class="my-card, container" style="width: 95%">
         <q-img src="images/cov-measure1.jpg" alt="art" class="image">
-          <div class="text-h6 absolute-bottom text-right">
+          <div class="text-h6 absolute-top text-right">
             Measures to promote trade facilitation
           </div>
         </q-img>
@@ -47,7 +47,7 @@
     <div class="col-12 col-md-4">
       <q-card class="my-card, container" style="width: 95%">
         <q-img src="images/cov-measure2.jpg" alt="art" class="image">
-          <div class="text-h6 absolute-bottom text-right">
+          <div class="text-h6 absolute-top text-right">
             Measures to contain COVID-19
           </div>
         </q-img>
@@ -70,7 +70,7 @@
     <div class="col-12 col-md-4">
       <q-card class="my-card, container" style="width: 95%">
         <q-img src="images/cov-measure3.jpg" alt="art" class="image">
-          <div class="text-h6 absolute-bottom text-right">
+          <div class="text-h6 absolute-top text-right">
             Measures to prevent supply chain disruption
           </div>
         </q-img>
