@@ -59,8 +59,9 @@
     <div class="row items-start justify-center">
       <div class="col-12 col-md-8 ">
         <div class="text-h6">The strike of the pandemic to the world economy is even harder than the global financial crisis.</div>
+        <q-space class="q-ma-md" />
         <div class="text-body1">
-          In 2020, gross domestic product (GDP) fell by around 3.3%, with an expected global recovery of 6.0%.
+          <strong>In 2020, gross domestic product (GDP) fell by around 3.3%, with an expected global recovery of 6.0% in 2021.</strong>
           Developed countries are affected more in 2020 than developing countries and expect a weaker recovery in 2021.
 
           Unlike the global financial crisis of 2008/2009, developing countries experienced negative growth in 2020,
@@ -74,7 +75,7 @@
         <GDPLineChart ref="gdpChart" />
       </div>
     </div>
-    <q-space class="q-ma-xl" />
+    <q-space class="q-ma-md" />
     <GlobeLayout/>
   </q-page>
 </template>
