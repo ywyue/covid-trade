@@ -10,9 +10,11 @@
       ></video>
       <div class="callout">
         <!-- <h1>Global trade</h1> -->
-        <h3>Global trade and COVID-19</h3>
+        <h3>How COVID-19 is changing the world: an economic perspective</h3>
         <h5>
-          COVID-19 has affected our life in many aspects, including trade ...
+          The COVID-19 pandemic represents an unprecedented disruption to the
+          global economy and world trade, as production and consumption are
+          scaled back across the globe.
         </h5>
       </div>
     </section>
@@ -100,7 +102,7 @@ h5 {
   font-weight: bold;
   color: white;
   background: rgb(6, 167, 216);
-  width: 50%;
+  width: 70%;
   min-width: 375px;
   margin: auto;
 }

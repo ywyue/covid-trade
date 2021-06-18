@@ -21,7 +21,7 @@
                   style="width: 50px; height: 50px"
                 />
               </q-icon>
-              <strong>TITLE HERE</strong>
+              <strong>COVID-19 and world trade</strong>
             </div>
           </q-toolbar-title>
           <q-space></q-space>
@@ -74,23 +74,23 @@ import Index from "pages/Index";
 const menuItems = [
   {
     title: "Introduction",
-    icon: "favorite",
+    icon: "home",
   },
   {
     title: "Global situation",
-    icon: "fact_check",
-  },
-  {
-    title: "China",
-    icon: "track_changes",
-  },
-  {
-    title: "Policies and measurements",
     icon: "public",
   },
   {
+    title: "China",
+    icon: "star_rate",
+  },
+  {
+    title: "Policies and measurements",
+    icon: "policy",
+  },
+  {
     title: "Conclusion",
-    icon: "insights",
+    icon: "lightbulb",
   },
 ];
 
