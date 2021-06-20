@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-<!-- Flourish 3D Globe for Trading Flow -->
+    <!-- Flourish 3D Globe for Trading Flow -->
     <div
       class="flourish-embed flourish-globe"
       data-src="visualisation/6468975"
@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-<!-- Tree map and Pie chart for commodity type visualization -->
+    <!-- Tree map and Pie chart for commodity type visualization -->
     <div>
       <trade-commodity-destination />
     </div>
@@ -64,8 +64,6 @@
 </template>
 
 <script>
-
-import tradeCartogram from "components/maps/tradeCartogram";
 import SessionBanner from "components/tools/SessionBanner";
 import SubsessionTitle from "components/tools/SubsessionTitle";
 import TradeCommodityDestination from "components/contents/ChinaSituation/tradeCommodityDestination";
@@ -76,7 +74,6 @@ export default {
     TradeCommodityDestination,
     SubsessionTitle,
     SessionBanner,
-    tradeCartogram,
   },
   mounted() {
     let recaptchaScript = document.createElement("script");

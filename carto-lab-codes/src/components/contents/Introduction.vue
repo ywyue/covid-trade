@@ -1,18 +1,20 @@
 <template>
   <q-page>
     <Background />
-    <br/>
-    <q-space class="q-md-xl"/>
+    <br />
+    <q-space class="q-md-xl" />
     <div class="text-center items-center row justify-center q-mt-lg">
       <div class="col-12 col-md-7">
         <div class="text-body1">
-          Since the outbreak of the coronavirus disease of 2019 (COVID-19), the pandemic of COVID-19 has impacted the world largely.
-          People experienced the lockdown, gradually got used to the health restrictions and started to receive vaccination.
-
-          The world faces a new challenge after the Global Financial Crisis in 2008. Much longer period can be expected for
-          the globe to recover from the pandemic.
-          <q-space class="q-ma-md"/>
-          Through the timeline below, you may find how the world fight against the virus.
+          Since the outbreak of the coronavirus disease of 2019 (COVID-19), the
+          pandemic of COVID-19 has impacted the world largely. People
+          experienced the lockdown, gradually got used to the health
+          restrictions and started to receive vaccination. The world faces a new
+          challenge after the Global Financial Crisis in 2008. Much longer
+          period can be expected for the globe to recover from the pandemic.
+          <q-space class="q-ma-md" />
+          Through the timeline below, you may find how the world fights against
+          the virus.
         </div>
       </div>
     </div>
@@ -24,12 +26,12 @@
     <div class="text-center items-center row justify-center">
       <div class="col-12 col-md-8">
         <div class="text-body1">
-          During the COVID-19 period, more
-          than 1 million people have lost their lives due to the pandemic, and
-          the global economy is expected to contract by a staggering 4.3% in
-          2020. Millions of jobs have already been lost, millions of livelihoods
-          are at risk, and an estimated additional 130 million people will be
-          living in extreme poverty if the crisis persists.
+          During the COVID-19 period, more than 1 million people have lost their
+          lives due to the pandemic, and the global economy is expected to
+          contract by a staggering 4.3% in 2020. Millions of jobs have already
+          been lost, millions of livelihoods are at risk, and an estimated
+          additional 130 million people will be living in extreme poverty if the
+          crisis persists.
         </div>
       </div>
     </div>
@@ -80,9 +82,11 @@
 
     <div class="row items-start justify-center">
       <div class="col-12 col-md-8">
-        <div class="text-h6"><strong class="text-primary">
-          The strike of the pandemic to the world economy is even harder than
-          the global financial crisis.</strong>
+        <div class="text-h6">
+          <strong class="text-primary">
+            The strike of the pandemic to the world economy is even harder than
+            the global financial crisis.</strong
+          >
         </div>
         <q-space class="q-ma-md" />
         <div class="text-body1">
@@ -144,6 +148,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
