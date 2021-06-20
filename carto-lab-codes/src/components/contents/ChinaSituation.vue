@@ -15,7 +15,7 @@
           imports. According to UN Comtrade Database, China exported
           <b>$259.06 billion</b> in goods in 2020 while it imported
           <b>$205.559 billion</b>. Despite the impact of COVID, China’s exports
-          have increased by <b>3.68%</b> in 2020
+          have increased by <b>3.68%</b> in 2020.
 
           <q-space class="q-ma-md" />
           <b>The United States</b> has been the TOP 1 export destination of
