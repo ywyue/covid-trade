@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-
+<!-- Flourish 3D Globe for Trading Flow -->
     <div
       class="flourish-embed flourish-globe"
       data-src="visualisation/6468975"
@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-
+<!-- Tree map and Pie chart for commodity type visualization -->
     <div>
       <trade-commodity-destination />
     </div>

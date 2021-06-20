@@ -23,6 +23,7 @@
       </div>
     </div>
     <q-space class="q-ma-xl" />
+<!--    Three major policy aspects  -->
     <div>
       <policy-card />
     </div>
