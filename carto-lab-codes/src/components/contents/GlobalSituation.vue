@@ -74,9 +74,10 @@
             >The impact of the virus varies from regions and countries.</strong
           >
           According to UNCTAD, China and the Republic of Korea are both expected
-          to enjoy positive, albeit weak, positive growth in GDP in 2020, at
+          to enjoy positive growth in GDP in 2020, at
           +1.3% and +0.1%, respectively. The Americas, both developed and
           developing, are expected to experience negative output growth in 2020.
+          The trade volume also reflects the divergent trends across countries.
           <q-space class="q-ma-md" />
           Regarding the trade volume, you may use the slider in the map to
           explore some regions of which the trade volume was impacted largely
@@ -119,8 +120,8 @@
       </div>
     </div>
     <q-space class="q-ma-lg" />
-    <div>
-      <div style="height: 90vh; width: 100%">
+    <div class="q-mb-sm">
+      <div style="height: 700px; width: 100%">
         <key-eco-trade-table />
       </div>
     </div>

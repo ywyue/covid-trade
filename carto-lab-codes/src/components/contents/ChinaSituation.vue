@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import TestSunburst from "components/charts/testSunburst";
+
 import tradeCartogram from "components/maps/tradeCartogram";
 import SessionBanner from "components/tools/SessionBanner";
 import SubsessionTitle from "components/tools/SubsessionTitle";
@@ -76,7 +76,6 @@ export default {
     TradeCommodityDestination,
     SubsessionTitle,
     SessionBanner,
-    TestSunburst,
     tradeCartogram,
   },
   mounted() {

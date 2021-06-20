@@ -25,39 +25,43 @@
       </div>
     </div>
     <subsession-title title="What can governments do?"/>
-    <div class="row justify-center text-center" >
-      <div class="col-12 col-md-3 title" >
-        <div class="text-h5 text-bold title-text">Vaccinate and co-operate</div>
+    <div class="row justify-center " >
+      <div class="col-12 col-md-3" >
+        <div class="title text-center">
+          <div class="text-h5 text-bold title-text">Vaccinate and co-operate</div>
+        </div>
+        <div class="content text-body2">
+          Increase vaccine production and accelerate vaccination across the world.
+          <q-space class="q-ma-sm"/>
+          Reduce barriers to the supply chain of vaccine components and materials.
+          <q-space class="q-ma-sm"/>
+          Improve cooperation between countries and expand medical and financial resources to help developing regions.
+        </div>
       </div>
-      <div class="col-12 col-md-3 title">
-        <div class="text-h5 text-bold title-text">Support people and business</div>
+      <div class="col-12 col-md-3 ">
+        <div class="title text-center">
+          <div class="text-h5 text-bold title-text">Support people and business</div>
+        </div>
+        <div class="content text-body2">
+          Offer income support for workers in hard-hit sectors.
+          Adapt policies according to economic and health developments to transition from emergency to recovery.
+          <q-space class="q-ma-sm"/>
+          Support companies affected by restrictions, preferably through grants and equity rather than debt.
+          <q-space class="q-ma-sm"/>
+          Help the low skilled and the vulnerable, improve training schemes and access to the labour market.
+        </div>
       </div>
-      <div class="col-12 col-md-3 title">
-        <div class="text-h5 text-bold title-text">Prepare for a sustainable recovery</div>
-      </div>
-    </div>
-    <div class="row justify-center text-body2">
-      <div class="col-12 col-md-3 content">
-        Increase vaccine production and accelerate vaccination across the world.
-        <q-space class="q-ma-sm"/>
-        Reduce barriers to the supply chain of vaccine components and materials.
-        <q-space class="q-ma-sm"/>
-        Improve cooperation between countries and expand medical and financial resources to help developing regions.
-      </div>
-      <div class="col-12 col-md-3 content">
-        Offer income support for workers in hard-hit sectors.
-        Adapt policies according to economic and health developments to transition from emergency to recovery.
-        <q-space class="q-ma-sm"/>
-        Support companies affected by restrictions, preferably through grants and equity rather than debt.
-        <q-space class="q-ma-sm"/>
-        Help the low skilled and the vulnerable, improve training schemes and access to the labour market.
-      </div>
-      <div class="col-12 col-md-3 content">
-        Avoid removing government stimulus funding too early.
-        <q-space class="q-ma-sm"/>
-        Invest in healthcare, cleaner infrastructure and digital technology to foster a transition to a more resilient and sustainable economy.
-        <q-space class="q-ma-sm"/>
-        Focus on structural reforms that can boost medium-term growth in productivity and employment.
+      <div class="col-12 col-md-3 ">
+        <div class="title text-center">
+          <div class="text-h5 text-bold title-text">Prepare for a sustainable recovery</div>
+        </div>
+        <div class="content text-body2">
+          Avoid removing government stimulus funding too early.
+          <q-space class="q-ma-sm"/>
+          Invest in healthcare, cleaner infrastructure and digital technology to foster a transition to a more resilient and sustainable economy.
+          <q-space class="q-ma-sm"/>
+          Focus on structural reforms that can boost medium-term growth in productivity and employment.
+        </div>
       </div>
     </div>
   </q-page>
