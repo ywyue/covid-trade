@@ -21,8 +21,7 @@ const cesiumOutput = "cesium";
 
 const BUNDLE_SIZE_LIMIT = 5 * 1024 ** 2; // 5 MB
 
-const basePath = "cartolab/worldtrade"; //change N to your group number
-
+const basePath = ""; //change N to your group number
 
 module.exports = configure(function (/* ctx */) {
   return {
@@ -40,7 +39,7 @@ module.exports = configure(function (/* ctx */) {
     // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
     css: ["app.scss", "animate.css"],
 
-    animations: 'all',
+    animations: "all",
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
