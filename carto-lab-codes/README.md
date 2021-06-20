@@ -36,7 +36,3 @@ npm run build
 - src/assets - Folder for internal resources like fonts or icons
 - dist - Folder where the production version will be created
 
-### More details
-
-- [Configuration](Configuration.md)
-- [Parallax effect](Parallax.md)
