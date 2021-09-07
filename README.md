@@ -2,7 +2,7 @@
 
 This repository contains the implementation of [COVID-19 and World Trade](https://covid-trade.github.io/), a web storymap project in [Cartography Lab](http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2021S&ansicht=ALLE&lerneinheitId=149343&lang=en) FS 2021 at ETH Zurich.
 
-Group member: Jingyan Li, Yuanwen Yue
+Group members: Jingyan Li, Yuanwen Yue
 
 Supervisor: Dr. Christian Häberling
 
