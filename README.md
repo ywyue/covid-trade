@@ -10,11 +10,13 @@ Professor: Prof. Dr. Lorenz Hurni
 
 ## Introduction
 
+![Teaser Image](https://github.com/ywyue/CartoLab/blob/main/teaser.PNG)
+
 The project aims to give users an overview of the global economy and trade trends under the COVID-19 pandemic by web-based visualization methods. Through the interactive visualization of economic and trading-related data, users may understand how the global trade and economy is affected from the pre-COVID period to now.
 
 The realization of the project is a web-based story map, with multimedia, interactive charts and maps. We set the project at global scale, but the trade trend and trading-related policies in China is the case study in the story map.
 
-We assume the target groups as citizens who can get knowledge of how the world trade was impacted by COVID-19. The product could tell a simple but clear story about the world economy and trading during the pandemic. Please refer more details in the technical report.
+We assume the target groups as citizens who can get knowledge of how the world trade was impacted by COVID-19. The product could tell a simple but clear story about the world economy and trading during the pandemic. Please refer more details in the [technical report](https://github.com/ywyue/CartoLab/blob/main/CartoLab_Report.pdf).
 
 ## How to use
 
